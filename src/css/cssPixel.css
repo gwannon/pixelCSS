@@ -1,0 +1,1061 @@
+:root {
+  --pixel-size: 15px;
+}
+
+.sprite {
+  position: relative;
+}
+
+.sprite > p {
+  position: absolute;
+  width: var(--pixel-size);
+  height: var(--pixel-size);
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.aliceblue { background-color: aliceblue; }
+.antiquewhite { background-color: antiquewhite; }
+.aqua { background-color: aqua; }
+.aquamarine { background-color: aquamarine; }
+.azure { background-color: azure; }
+.beige { background-color: beige; }
+.bisque { background-color: bisque; }
+.black { background-color: black; }
+.blanchedalmond { background-color: blanchedalmond; }
+.blue { background-color: blue; }
+.blueviolet { background-color: blueviolet; }
+.brown { background-color: brown; }
+.burlywood { background-color: burlywood; }
+.cadetblue { background-color: cadetblue; }
+.chartreuse { background-color: chartreuse; }
+.chocolate { background-color: chocolate; }
+.coral { background-color: coral; }
+.cornflowerblue { background-color: cornflowerblue; }
+.cornsilk { background-color: cornsilk; }
+.crimson { background-color: crimson; }
+.cyan { background-color: cyan; }
+.darkblue { background-color: darkblue; }
+.darkcyan { background-color: darkcyan; }
+.darkgoldenrod { background-color: darkgoldenrod; }
+.darkgray { background-color: darkgray; }
+.darkgreen { background-color: darkgreen; }
+.darkkhaki { background-color: darkkhaki; }
+.darkmagenta { background-color: darkmagenta; }
+.darkolivegreen { background-color: darkolivegreen; }
+.darkorange { background-color: darkorange; }
+.darkorchid { background-color: darkorchid; }
+.darkred { background-color: darkred; }
+.darksalmon { background-color: darksalmon; }
+.darkseagreen { background-color: darkseagreen; }
+.darkslateblue { background-color: darkslateblue; }
+.darkslategray { background-color: darkslategray; }
+.darkturquoise { background-color: darkturquoise; }
+.darkviolet { background-color: darkviolet; }
+.deeppink { background-color: deeppink; }
+.deepskyblue { background-color: deepskyblue; }
+.dimgray { background-color: dimgray; }
+.dodgerblue { background-color: dodgerblue; }
+.firebrick { background-color: firebrick; }
+.floralwhite { background-color: floralwhite; }
+.forestgreen { background-color: forestgreen; }
+.fuchsia { background-color: fuchsia; }
+.gainsboro { background-color: gainsboro; }
+.ghostwhite { background-color: ghostwhite; }
+.gold { background-color: gold; }
+.goldenrod { background-color: goldenrod; }
+.gray { background-color: gray; }
+.green { background-color: green; }
+.greenyellow { background-color: greenyellow; }
+.honeydew { background-color: honeydew; }
+.hotpink { background-color: hotpink; }
+.indianred { background-color: indianred; }
+.indigo { background-color: indigo; }
+.ivory { background-color: ivory; }
+.khaki { background-color: khaki; }
+.lavender { background-color: lavender; }
+.lavenderblush { background-color: lavenderblush; }
+.lawngreen { background-color: lawngreen; }
+.lemonchiffon { background-color: lemonchiffon; }
+.lightblue { background-color: lightblue; }
+.lightcoral { background-color: lightcoral; }
+.lightcyan { background-color: lightcyan; }
+.lightgoldenrodyellow { background-color: lightgoldenrodyellow; }
+.lightgreen { background-color: lightgreen; }
+.lightgrey { background-color: lightgrey; }
+.lightpink { background-color: lightpink; }
+.lightsalmon { background-color: lightsalmon; }
+.lightseagreen { background-color: lightseagreen; }
+.lightskyblue { background-color: lightskyblue; }
+.lightslategray { background-color: lightslategray; }
+.lightsteelblue { background-color: lightsteelblue; }
+.lightyellow { background-color: lightyellow; }
+.lime { background-color: lime; }
+.limegreen { background-color: limegreen; }
+.linen { background-color: linen; }
+.magenta { background-color: magenta; }
+.maroon { background-color: maroon; }
+.mediumaquamarine { background-color: mediumaquamarine; }
+.mediumblue { background-color: mediumblue; }
+.mediumorchid { background-color: mediumorchid; }
+.mediumpurple { background-color: mediumpurple; }
+.mediumseagreen { background-color: mediumseagreen; }
+.mediumslateblue { background-color: mediumslateblue; }
+.mediumspringgreen { background-color: mediumspringgreen; }
+.mediumturquoise { background-color: mediumturquoise; }
+.mediumvioletred { background-color: mediumvioletred; }
+.midnightblue { background-color: midnightblue; }
+.mintcream { background-color: mintcream; }
+.mistyrose { background-color: mistyrose; }
+.moccasin { background-color: moccasin; }
+.navajowhite { background-color: navajowhite; }
+.navy { background-color: navy; }
+.navyblue { background-color: navyblue; }
+.oldlace { background-color: oldlace; }
+.olive { background-color: olive; }
+.olivedrab { background-color: olivedrab; }
+.orange { background-color: orange; }
+.orangered { background-color: orangered; }
+.orchid { background-color: orchid; }
+.palegoldenrod { background-color: palegoldenrod; }
+.palegreen { background-color: palegreen; }
+.paleturquoise { background-color: paleturquoise; }
+.palevioletred { background-color: palevioletred; }
+.papayawhip { background-color: papayawhip; }
+.peachpuff { background-color: peachpuff; }
+.peru { background-color: peru; }
+.pink { background-color: pink; }
+.plum { background-color: plum; }
+.powderblue { background-color: powderblue; }
+.purple { background-color: purple; }
+.red { background-color: red; }
+.rosybrown { background-color: rosybrown; }
+.royalblue { background-color: royalblue; }
+.saddlebrown { background-color: saddlebrown; }
+.salmon { background-color: salmon; }
+.sandybrown { background-color: sandybrown; }
+.seagreen { background-color: seagreen; }
+.seashell { background-color: seashell; }
+.sienna { background-color: sienna; }
+.silver { background-color: silver; }
+.skyblue { background-color: skyblue; }
+.slateblue { background-color: slateblue; }
+.slategray { background-color: slategray; }
+.snow { background-color: snow; }
+.springgreen { background-color: springgreen; }
+.steelblue { background-color: steelblue; }
+.tan { background-color: tan; }
+.teal { background-color: teal; }
+.thistle { background-color: thistle; }
+.tomato { background-color: tomato; }
+.turquoise { background-color: turquoise; }
+.violet { background-color: violet; }
+.wheat { background-color: wheat; }
+.white { background-color: white; }
+.whitesmoke { background-color: whitesmoke; }
+.yellow { background-color: yellow; }
+.yellowgreen { background-color: yellowgreen; }
+
+.sprite > p.w1, .sprite.w1 { width: calc(var(--pixel-size) * 1); }
+.sprite > p.h1, .sprite.h1 { height: calc(var(--pixel-size) * 1); }
+
+.sprite > p.w2, .sprite.w2 { width: calc(var(--pixel-size) * 2); }
+.sprite > p.h2, .sprite.h2 { height: calc(var(--pixel-size) * 2); }
+
+.sprite > p.w3, .sprite.w3 { width: calc(var(--pixel-size) * 3); }
+.sprite > p.h3, .sprite.h3 { height: calc(var(--pixel-size) * 3); }
+
+.sprite > p.w4, .sprite.w4 { width: calc(var(--pixel-size) * 4); }
+.sprite > p.h4, .sprite.h4 { height: calc(var(--pixel-size) * 4); }
+
+.sprite > p.w5, .sprite.w5 { width: calc(var(--pixel-size) * 5); }
+.sprite > p.h5, .sprite.h5 { height: calc(var(--pixel-size) * 5); }
+
+.sprite > p.w6, .sprite.w6 { width: calc(var(--pixel-size) * 6); }
+.sprite > p.h6, .sprite.h6 { height: calc(var(--pixel-size) * 6); }
+
+.sprite > p.w7, .sprite.w7 { width: calc(var(--pixel-size) * 7); }
+.sprite > p.h7, .sprite.h7 { height: calc(var(--pixel-size) * 7); }
+
+.sprite > p.w8, .sprite.w8 { width: calc(var(--pixel-size) * 8); }
+.sprite > p.h8, .sprite.h8 { height: calc(var(--pixel-size) * 8); }
+
+.sprite > p.w9, .sprite.w9 { width: calc(var(--pixel-size) * 9); }
+.sprite > p.h9, .sprite.h9 { height: calc(var(--pixel-size) * 9); }
+
+.sprite > p.w10, .sprite.w10 { width: calc(var(--pixel-size) * 10); }
+.sprite > p.h10, .sprite.h10 { height: calc(var(--pixel-size) * 10); }
+
+.sprite > p.w11, .sprite.w11 { width: calc(var(--pixel-size) * 11); }
+.sprite > p.h11, .sprite.h11 { height: calc(var(--pixel-size) * 11); }
+
+.sprite > p.w12, .sprite.w12 { width: calc(var(--pixel-size) * 12); }
+.sprite > p.h12, .sprite.h12 { height: calc(var(--pixel-size) * 12); }
+
+.sprite > p.w13, .sprite.w13 { width: calc(var(--pixel-size) * 13); }
+.sprite > p.h13, .sprite.h13 { height: calc(var(--pixel-size) * 13); }
+
+.sprite > p.w14, .sprite.w14 { width: calc(var(--pixel-size) * 14); }
+.sprite > p.h14, .sprite.h14 { height: calc(var(--pixel-size) * 14); }
+
+.sprite > p.w15, .sprite.w15 { width: calc(var(--pixel-size) * 15); }
+.sprite > p.h15, .sprite.h15 { height: calc(var(--pixel-size) * 15); }
+
+.sprite > p.w16, .sprite.w16 { width: calc(var(--pixel-size) * 16); }
+.sprite > p.h16, .sprite.h16 { height: calc(var(--pixel-size) * 16); }
+
+.sprite > p.w17, .sprite.w17 { width: calc(var(--pixel-size) * 17); }
+.sprite > p.h17, .sprite.h17 { height: calc(var(--pixel-size) * 17); }
+
+.sprite > p.w18, .sprite.w18 { width: calc(var(--pixel-size) * 18); }
+.sprite > p.h18, .sprite.h18 { height: calc(var(--pixel-size) * 18); }
+
+.sprite > p.w19, .sprite.w19 { width: calc(var(--pixel-size) * 19); }
+.sprite > p.h19, .sprite.h19 { height: calc(var(--pixel-size) * 19); }
+
+.sprite > p.w20, .sprite.w20 { width: calc(var(--pixel-size) * 20); }
+.sprite > p.h20, .sprite.h20 { height: calc(var(--pixel-size) * 20); }
+
+.sprite > p.w21, .sprite.w21 { width: calc(var(--pixel-size) * 21); }
+.sprite > p.h21, .sprite.h21 { height: calc(var(--pixel-size) * 21); }
+
+.sprite > p.w22, .sprite.w22 { width: calc(var(--pixel-size) * 22); }
+.sprite > p.h22, .sprite.h22 { height: calc(var(--pixel-size) * 22); }
+
+.sprite > p.w23, .sprite.w23 { width: calc(var(--pixel-size) * 23); }
+.sprite > p.h23, .sprite.h23 { height: calc(var(--pixel-size) * 23); }
+
+.sprite > p.w24, .sprite.w24 { width: calc(var(--pixel-size) * 24); }
+.sprite > p.h24, .sprite.h24 { height: calc(var(--pixel-size) * 24); }
+
+.r1 { top: 0%; }
+.c1 { left: 0%; }
+
+.h2 p.r2 { top: 50%; }
+.w2 p.c2 { left: 50%; }
+
+.h3 p.r2 { top: 33.33%; }
+.w3 p.c2 { left: 33.33%; }
+
+.h3 p.r3 { top: 66.67%; }
+.w3 p.c3 { left: 66.67%; }
+
+.h4 p.r2 { top: 25%; }
+.w4 p.c2 { left: 25%; }
+
+.h4 p.r3 { top: 50%; }
+.w4 p.c3 { left: 50%; }
+
+.h4 p.r4 { top: 75%; }
+.w4 p.c4 { left: 75%; }
+
+.h5 p.r2 { top: 20%; }
+.w5 p.c2 { left: 20%; }
+
+.h5 p.r3 { top: 40%; }
+.w5 p.c3 { left: 40%; }
+
+.h5 p.r4 { top: 60%; }
+.w5 p.c4 { left: 60%; }
+
+.h5 p.r5 { top: 80%; }
+.w5 p.c5 { left: 80%; }
+
+.h6 p.r2 { top: 16.67%; }
+.w6 p.c2 { left: 16.67%; }
+
+.h6 p.r3 { top: 33.33%; }
+.w6 p.c3 { left: 33.33%; }
+
+.h6 p.r4 { top: 50%; }
+.w6 p.c4 { left: 50%; }
+
+.h6 p.r5 { top: 66.67%; }
+.w6 p.c5 { left: 66.67%; }
+
+.h6 p.r6 { top: 83.33%; }
+.w6 p.c6 { left: 83.33%; }
+
+.h7 p.r2 { top: 14.29%; }
+.w7 p.c2 { left: 14.29%; }
+
+.h7 p.r3 { top: 28.57%; }
+.w7 p.c3 { left: 28.57%; }
+
+.h7 p.r4 { top: 42.86%; }
+.w7 p.c4 { left: 42.86%; }
+
+.h7 p.r5 { top: 57.14%; }
+.w7 p.c5 { left: 57.14%; }
+
+.h7 p.r6 { top: 71.43%; }
+.w7 p.c6 { left: 71.43%; }
+
+.h7 p.r7 { top: 85.71%; }
+.w7 p.c7 { left: 85.71%; }
+
+.h8 p.r2 { top: 12.5%; }
+.w8 p.c2 { left: 12.5%; }
+
+.h8 p.r3 { top: 25%; }
+.w8 p.c3 { left: 25%; }
+
+.h8 p.r4 { top: 37.5%; }
+.w8 p.c4 { left: 37.5%; }
+
+.h8 p.r5 { top: 50%; }
+.w8 p.c5 { left: 50%; }
+
+.h8 p.r6 { top: 62.5%; }
+.w8 p.c6 { left: 62.5%; }
+
+.h8 p.r7 { top: 75%; }
+.w8 p.c7 { left: 75%; }
+
+.h8 p.r8 { top: 87.5%; }
+.w8 p.c8 { left: 87.5%; }
+
+.h9 p.r2 { top: 11.11%; }
+.w9 p.c2 { left: 11.11%; }
+
+.h9 p.r3 { top: 22.22%; }
+.w9 p.c3 { left: 22.22%; }
+
+.h9 p.r4 { top: 33.33%; }
+.w9 p.c4 { left: 33.33%; }
+
+.h9 p.r5 { top: 44.44%; }
+.w9 p.c5 { left: 44.44%; }
+
+.h9 p.r6 { top: 55.56%; }
+.w9 p.c6 { left: 55.56%; }
+
+.h9 p.r7 { top: 66.67%; }
+.w9 p.c7 { left: 66.67%; }
+
+.h9 p.r8 { top: 77.78%; }
+.w9 p.c8 { left: 77.78%; }
+
+.h9 p.r9 { top: 88.89%; }
+.w9 p.c9 { left: 88.89%; }
+
+.h10 p.r2 { top: 10%; }
+.w10 p.c2 { left: 10%; }
+
+.h10 p.r3 { top: 20%; }
+.w10 p.c3 { left: 20%; }
+
+.h10 p.r4 { top: 30%; }
+.w10 p.c4 { left: 30%; }
+
+.h10 p.r5 { top: 40%; }
+.w10 p.c5 { left: 40%; }
+
+.h10 p.r6 { top: 50%; }
+.w10 p.c6 { left: 50%; }
+
+.h10 p.r7 { top: 60%; }
+.w10 p.c7 { left: 60%; }
+
+.h10 p.r8 { top: 70%; }
+.w10 p.c8 { left: 70%; }
+
+.h10 p.r9 { top: 80%; }
+.w10 p.c9 { left: 80%; }
+
+.h10 p.r10 { top: 90%; }
+.w10 p.c10 { left: 90%; }
+
+.h11 p.r2 { top: 9.09%; }
+.w11 p.c2 { left: 9.09%; }
+
+.h11 p.r3 { top: 18.18%; }
+.w11 p.c3 { left: 18.18%; }
+
+.h11 p.r4 { top: 27.27%; }
+.w11 p.c4 { left: 27.27%; }
+
+.h11 p.r5 { top: 36.36%; }
+.w11 p.c5 { left: 36.36%; }
+
+.h11 p.r6 { top: 45.45%; }
+.w11 p.c6 { left: 45.45%; }
+
+.h11 p.r7 { top: 54.55%; }
+.w11 p.c7 { left: 54.55%; }
+
+.h11 p.r8 { top: 63.64%; }
+.w11 p.c8 { left: 63.64%; }
+
+.h11 p.r9 { top: 72.72%; }
+.w11 p.c9 { left: 72.72%; }
+
+.h11 p.r10 { top: 81.82%; }
+.w11 p.c10 { left: 81.82%; }
+
+.h11 p.r11 { top: 90.91%; }
+.w11 p.c11 { left: 90.91%; }
+
+.h12 p.r2 { top: 8.33%; }
+.w12 p.c2 { left: 8.33%; }
+
+.h12 p.r3 { top: 16.67%; }
+.w12 p.c3 { left: 16.67%; }
+
+.h12 p.r4 { top: 25%; }
+.w12 p.c4 { left: 25%; }
+
+.h12 p.r5 { top: 33.33%; }
+.w12 p.c5 { left: 33.33%; }
+
+.h12 p.r6 { top: 41.67%; }
+.w12 p.c6 { left: 41.67%; }
+
+.h12 p.r7 { top: 50%; }
+.w12 p.c7 { left: 50%; }
+
+.h12 p.r8 { top: 58.33%; }
+.w12 p.c8 { left: 58.33%; }
+
+.h12 p.r9 { top: 66.67%; }
+.w12 p.c9 { left: 66.67%; }
+
+.h12 p.r10 { top: 75%; }
+.w12 p.c10 { left: 75%; }
+
+.h12 p.r11 { top: 83.33%; }
+.w12 p.c11 { left: 83.33%; }
+
+.h12 p.r12 { top: 91.67%; }
+.w12 p.c12 { left: 91.67%; }
+
+.h13 p.r2 { top: 7.69%; }
+.w13 p.c2 { left: 7.69%; }
+
+.h13 p.r3 { top: 15.38%; }
+.w13 p.c3 { left: 15.38%; }
+
+.h13 p.r4 { top: 23.08%; }
+.w13 p.c4 { left: 23.08%; }
+
+.h13 p.r5 { top: 30.77%; }
+.w13 p.c5 { left: 30.77%; }
+
+.h13 p.r6 { top: 38.46%; }
+.w13 p.c6 { left: 38.46%; }
+
+.h13 p.r7 { top: 46.15%; }
+.w13 p.c7 { left: 46.15%; }
+
+.h13 p.r8 { top: 53.85%; }
+.w13 p.c8 { left: 53.85%; }
+
+.h13 p.r9 { top: 61.54%; }
+.w13 p.c9 { left: 61.54%; }
+
+.h13 p.r10 { top: 69.23%; }
+.w13 p.c10 { left: 69.23%; }
+
+.h13 p.r11 { top: 76.92%; }
+.w13 p.c11 { left: 76.92%; }
+
+.h13 p.r12 { top: 84.62%; }
+.w13 p.c12 { left: 84.62%; }
+
+.h13 p.r13 { top: 92.31%; }
+.w13 p.c13 { left: 92.31%; }
+
+.h14 p.r2 { top: 7.14%; }
+.w14 p.c2 { left: 7.14%; }
+
+.h14 p.r3 { top: 14.29%; }
+.w14 p.c3 { left: 14.29%; }
+
+.h14 p.r4 { top: 21.43%; }
+.w14 p.c4 { left: 21.43%; }
+
+.h14 p.r5 { top: 28.57%; }
+.w14 p.c5 { left: 28.57%; }
+
+.h14 p.r6 { top: 35.71%; }
+.w14 p.c6 { left: 35.71%; }
+
+.h14 p.r7 { top: 42.86%; }
+.w14 p.c7 { left: 42.86%; }
+
+.h14 p.r8 { top: 50%; }
+.w14 p.c8 { left: 50%; }
+
+.h14 p.r9 { top: 57.14%; }
+.w14 p.c9 { left: 57.14%; }
+
+.h14 p.r10 { top: 64.29%; }
+.w14 p.c10 { left: 64.29%; }
+
+.h14 p.r11 { top: 71.43%; }
+.w14 p.c11 { left: 71.43%; }
+
+.h14 p.r12 { top: 78.57%; }
+.w14 p.c12 { left: 78.57%; }
+
+.h14 p.r13 { top: 85.71%; }
+.w14 p.c13 { left: 85.71%; }
+
+.h14 p.r14 { top: 92.86%; }
+.w14 p.c14 { left: 92.86%; }
+
+.h15 p.r2 { top: 6.67%; }
+.w15 p.c2 { left: 6.67%; }
+
+.h15 p.r3 { top: 13.33%; }
+.w15 p.c3 { left: 13.33%; }
+
+.h15 p.r4 { top: 20%; }
+.w15 p.c4 { left: 20%; }
+
+.h15 p.r5 { top: 26.67%; }
+.w15 p.c5 { left: 26.67%; }
+
+.h15 p.r6 { top: 33.33%; }
+.w15 p.c6 { left: 33.33%; }
+
+.h15 p.r7 { top: 40%; }
+.w15 p.c7 { left: 40%; }
+
+.h15 p.r8 { top: 46.67%; }
+.w15 p.c8 { left: 46.67%; }
+
+.h15 p.r9 { top: 53.33%; }
+.w15 p.c9 { left: 53.33%; }
+
+.h15 p.r10 { top: 60%; }
+.w15 p.c10 { left: 60%; }
+
+.h15 p.r11 { top: 66.67%; }
+.w15 p.c11 { left: 66.67%; }
+
+.h15 p.r12 { top: 73.33%; }
+.w15 p.c12 { left: 73.33%; }
+
+.h15 p.r13 { top: 80%; }
+.w15 p.c13 { left: 80%; }
+
+.h15 p.r14 { top: 86.67%; }
+.w15 p.c14 { left: 86.67%; }
+
+.h15 p.r15 { top: 93.33%; }
+.w15 p.c15 { left: 93.33%; }
+
+.h16 p.r2 { top: 6.25%; }
+.w16 p.c2 { left: 6.25%; }
+
+.h16 p.r3 { top: 12.5%; }
+.w16 p.c3 { left: 12.5%; }
+
+.h16 p.r4 { top: 18.75%; }
+.w16 p.c4 { left: 18.75%; }
+
+.h16 p.r5 { top: 25%; }
+.w16 p.c5 { left: 25%; }
+
+.h16 p.r6 { top: 31.25%; }
+.w16 p.c6 { left: 31.25%; }
+
+.h16 p.r7 { top: 37.5%; }
+.w16 p.c7 { left: 37.5%; }
+
+.h16 p.r8 { top: 43.75%; }
+.w16 p.c8 { left: 43.75%; }
+
+.h16 p.r9 { top: 50%; }
+.w16 p.c9 { left: 50%; }
+
+.h16 p.r10 { top: 56.25%; }
+.w16 p.c10 { left: 56.25%; }
+
+.h16 p.r11 { top: 62.5%; }
+.w16 p.c11 { left: 62.5%; }
+
+.h16 p.r12 { top: 68.75%; }
+.w16 p.c12 { left: 68.75%; }
+
+.h16 p.r13 { top: 75%; }
+.w16 p.c13 { left: 75%; }
+
+.h16 p.r14 { top: 81.25%; }
+.w16 p.c14 { left: 81.25%; }
+
+.h16 p.r15 { top: 87.5%; }
+.w16 p.c15 { left: 87.5%; }
+
+.h16 p.r16 { top: 93.75%; }
+.w16 p.c16 { left: 93.75%; }
+
+.h17 p.r2 { top: 5.88%; }
+.w17 p.c2 { left: 5.88%; }
+
+.h17 p.r3 { top: 11.76%; }
+.w17 p.c3 { left: 11.76%; }
+
+.h17 p.r4 { top: 17.65%; }
+.w17 p.c4 { left: 17.65%; }
+
+.h17 p.r5 { top: 23.53%; }
+.w17 p.c5 { left: 23.53%; }
+
+.h17 p.r6 { top: 29.41%; }
+.w17 p.c6 { left: 29.41%; }
+
+.h17 p.r7 { top: 35.29%; }
+.w17 p.c7 { left: 35.29%; }
+
+.h17 p.r8 { top: 41.18%; }
+.w17 p.c8 { left: 41.18%; }
+
+.h17 p.r9 { top: 47.06%; }
+.w17 p.c9 { left: 47.06%; }
+
+.h17 p.r10 { top: 52.94%; }
+.w17 p.c10 { left: 52.94%; }
+
+.h17 p.r11 { top: 58.82%; }
+.w17 p.c11 { left: 58.82%; }
+
+.h17 p.r12 { top: 64.71%; }
+.w17 p.c12 { left: 64.71%; }
+
+.h17 p.r13 { top: 70.59%; }
+.w17 p.c13 { left: 70.59%; }
+
+.h17 p.r14 { top: 76.47%; }
+.w17 p.c14 { left: 76.47%; }
+
+.h17 p.r15 { top: 82.35%; }
+.w17 p.c15 { left: 82.35%; }
+
+.h17 p.r16 { top: 88.24%; }
+.w17 p.c16 { left: 88.24%; }
+
+.h17 p.r17 { top: 94.12%; }
+.w17 p.c17 { left: 94.12%; }
+
+.h18 p.r2 { top: 5.56%; }
+.w18 p.c2 { left: 5.56%; }
+
+.h18 p.r3 { top: 11.11%; }
+.w18 p.c3 { left: 11.11%; }
+
+.h18 p.r4 { top: 16.67%; }
+.w18 p.c4 { left: 16.67%; }
+
+.h18 p.r5 { top: 22.22%; }
+.w18 p.c5 { left: 22.22%; }
+
+.h18 p.r6 { top: 27.78%; }
+.w18 p.c6 { left: 27.78%; }
+
+.h18 p.r7 { top: 33.33%; }
+.w18 p.c7 { left: 33.33%; }
+
+.h18 p.r8 { top: 38.89%; }
+.w18 p.c8 { left: 38.89%; }
+
+.h18 p.r9 { top: 44.44%; }
+.w18 p.c9 { left: 44.44%; }
+
+.h18 p.r10 { top: 50%; }
+.w18 p.c10 { left: 50%; }
+
+.h18 p.r11 { top: 55.56%; }
+.w18 p.c11 { left: 55.56%; }
+
+.h18 p.r12 { top: 61.11%; }
+.w18 p.c12 { left: 61.11%; }
+
+.h18 p.r13 { top: 66.67%; }
+.w18 p.c13 { left: 66.67%; }
+
+.h18 p.r14 { top: 72.22%; }
+.w18 p.c14 { left: 72.22%; }
+
+.h18 p.r15 { top: 77.78%; }
+.w18 p.c15 { left: 77.78%; }
+
+.h18 p.r16 { top: 83.33%; }
+.w18 p.c16 { left: 83.33%; }
+
+.h18 p.r17 { top: 88.89%; }
+.w18 p.c17 { left: 88.89%; }
+
+.h18 p.r18 { top: 94.44%; }
+.w18 p.c18 { left: 94.44%; }
+
+.h19 p.r2 { top: 5.26%; }
+.w19 p.c2 { left: 5.26%; }
+
+.h19 p.r3 { top: 10.53%; }
+.w19 p.c3 { left: 10.53%; }
+
+.h19 p.r4 { top: 15.79%; }
+.w19 p.c4 { left: 15.79%; }
+
+.h19 p.r5 { top: 21.05%; }
+.w19 p.c5 { left: 21.05%; }
+
+.h19 p.r6 { top: 26.32%; }
+.w19 p.c6 { left: 26.32%; }
+
+.h19 p.r7 { top: 31.58%; }
+.w19 p.c7 { left: 31.58%; }
+
+.h19 p.r8 { top: 36.84%; }
+.w19 p.c8 { left: 36.84%; }
+
+.h19 p.r9 { top: 42.11%; }
+.w19 p.c9 { left: 42.11%; }
+
+.h19 p.r10 { top: 47.37%; }
+.w19 p.c10 { left: 47.37%; }
+
+.h19 p.r11 { top: 52.63%; }
+.w19 p.c11 { left: 52.63%; }
+
+.h19 p.r12 { top: 57.89%; }
+.w19 p.c12 { left: 57.89%; }
+
+.h19 p.r13 { top: 63.16%; }
+.w19 p.c13 { left: 63.16%; }
+
+.h19 p.r14 { top: 68.42%; }
+.w19 p.c14 { left: 68.42%; }
+
+.h19 p.r15 { top: 73.68%; }
+.w19 p.c15 { left: 73.68%; }
+
+.h19 p.r16 { top: 78.95%; }
+.w19 p.c16 { left: 78.95%; }
+
+.h19 p.r17 { top: 84.21%; }
+.w19 p.c17 { left: 84.21%; }
+
+.h19 p.r18 { top: 89.47%; }
+.w19 p.c18 { left: 89.47%; }
+
+.h19 p.r19 { top: 94.74%; }
+.w19 p.c19 { left: 94.74%; }
+
+.h20 p.r2 { top: 5%; }
+.w20 p.c2 { left: 5%; }
+
+.h20 p.r3 { top: 10%; }
+.w20 p.c3 { left: 10%; }
+
+.h20 p.r4 { top: 15%; }
+.w20 p.c4 { left: 15%; }
+
+.h20 p.r5 { top: 20%; }
+.w20 p.c5 { left: 20%; }
+
+.h20 p.r6 { top: 25%; }
+.w20 p.c6 { left: 25%; }
+
+.h20 p.r7 { top: 30%; }
+.w20 p.c7 { left: 30%; }
+
+.h20 p.r8 { top: 35%; }
+.w20 p.c8 { left: 35%; }
+
+.h20 p.r9 { top: 40%; }
+.w20 p.c9 { left: 40%; }
+
+.h20 p.r10 { top: 45%; }
+.w20 p.c10 { left: 45%; }
+
+.h20 p.r11 { top: 50%; }
+.w20 p.c11 { left: 50%; }
+
+.h20 p.r12 { top: 55%; }
+.w20 p.c12 { left: 55%; }
+
+.h20 p.r13 { top: 60%; }
+.w20 p.c13 { left: 60%; }
+
+.h20 p.r14 { top: 65%; }
+.w20 p.c14 { left: 65%; }
+
+.h20 p.r15 { top: 70%; }
+.w20 p.c15 { left: 70%; }
+
+.h20 p.r16 { top: 75%; }
+.w20 p.c16 { left: 75%; }
+
+.h20 p.r17 { top: 80%; }
+.w20 p.c17 { left: 80%; }
+
+.h20 p.r18 { top: 85%; }
+.w20 p.c18 { left: 85%; }
+
+.h20 p.r19 { top: 90%; }
+.w20 p.c19 { left: 90%; }
+
+.h20 p.r20 { top: 95%; }
+.w20 p.c20 { left: 95%; }
+
+.h21 p.r2 { top: 4.76%; }
+.w21 p.c2 { left: 4.76%; }
+
+.h21 p.r3 { top: 9.52%; }
+.w21 p.c3 { left: 9.52%; }
+
+.h21 p.r4 { top: 14.29%; }
+.w21 p.c4 { left: 14.29%; }
+
+.h21 p.r5 { top: 19.05%; }
+.w21 p.c5 { left: 19.05%; }
+
+.h21 p.r6 { top: 23.81%; }
+.w21 p.c6 { left: 23.81%; }
+
+.h21 p.r7 { top: 28.57%; }
+.w21 p.c7 { left: 28.57%; }
+
+.h21 p.r8 { top: 33.33%; }
+.w21 p.c8 { left: 33.33%; }
+
+.h21 p.r9 { top: 38.1%; }
+.w21 p.c9 { left: 38.1%; }
+
+.h21 p.r10 { top: 42.86%; }
+.w21 p.c10 { left: 42.86%; }
+
+.h21 p.r11 { top: 47.62%; }
+.w21 p.c11 { left: 47.62%; }
+
+.h21 p.r12 { top: 52.38%; }
+.w21 p.c12 { left: 52.38%; }
+
+.h21 p.r13 { top: 57.14%; }
+.w21 p.c13 { left: 57.14%; }
+
+.h21 p.r14 { top: 61.9%; }
+.w21 p.c14 { left: 61.9%; }
+
+.h21 p.r15 { top: 66.67%; }
+.w21 p.c15 { left: 66.67%; }
+
+.h21 p.r16 { top: 71.43%; }
+.w21 p.c16 { left: 71.43%; }
+
+.h21 p.r17 { top: 76.19%; }
+.w21 p.c17 { left: 76.19%; }
+
+.h21 p.r18 { top: 80.95%; }
+.w21 p.c18 { left: 80.95%; }
+
+.h21 p.r19 { top: 85.71%; }
+.w21 p.c19 { left: 85.71%; }
+
+.h21 p.r20 { top: 90.48%; }
+.w21 p.c20 { left: 90.48%; }
+
+.h21 p.r21 { top: 95.24%; }
+.w21 p.c21 { left: 95.24%; }
+
+.h22 p.r2 { top: 4.55%; }
+.w22 p.c2 { left: 4.55%; }
+
+.h22 p.r3 { top: 9.09%; }
+.w22 p.c3 { left: 9.09%; }
+
+.h22 p.r4 { top: 13.64%; }
+.w22 p.c4 { left: 13.64%; }
+
+.h22 p.r5 { top: 18.18%; }
+.w22 p.c5 { left: 18.18%; }
+
+.h22 p.r6 { top: 22.73%; }
+.w22 p.c6 { left: 22.73%; }
+
+.h22 p.r7 { top: 27.27%; }
+.w22 p.c7 { left: 27.27%; }
+
+.h22 p.r8 { top: 31.82%; }
+.w22 p.c8 { left: 31.82%; }
+
+.h22 p.r9 { top: 36.36%; }
+.w22 p.c9 { left: 36.36%; }
+
+.h22 p.r10 { top: 40.91%; }
+.w22 p.c10 { left: 40.91%; }
+
+.h22 p.r11 { top: 45.45%; }
+.w22 p.c11 { left: 45.45%; }
+
+.h22 p.r12 { top: 50%; }
+.w22 p.c12 { left: 50%; }
+
+.h22 p.r13 { top: 54.55%; }
+.w22 p.c13 { left: 54.55%; }
+
+.h22 p.r14 { top: 59.09%; }
+.w22 p.c14 { left: 59.09%; }
+
+.h22 p.r15 { top: 63.64%; }
+.w22 p.c15 { left: 63.64%; }
+
+.h22 p.r16 { top: 68.18%; }
+.w22 p.c16 { left: 68.18%; }
+
+.h22 p.r17 { top: 72.72%; }
+.w22 p.c17 { left: 72.72%; }
+
+.h22 p.r18 { top: 77.27%; }
+.w22 p.c18 { left: 77.27%; }
+
+.h22 p.r19 { top: 81.82%; }
+.w22 p.c19 { left: 81.82%; }
+
+.h22 p.r20 { top: 86.36%; }
+.w22 p.c20 { left: 86.36%; }
+
+.h22 p.r21 { top: 90.91%; }
+.w22 p.c21 { left: 90.91%; }
+
+.h22 p.r22 { top: 95.45%; }
+.w22 p.c22 { left: 95.45%; }
+
+.h23 p.r2 { top: 4.35%; }
+.w23 p.c2 { left: 4.35%; }
+
+.h23 p.r3 { top: 8.7%; }
+.w23 p.c3 { left: 8.7%; }
+
+.h23 p.r4 { top: 13.04%; }
+.w23 p.c4 { left: 13.04%; }
+
+.h23 p.r5 { top: 17.39%; }
+.w23 p.c5 { left: 17.39%; }
+
+.h23 p.r6 { top: 21.74%; }
+.w23 p.c6 { left: 21.74%; }
+
+.h23 p.r7 { top: 26.09%; }
+.w23 p.c7 { left: 26.09%; }
+
+.h23 p.r8 { top: 30.43%; }
+.w23 p.c8 { left: 30.43%; }
+
+.h23 p.r9 { top: 34.78%; }
+.w23 p.c9 { left: 34.78%; }
+
+.h23 p.r10 { top: 39.13%; }
+.w23 p.c10 { left: 39.13%; }
+
+.h23 p.r11 { top: 43.48%; }
+.w23 p.c11 { left: 43.48%; }
+
+.h23 p.r12 { top: 47.83%; }
+.w23 p.c12 { left: 47.83%; }
+
+.h23 p.r13 { top: 52.17%; }
+.w23 p.c13 { left: 52.17%; }
+
+.h23 p.r14 { top: 56.52%; }
+.w23 p.c14 { left: 56.52%; }
+
+.h23 p.r15 { top: 60.87%; }
+.w23 p.c15 { left: 60.87%; }
+
+.h23 p.r16 { top: 65.22%; }
+.w23 p.c16 { left: 65.22%; }
+
+.h23 p.r17 { top: 69.57%; }
+.w23 p.c17 { left: 69.57%; }
+
+.h23 p.r18 { top: 73.91%; }
+.w23 p.c18 { left: 73.91%; }
+
+.h23 p.r19 { top: 78.26%; }
+.w23 p.c19 { left: 78.26%; }
+
+.h23 p.r20 { top: 82.61%; }
+.w23 p.c20 { left: 82.61%; }
+
+.h23 p.r21 { top: 86.96%; }
+.w23 p.c21 { left: 86.96%; }
+
+.h23 p.r22 { top: 91.3%; }
+.w23 p.c22 { left: 91.3%; }
+
+.h23 p.r23 { top: 95.65%; }
+.w23 p.c23 { left: 95.65%; }
+
+.h24 p.r2 { top: 4.17%; }
+.w24 p.c2 { left: 4.17%; }
+
+.h24 p.r3 { top: 8.33%; }
+.w24 p.c3 { left: 8.33%; }
+
+.h24 p.r4 { top: 12.5%; }
+.w24 p.c4 { left: 12.5%; }
+
+.h24 p.r5 { top: 16.67%; }
+.w24 p.c5 { left: 16.67%; }
+
+.h24 p.r6 { top: 20.83%; }
+.w24 p.c6 { left: 20.83%; }
+
+.h24 p.r7 { top: 25%; }
+.w24 p.c7 { left: 25%; }
+
+.h24 p.r8 { top: 29.17%; }
+.w24 p.c8 { left: 29.17%; }
+
+.h24 p.r9 { top: 33.33%; }
+.w24 p.c9 { left: 33.33%; }
+
+.h24 p.r10 { top: 37.5%; }
+.w24 p.c10 { left: 37.5%; }
+
+.h24 p.r11 { top: 41.67%; }
+.w24 p.c11 { left: 41.67%; }
+
+.h24 p.r12 { top: 45.83%; }
+.w24 p.c12 { left: 45.83%; }
+
+.h24 p.r13 { top: 50%; }
+.w24 p.c13 { left: 50%; }
+
+.h24 p.r14 { top: 54.17%; }
+.w24 p.c14 { left: 54.17%; }
+
+.h24 p.r15 { top: 58.33%; }
+.w24 p.c15 { left: 58.33%; }
+
+.h24 p.r16 { top: 62.5%; }
+.w24 p.c16 { left: 62.5%; }
+
+.h24 p.r17 { top: 66.67%; }
+.w24 p.c17 { left: 66.67%; }
+
+.h24 p.r18 { top: 70.83%; }
+.w24 p.c18 { left: 70.83%; }
+
+.h24 p.r19 { top: 75%; }
+.w24 p.c19 { left: 75%; }
+
+.h24 p.r20 { top: 79.17%; }
+.w24 p.c20 { left: 79.17%; }
+
+.h24 p.r21 { top: 83.33%; }
+.w24 p.c21 { left: 83.33%; }
+
+.h24 p.r22 { top: 87.5%; }
+.w24 p.c22 { left: 87.5%; }
+
+.h24 p.r23 { top: 91.67%; }
+.w24 p.c23 { left: 91.67%; }
+
+.h24 p.r24 { top: 95.83%; }
+.w24 p.c24 { left: 95.83%; }
