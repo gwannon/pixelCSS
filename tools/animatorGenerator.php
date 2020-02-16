@@ -142,25 +142,12 @@ $color[] = "whitesmoke";
 $color[] = "yellow";
 $color[] = "yellowgreen ";
 
-$color2 = $color;
-
-foreach ($color as $c) {
-  foreach ($color2 as $c2) {
-    if($c != $c2) {
-      echo ".".trim($c)."_".trim($c2)." {\n";
-      echo "background-color: ".trim($c).";\n";
-      echo "animation-name: ".trim($c)."_".trim($c2).";\n";
-      echo "animation-duration: var(--color-animation-duration);\n";
-      echo "animation-iteration-count: infinite;\n";
-      echo "animation-direction: alternate;\n";
-      echo "}\n";
-
-      echo "@keyframes ".trim($c)."_".trim($c2)." {\n";
-      echo "from {background-color: ".trim($c).";}\n";
-      echo "to {background-color: ".trim($c2).";}\n";
-      echo "}\n";
-    }
-  }
+foreach ($color as $key => $c) {
+  echo ".".trim($c)." {  background: ".trim($c)."; }\n";
+  echo ".to_".trim($c)." { animation-name: tc".$key."; }\n";
+  echo "@keyframes tc".$key." { to { background: ".trim($c)."; } }\n";
 }
+
+echo ".to_".implode(", .to_", $color)."\n{ animation-duration: var(--color-animation-duration); animation-iteration-count: infinite; animation-direction: alternate; }\n";
 
 ?>
