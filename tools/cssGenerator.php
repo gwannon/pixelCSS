@@ -15,10 +15,8 @@ echo ".c1 { left: 0%; }\n\n";
 for ($i = 2; $i <= $size; $i ++) {
   for ($y = 2; $y <= $i; $y ++) {
     $step = (100 / $i);
-    echo ".h".$i." p.r".$y." { top: ".round(($step * ($y-1)), 2, PHP_ROUND_HALF_DOWN)."%; }\n";
-    echo ".w".$i." p.c".$y." { left: ".round(($step * ($y-1)), 2, PHP_ROUND_HALF_DOWN)."%; }\n";
-    echo ".h".$i.":hover p.hover-r".$y." { top: ".round(($step * ($y-1)), 2, PHP_ROUND_HALF_DOWN)."%; }\n";
-    echo ".w".$i.":hover p.hover-c".$y." { left: ".round(($step * ($y-1)), 2, PHP_ROUND_HALF_DOWN)."%; }\n\n";
+    echo ".h".$i." p.r".$y.", .h".$i.":hover p.hr".$y." { top: ".round(($step * ($y-1)), 2, PHP_ROUND_HALF_DOWN)."%; }\n";
+    echo ".w".$i." p.c".$y.", .w".$i.":hover p.hc".$y." { left: ".round(($step * ($y-1)), 2, PHP_ROUND_HALF_DOWN)."%; }\n";
   }
 }
 
