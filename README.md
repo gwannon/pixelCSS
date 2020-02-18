@@ -10,3 +10,4 @@ Ejemplos:
 * http://gwannon.com/pixelCSS/examples/heart.html
 * http://gwannon.com/pixelCSS/examples/lemming-hover.html
 * http://gwannon.com/pixelCSS/examples/rupee.html
+* http://gwannon.com/pixelCSS/examples/pokeball.html
