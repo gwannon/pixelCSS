@@ -1,0 +1,138 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Lemming Walking</title>
+    <link href="../src/css/cssPixel.css" rel="stylesheet">
+    <style>
+      :root {
+        --pixel-size: 4px;
+      }
+    </style>
+  </head>
+  <body class="black">
+    <div class="animation w6 h9 frames8">
+      <div class="sprite w6 h9" animation="1">
+        <p class="r1 c2 w4 green"></p>
+        <p class="r2 c2 w2 green"></p>
+        <p class="r2 c4 pink"></p>
+        <p class="r3 c3 w3 pink"></p>
+        <p class="r4 c3 h3 pink"></p>
+        <p class="r4 c4 h3 slateblue"></p>
+        <p class="r7 c3 h2 w2 slateblue"></p>
+        <p class="r8 c2 pink"></p>
+        <p class="r9 c3 w2 pink"></p>
+      </div>
+      <div class="sprite w6 h9" animation="2">
+        <p class="r1 c2 w3 green"></p>
+        <p class="r2 c2 w2 green"></p>
+        <p class="r2 c4 pink"></p>
+        <p class="r3 c3 w3 pink"></p>
+        <p class="r4 c3 pink"></p>
+        <p class="r4 c4 h4 slateblue"></p>
+        <p class="r5 c2 h2 pink"></p>
+        <p class="r5 c3 h3 slateblue"></p>
+        <p class="r6 c6 h2 pink"></p>
+        <p class="r8 c2 w2 slateblue"></p>
+        <p class="r8 c5 pink"></p>
+        <p class="r9 c2 w2 pink"></p>
+      </div>
+      <div class="sprite w6 h9" animation="3">
+        <p class="r1 c2 green"></p>
+        <p class="r1 c4 green"></p>
+        <p class="r2 c2 w3 green"></p>
+        <p class="r3 c3 green"></p>
+        <p class="r3 c4 pink"></p>
+        <p class="r4 c3 w3 pink"></p>
+        <p class="r5 c2 w2 pink"></p>
+        <p class="r5 c4 slateblue"></p>
+        <p class="r6 c2 pink"></p>
+        <p class="r6 c3 w2 slateblue"></p>
+        <p class="r7 c1 w2 pink"></p>
+        <p class="r7 c3 w2 slateblue"></p>
+        <p class="r8 c3 w3 slateblue"></p>
+        <p class="r9 c1 w2 pink"></p>
+        <p class="r9 c5 w2 pink"></p>
+      </div>
+      <div class="sprite w6 h9" animation="4">
+        <p class="r1 c3 w2 green"></p>
+        <p class="r2 c2 w2 green"></p>
+        <p class="r2 c4 pink"></p>
+        <p class="r2 c5 green"></p>
+        <p class="r3 c2 green"></p>
+        <p class="r3 c3 w3 pink"></p>
+        <p class="r4 c3 h2 pink"></p>
+        <p class="r4 c4 h2 slateblue"></p>
+        <p class="r6 c2 pink"></p>
+        <p class="r6 c3 w2 slateblue"></p>
+        <p class="r7 c3 w2 slateblue"></p>
+        <p class="r8 c1 h2 pink"></p>
+        <p class="r8 c2 w4 slateblue"></p>
+        <p class="r9 c4 w2 pink"></p>
+      </div>
+      <div class="sprite w6 h9" animation="5">
+        <p class="r1 c2 w4 green"></p>
+        <p class="r2 c2 w2 green"></p>
+        <p class="r2 c4 pink"></p>
+        <p class="r3 c2 green"></p>
+        <p class="r3 c3 w3 pink"></p>
+        <p class="r4 c3 pink"></p>
+        <p class="r4 c4 slateblue"></p>
+        <p class="r5 c3 slateblue"></p>
+        <p class="r5 c4 pink"></p>
+        <p class="r6 c3 pink"></p>
+        <p class="r6 c4 slateblue"></p>
+        <p class="r7 c3 w2 h2 slateblue"></p>
+        <p class="r8 c2 pink"></p>
+        <p class="r9 c3 w2 pink"></p>
+      </div>
+      <div class="sprite w6 h9" animation="6">
+        <p class="r1 c2 w3 green"></p>
+        <p class="r2 c2 w2 green"></p>
+        <p class="r2 c4 pink"></p>
+        <p class="r3 c3 w3 pink"></p>
+        <p class="r4 c3 pink"></p>
+        <p class="r4 c4 slateblue"></p>
+        <p class="r5 c3 h2 slateblue"></p>
+        <p class="r5 c4 h2 pink"></p>
+        <p class="r6 c6 h2 pink"></p>
+        <p class="r7 c3 w2 slateblue"></p>
+        <p class="r8 c2 w2 slateblue"></p>
+        <p class="r8 c5 pink"></p>
+        <p class="r9 c2 w2 pink"></p>
+      </div>
+      <div class="sprite w6 h9" animation="7">
+        <p class="r1 c2 green"></p>
+        <p class="r1 c4 green"></p>
+        <p class="r2 c2 w3 green"></p>
+        <p class="r3 c3 green"></p>
+        <p class="r3 c4 pink"></p>
+        <p class="r4 c3 w3 pink"></p>
+        <p class="r5 c3 h2 slateblue"></p>
+        <p class="r5 c4 h2 pink"></p>        
+        <p class="r7 c3 w2 slateblue"></p>
+        <p class="r7 c5 pink"></p>         
+        <p class="r8 c3 w3 slateblue"></p>
+        <p class="r9 c1 w2 pink"></p>
+        <p class="r9 c5 w2 pink"></p>
+      </div>
+      <div class="sprite w6 h9" animation="8">
+        <p class="r1 c3 w2 green"></p>
+        <p class="r2 c2 w2 green"></p>
+        <p class="r2 c4 pink"></p>
+        <p class="r2 c5 green"></p>
+        <p class="r3 c2 green"></p>
+        <p class="r3 c3 w3 pink"></p>
+        <p class="r4 c3 h2 pink"></p>
+        <p class="r4 c4 h2 slateblue"></p>
+        <p class="r6 c3 slateblue"></p>
+        <p class="r6 c4 pink"></p>
+        <p class="r7 c3 w2 slateblue"></p>
+        <p class="r8 c1 h2 pink"></p>
+        <p class="r8 c2 w4 slateblue"></p>
+        <p class="r9 c4 w2 pink"></p>
+      </div>
+    </div>
+    <a href="https://github.com/gwannon/pixelCSS" style="position: absolute; bottom: 10px; left: 10px; color: #ffffff; font-family: Arial;">GitHub pixelCSS</a>
+  </body>
+</html>
