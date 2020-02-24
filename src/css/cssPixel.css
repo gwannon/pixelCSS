@@ -27,123 +27,123 @@
 
 /* ---------------------------------- */
 
-.sprite > p.w1, .sprite.w1 { width: calc(var(--pixel-size) * 1); }
-.sprite > p.h1, .sprite.h1 { height: calc(var(--pixel-size) * 1); }
+.sprite > p.w1, .sprite.w1, .animation.w1 { width: calc(var(--pixel-size) * 1); }
+.sprite > p.h1, .sprite.h1, .animation.h1 { height: calc(var(--pixel-size) * 1); }
 .sprite:hover > p.hover-w1 { width: calc(var(--pixel-size) * 1); }
 .sprite:hover > p.hover-h1 { height: calc(var(--pixel-size) * 1); }
 
-.sprite > p.w2, .sprite.w2 { width: calc(var(--pixel-size) * 2); }
-.sprite > p.h2, .sprite.h2 { height: calc(var(--pixel-size) * 2); }
+.sprite > p.w2, .sprite.w2, .animation.w2 { width: calc(var(--pixel-size) * 2); }
+.sprite > p.h2, .sprite.h2, .animation.h2 { height: calc(var(--pixel-size) * 2); }
 .sprite:hover > p.hover-w2 { width: calc(var(--pixel-size) * 2); }
 .sprite:hover > p.hover-h2 { height: calc(var(--pixel-size) * 2); }
 
-.sprite > p.w3, .sprite.w3 { width: calc(var(--pixel-size) * 3); }
-.sprite > p.h3, .sprite.h3 { height: calc(var(--pixel-size) * 3); }
+.sprite > p.w3, .sprite.w3, .animation.w3 { width: calc(var(--pixel-size) * 3); }
+.sprite > p.h3, .sprite.h3, .animation.h3 { height: calc(var(--pixel-size) * 3); }
 .sprite:hover > p.hover-w3 { width: calc(var(--pixel-size) * 3); }
 .sprite:hover > p.hover-h3 { height: calc(var(--pixel-size) * 3); }
 
-.sprite > p.w4, .sprite.w4 { width: calc(var(--pixel-size) * 4); }
-.sprite > p.h4, .sprite.h4 { height: calc(var(--pixel-size) * 4); }
+.sprite > p.w4, .sprite.w4, .animation.w4 { width: calc(var(--pixel-size) * 4); }
+.sprite > p.h4, .sprite.h4, .animation.h4 { height: calc(var(--pixel-size) * 4); }
 .sprite:hover > p.hover-w4 { width: calc(var(--pixel-size) * 4); }
 .sprite:hover > p.hover-h4 { height: calc(var(--pixel-size) * 4); }
 
-.sprite > p.w5, .sprite.w5 { width: calc(var(--pixel-size) * 5); }
-.sprite > p.h5, .sprite.h5 { height: calc(var(--pixel-size) * 5); }
+.sprite > p.w5, .sprite.w5, .animation.w5 { width: calc(var(--pixel-size) * 5); }
+.sprite > p.h5, .sprite.h5, .animation.h5 { height: calc(var(--pixel-size) * 5); }
 .sprite:hover > p.hover-w5 { width: calc(var(--pixel-size) * 5); }
 .sprite:hover > p.hover-h5 { height: calc(var(--pixel-size) * 5); }
 
-.sprite > p.w6, .sprite.w6 { width: calc(var(--pixel-size) * 6); }
-.sprite > p.h6, .sprite.h6 { height: calc(var(--pixel-size) * 6); }
+.sprite > p.w6, .sprite.w6, .animation.w6 { width: calc(var(--pixel-size) * 6); }
+.sprite > p.h6, .sprite.h6, .animation.h6 { height: calc(var(--pixel-size) * 6); }
 .sprite:hover > p.hover-w6 { width: calc(var(--pixel-size) * 6); }
 .sprite:hover > p.hover-h6 { height: calc(var(--pixel-size) * 6); }
 
-.sprite > p.w7, .sprite.w7 { width: calc(var(--pixel-size) * 7); }
-.sprite > p.h7, .sprite.h7 { height: calc(var(--pixel-size) * 7); }
+.sprite > p.w7, .sprite.w7, .animation.w7 { width: calc(var(--pixel-size) * 7); }
+.sprite > p.h7, .sprite.h7, .animation.h7 { height: calc(var(--pixel-size) * 7); }
 .sprite:hover > p.hover-w7 { width: calc(var(--pixel-size) * 7); }
 .sprite:hover > p.hover-h7 { height: calc(var(--pixel-size) * 7); }
 
-.sprite > p.w8, .sprite.w8 { width: calc(var(--pixel-size) * 8); }
-.sprite > p.h8, .sprite.h8 { height: calc(var(--pixel-size) * 8); }
+.sprite > p.w8, .sprite.w8, .animation.w8 { width: calc(var(--pixel-size) * 8); }
+.sprite > p.h8, .sprite.h8, .animation.h8 { height: calc(var(--pixel-size) * 8); }
 .sprite:hover > p.hover-w8 { width: calc(var(--pixel-size) * 8); }
 .sprite:hover > p.hover-h8 { height: calc(var(--pixel-size) * 8); }
 
-.sprite > p.w9, .sprite.w9 { width: calc(var(--pixel-size) * 9); }
-.sprite > p.h9, .sprite.h9 { height: calc(var(--pixel-size) * 9); }
+.sprite > p.w9, .sprite.w9, .animation.w9 { width: calc(var(--pixel-size) * 9); }
+.sprite > p.h9, .sprite.h9, .animation.h9 { height: calc(var(--pixel-size) * 9); }
 .sprite:hover > p.hover-w9 { width: calc(var(--pixel-size) * 9); }
 .sprite:hover > p.hover-h9 { height: calc(var(--pixel-size) * 9); }
 
-.sprite > p.w10, .sprite.w10 { width: calc(var(--pixel-size) * 10); }
-.sprite > p.h10, .sprite.h10 { height: calc(var(--pixel-size) * 10); }
+.sprite > p.w10, .sprite.w10, .animation.w10 { width: calc(var(--pixel-size) * 10); }
+.sprite > p.h10, .sprite.h10, .animation.h10 { height: calc(var(--pixel-size) * 10); }
 .sprite:hover > p.hover-w10 { width: calc(var(--pixel-size) * 10); }
 .sprite:hover > p.hover-h10 { height: calc(var(--pixel-size) * 10); }
 
-.sprite > p.w11, .sprite.w11 { width: calc(var(--pixel-size) * 11); }
-.sprite > p.h11, .sprite.h11 { height: calc(var(--pixel-size) * 11); }
+.sprite > p.w11, .sprite.w11, .animation.w11 { width: calc(var(--pixel-size) * 11); }
+.sprite > p.h11, .sprite.h11, .animation.h11 { height: calc(var(--pixel-size) * 11); }
 .sprite:hover > p.hover-w11 { width: calc(var(--pixel-size) * 11); }
 .sprite:hover > p.hover-h11 { height: calc(var(--pixel-size) * 11); }
 
-.sprite > p.w12, .sprite.w12 { width: calc(var(--pixel-size) * 12); }
-.sprite > p.h12, .sprite.h12 { height: calc(var(--pixel-size) * 12); }
+.sprite > p.w12, .sprite.w12, .animation.w12 { width: calc(var(--pixel-size) * 12); }
+.sprite > p.h12, .sprite.h12, .animation.h12 { height: calc(var(--pixel-size) * 12); }
 .sprite:hover > p.hover-w12 { width: calc(var(--pixel-size) * 12); }
 .sprite:hover > p.hover-h12 { height: calc(var(--pixel-size) * 12); }
 
-.sprite > p.w13, .sprite.w13 { width: calc(var(--pixel-size) * 13); }
-.sprite > p.h13, .sprite.h13 { height: calc(var(--pixel-size) * 13); }
+.sprite > p.w13, .sprite.w13, .animation.w13 { width: calc(var(--pixel-size) * 13); }
+.sprite > p.h13, .sprite.h13, .animation.h13 { height: calc(var(--pixel-size) * 13); }
 .sprite:hover > p.hover-w13 { width: calc(var(--pixel-size) * 13); }
 .sprite:hover > p.hover-h13 { height: calc(var(--pixel-size) * 13); }
 
-.sprite > p.w14, .sprite.w14 { width: calc(var(--pixel-size) * 14); }
-.sprite > p.h14, .sprite.h14 { height: calc(var(--pixel-size) * 14); }
+.sprite > p.w14, .sprite.w14, .animation.w14 { width: calc(var(--pixel-size) * 14); }
+.sprite > p.h14, .sprite.h14, .animation.h14 { height: calc(var(--pixel-size) * 14); }
 .sprite:hover > p.hover-w14 { width: calc(var(--pixel-size) * 14); }
 .sprite:hover > p.hover-h14 { height: calc(var(--pixel-size) * 14); }
 
-.sprite > p.w15, .sprite.w15 { width: calc(var(--pixel-size) * 15); }
-.sprite > p.h15, .sprite.h15 { height: calc(var(--pixel-size) * 15); }
+.sprite > p.w15, .sprite.w15, .animation.w15 { width: calc(var(--pixel-size) * 15); }
+.sprite > p.h15, .sprite.h15, .animation.h15 { height: calc(var(--pixel-size) * 15); }
 .sprite:hover > p.hover-w15 { width: calc(var(--pixel-size) * 15); }
 .sprite:hover > p.hover-h15 { height: calc(var(--pixel-size) * 15); }
 
-.sprite > p.w16, .sprite.w16 { width: calc(var(--pixel-size) * 16); }
-.sprite > p.h16, .sprite.h16 { height: calc(var(--pixel-size) * 16); }
+.sprite > p.w16, .sprite.w16, .animation.w16 { width: calc(var(--pixel-size) * 16); }
+.sprite > p.h16, .sprite.h16, .animation.h16 { height: calc(var(--pixel-size) * 16); }
 .sprite:hover > p.hover-w16 { width: calc(var(--pixel-size) * 16); }
 .sprite:hover > p.hover-h16 { height: calc(var(--pixel-size) * 16); }
 
-.sprite > p.w17, .sprite.w17 { width: calc(var(--pixel-size) * 17); }
-.sprite > p.h17, .sprite.h17 { height: calc(var(--pixel-size) * 17); }
+.sprite > p.w17, .sprite.w17, .animation.w17 { width: calc(var(--pixel-size) * 17); }
+.sprite > p.h17, .sprite.h17, .animation.h17 { height: calc(var(--pixel-size) * 17); }
 .sprite:hover > p.hover-w17 { width: calc(var(--pixel-size) * 17); }
 .sprite:hover > p.hover-h17 { height: calc(var(--pixel-size) * 17); }
 
-.sprite > p.w18, .sprite.w18 { width: calc(var(--pixel-size) * 18); }
-.sprite > p.h18, .sprite.h18 { height: calc(var(--pixel-size) * 18); }
+.sprite > p.w18, .sprite.w18, .animation.w18 { width: calc(var(--pixel-size) * 18); }
+.sprite > p.h18, .sprite.h18, .animation.h18 { height: calc(var(--pixel-size) * 18); }
 .sprite:hover > p.hover-w18 { width: calc(var(--pixel-size) * 18); }
 .sprite:hover > p.hover-h18 { height: calc(var(--pixel-size) * 18); }
 
-.sprite > p.w19, .sprite.w19 { width: calc(var(--pixel-size) * 19); }
-.sprite > p.h19, .sprite.h19 { height: calc(var(--pixel-size) * 19); }
+.sprite > p.w19, .sprite.w19, .animation.w19 { width: calc(var(--pixel-size) * 19); }
+.sprite > p.h19, .sprite.h19, .animation.h19 { height: calc(var(--pixel-size) * 19); }
 .sprite:hover > p.hover-w19 { width: calc(var(--pixel-size) * 19); }
 .sprite:hover > p.hover-h19 { height: calc(var(--pixel-size) * 19); }
 
-.sprite > p.w20, .sprite.w20 { width: calc(var(--pixel-size) * 20); }
-.sprite > p.h20, .sprite.h20 { height: calc(var(--pixel-size) * 20); }
+.sprite > p.w20, .sprite.w20, .animation.w20 { width: calc(var(--pixel-size) * 20); }
+.sprite > p.h20, .sprite.h20, .animation.h20 { height: calc(var(--pixel-size) * 20); }
 .sprite:hover > p.hover-w20 { width: calc(var(--pixel-size) * 20); }
 .sprite:hover > p.hover-h20 { height: calc(var(--pixel-size) * 20); }
 
-.sprite > p.w21, .sprite.w21 { width: calc(var(--pixel-size) * 21); }
-.sprite > p.h21, .sprite.h21 { height: calc(var(--pixel-size) * 21); }
+.sprite > p.w21, .sprite.w21, .animation.w21 { width: calc(var(--pixel-size) * 21); }
+.sprite > p.h21, .sprite.h21, .animation.h21 { height: calc(var(--pixel-size) * 21); }
 .sprite:hover > p.hover-w21 { width: calc(var(--pixel-size) * 21); }
 .sprite:hover > p.hover-h21 { height: calc(var(--pixel-size) * 21); }
 
-.sprite > p.w22, .sprite.w22 { width: calc(var(--pixel-size) * 22); }
-.sprite > p.h22, .sprite.h22 { height: calc(var(--pixel-size) * 22); }
+.sprite > p.w22, .sprite.w22, .animation.w22 { width: calc(var(--pixel-size) * 22); }
+.sprite > p.h22, .sprite.h22, .animation.h22 { height: calc(var(--pixel-size) * 22); }
 .sprite:hover > p.hover-w22 { width: calc(var(--pixel-size) * 22); }
 .sprite:hover > p.hover-h22 { height: calc(var(--pixel-size) * 22); }
 
-.sprite > p.w23, .sprite.w23 { width: calc(var(--pixel-size) * 23); }
-.sprite > p.h23, .sprite.h23 { height: calc(var(--pixel-size) * 23); }
+.sprite > p.w23, .sprite.w23, .animation.w23 { width: calc(var(--pixel-size) * 23); }
+.sprite > p.h23, .sprite.h23, .animation.h23 { height: calc(var(--pixel-size) * 23); }
 .sprite:hover > p.hover-w23 { width: calc(var(--pixel-size) * 23); }
 .sprite:hover > p.hover-h23 { height: calc(var(--pixel-size) * 23); }
 
-.sprite > p.w24, .sprite.w24 { width: calc(var(--pixel-size) * 24); }
-.sprite > p.h24, .sprite.h24 { height: calc(var(--pixel-size) * 24); }
+.sprite > p.w24, .sprite.w24, .animation.w24 { width: calc(var(--pixel-size) * 24); }
+.sprite > p.h24, .sprite.h24, .animation.h24 { height: calc(var(--pixel-size) * 24); }
 .sprite:hover > p.hover-w24 { width: calc(var(--pixel-size) * 24); }
 .sprite:hover > p.hover-h24 { height: calc(var(--pixel-size) * 24); }
 
@@ -1130,3 +1130,64 @@
 @keyframes tc140 { to { background: yellowgreen; } }
 .to_aliceblue, .to_antiquewhite, .to_aqua, .to_aquamarine, .to_azure, .to_beige, .to_bisque, .to_black, .to_blanchedalmond, .to_blue, .to_blueviolet, .to_brown, .to_burlywood, .to_cadetblue, .to_chartreuse, .to_chocolate, .to_coral, .to_cornflowerblue, .to_cornsilk, .to_crimson, .to_cyan, .to_darkblue, .to_darkcyan, .to_darkgoldenrod, .to_darkgray, .to_darkgreen, .to_darkkhaki, .to_darkmagenta, .to_darkolivegreen, .to_darkorange, .to_darkorchid, .to_darkred, .to_darksalmon, .to_darkseagreen, .to_darkslateblue, .to_darkslategray, .to_darkturquoise, .to_darkviolet, .to_deeppink, .to_deepskyblue, .to_dimgray, .to_dodgerblue, .to_firebrick, .to_floralwhite, .to_forestgreen, .to_fuchsia, .to_gainsboro, .to_ghostwhite, .to_gold, .to_goldenrod, .to_gray, .to_green, .to_greenyellow, .to_honeydew, .to_hotpink, .to_indianred, .to_indigo, .to_ivory, .to_khaki, .to_lavender, .to_lavenderblush, .to_lawngreen, .to_lemonchiffon, .to_lightblue, .to_lightcoral, .to_lightcyan, .to_lightgoldenrodyellow, .to_lightgreen, .to_lightgrey, .to_lightpink, .to_lightsalmon, .to_lightseagreen, .to_lightskyblue, .to_lightslategray, .to_lightsteelblue, .to_lightyellow, .to_lime, .to_limegreen, .to_linen, .to_magenta, .to_maroon, .to_mediumaquamarine, .to_mediumblue, .to_mediumorchid, .to_mediumpurple, .to_mediumseagreen, .to_mediumslateblue, .to_mediumspringgreen, .to_mediumturquoise, .to_mediumvioletred, .to_midnightblue, .to_mintcream, .to_mistyrose, .to_moccasin, .to_navajowhite, .to_navy, .to_navyblue, .to_oldlace, .to_olive, .to_olivedrab, .to_orange, .to_orangered, .to_orchid, .to_palegoldenrod, .to_palegreen, .to_paleturquoise, .to_palevioletred, .to_papayawhip, .to_peachpuff, .to_peru, .to_pink, .to_plum, .to_powderblue, .to_purple, .to_red, .to_rosybrown, .to_royalblue, .to_saddlebrown, .to_salmon, .to_sandybrown, .to_seagreen, .to_seashell, .to_sienna, .to_silver, .to_skyblue, .to_slateblue, .to_slategray, .to_snow, .to_springgreen, .to_steelblue, .to_tan, .to_teal, .to_thistle, .to_tomato, .to_turquoise, .to_violet, .to_wheat, .to_white, .to_whitesmoke, .to_yellow, .to_yellowgreen 
 { animation-duration: var(--color-animation-duration); animation-iteration-count: infinite; animation-direction: alternate; }
+
+/* ---------------------------------- */
+
+*[animation-duration="1s"]{ animation-duration: 1s; }
+*[animation-duration="2s"]{ animation-duration: 2s; }
+*[animation-duration="3s"]{ animation-duration: 3s; }
+*[animation-duration="4s"]{ animation-duration: 4s; }
+*[animation-duration="5s"]{ animation-duration: 5s; }
+
+/* ---------------------------------- */
+.animation {
+  position: relative;
+}
+.animation > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.frames4 > div {
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+}
+
+.frames4 > div[animation="1"] { animation-name: frames4-1; }
+.frames4 > div[animation="2"] { animation-name: frames4-2; }
+.frames4 > div[animation="3"] { animation-name: frames4-3; }
+.frames4 > div[animation="4"] { animation-name: frames4-4; }
+
+@keyframes frames4-1 {
+  0% { opacity: 1; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  75% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes frames4-2 {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  50% { opacity: 0; }
+  75% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes frames4-3 {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 1; }
+  75% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes frames4-4 {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}

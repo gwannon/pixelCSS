@@ -3,8 +3,8 @@
 $size = 24;
 
 for ($i = 1; $i <= $size; $i ++) {
-  echo ".sprite > p.w".$i.", .sprite.w".$i." { width: calc(var(--pixel-size) * ".$i."); }\n";
-  echo ".sprite > p.h".$i.", .sprite.h".$i." { height: calc(var(--pixel-size) * ".$i."); }\n";
+  echo ".sprite > p.w".$i.", .sprite.w".$i.", .animation.w".$i." { width: calc(var(--pixel-size) * ".$i."); }\n";
+  echo ".sprite > p.h".$i.", .sprite.h".$i.", .animation.h".$i." { height: calc(var(--pixel-size) * ".$i."); }\n";
   echo ".sprite:hover > p.hover-w".$i." { width: calc(var(--pixel-size) * ".$i."); }\n";
   echo ".sprite:hover > p.hover-h".$i." { height: calc(var(--pixel-size) * ".$i."); }\n\n";
 }
