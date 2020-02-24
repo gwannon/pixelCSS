@@ -11,3 +11,7 @@ Ejemplos:
 * http://gwannon.com/pixelCSS/examples/lemming-hover.html
 * http://gwannon.com/pixelCSS/examples/rupee.html
 * http://gwannon.com/pixelCSS/examples/pokeball.html
+
+Ejemplos de animación:
+
+* http://gwannon.com/pixelCSS/examples/coin.html
