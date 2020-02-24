@@ -20,5 +20,5 @@ Ejemplos de animación:
 
 * http://gwannon.com/pixelCSS/examples/coin.html
 * http://gwannon.com/pixelCSS/examples/zelda.html
-* http://gwannon.com/pixelCSS/examples/alex.htmlç
+* http://gwannon.com/pixelCSS/examples/alex.html
 * http://gwannon.com/pixelCSS/examples/lemming-walking.html
