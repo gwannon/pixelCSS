@@ -35,6 +35,7 @@ Permite crear item de 24x24 y animarlos con hover, animar los colores e incluso 
 * http://gwannon.com/pixelCSS/examples/coin.html (Animación con 4 frames)
 * http://gwannon.com/pixelCSS/examples/alex.html (Animación con 4 frames)
 * http://gwannon.com/pixelCSS/examples/lemming-walking.html (Animación con 8 frames)
+* http://gwannon.com/pixelCSS/examples/fire3.html (Animación con 8 frames + animación de colores)
 * http://gwannon.com/pixelCSS/examples/lemming-digging.html (Animación con 12 frames)
 
 Todos los ejemplos http://gwannon.com/pixelCSS/examples/todos.html
