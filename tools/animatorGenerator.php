@@ -68,7 +68,7 @@ $color[] = "lightcoral";
 $color[] = "lightcyan";
 $color[] = "lightgoldenrodyellow";
 $color[] = "lightgreen";
-$color[] = "lightgrey";
+$color[] = "lightgray";
 $color[] = "lightpink";
 $color[] = "lightsalmon";
 $color[] = "lightseagreen";
@@ -142,12 +142,26 @@ $color[] = "whitesmoke";
 $color[] = "yellow";
 $color[] = "yellowgreen ";
 
+$color[] = array("label" => "gb-background", "code" => "#cadc9f");
+$color[] = array("label" => "gb-darkgreen", "code" => "#0f380f");
+$color[] = array("label" => "gb-green", "code" => "#306230");
+$color[] = array("label" => "gb-palegreen", "code" => "#8bac0f");
+$color[] = array("label" => "gb-lightgreen", "code" => "#9bbc0f");
+
 foreach ($color as $key => $c) {
-  echo ".".trim($c)." {  background: ".trim($c)."; }\n";
-  echo ".to_".trim($c)." { animation-name: tc".$key."; }\n";
-  echo "@keyframes tc".$key." { to { background: ".trim($c)."; } }\n";
+  if (is_array($c)) {
+    echo ".".trim($c["label"])." { background: ".trim($c["code"])."; }\n";
+    echo ".to_".trim($c["label"])." { animation-name: tc".$key."; }\n";
+    echo "@keyframes tc".$key." { to { background: ".trim($c["code"])."; } }\n";
+    $colors[] = $c["label"];
+  } else {
+    echo ".".trim($c)." {  background: ".trim($c)."; }\n";
+    echo ".to_".trim($c)." { animation-name: tc".$key."; }\n";
+    echo "@keyframes tc".$key." { to { background: ".trim($c)."; } }\n";
+    $colors[] = $c;
+  }
 }
 
-echo ".to_".implode(", .to_", $color)."\n{ animation-duration: var(--color-animation-duration); animation-iteration-count: infinite; animation-direction: alternate; }\n";
+echo ".to_".implode(", .to_", $colors)."\n{ animation-duration: var(--color-animation-duration); animation-iteration-count: infinite; animation-direction: alternate; }\n";
 
 ?>
