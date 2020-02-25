@@ -40,3 +40,7 @@ Permite crear item de 24x24 y animarlos con hover, animar los colores e incluso 
 
 Todos los ejemplos http://gwannon.com/pixelCSS/examples/todos.html
 
+**Paletas de colores específicas:**
+
+* GameBoy http://gwannon.com/pixelCSS/examples/gb-mario.html
+
