@@ -1,6 +1,10 @@
 :root {
   --pixel-size: 10px;
   --color-animation-duration: 1s;
+  --frames2-duration: 0.4s;
+  --frames4-duration: 0.6s;
+  --frames8-duration: 0.8s;
+  --frames12-duration: 1.2s;
 }
 
 .sprite {
@@ -24,6 +28,20 @@
 .sprite:hover > p.hhide {
   display: none;
 }
+
+.pt1 { border-top: calc(var(--pixel-size) * 1) transparent solid; }
+.pt2 { border-top: calc(var(--pixel-size) * 2) transparent solid; }
+.pt3 { border-top: calc(var(--pixel-size) * 3) transparent solid; }
+.pt4 { border-top: calc(var(--pixel-size) * 4) transparent solid; }
+.pt5 { border-top: calc(var(--pixel-size) * 5) transparent solid; }
+.pt6 { border-top: calc(var(--pixel-size) * 6) transparent solid; }
+.pt7 { border-top: calc(var(--pixel-size) * 7) transparent solid; }
+.pt8 { border-top: calc(var(--pixel-size) * 8) transparent solid; }
+.pt9 { border-top: calc(var(--pixel-size) * 9) transparent solid; }
+.pt10 { border-top: calc(var(--pixel-size) * 10) transparent solid; }
+
+.rtl { transform: scaleX(-1); }
+.hrtl:hover { transform: scaleX(-1); }
 
 /* ---------------------------------- */
 
@@ -1153,7 +1171,7 @@
 .animation > div[animation="0"] { opacity: 1; } 
 
 .frames2 > div {
-  animation-duration: 0.4s;
+  animation-duration: var(--frames2-duration);
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
 }
@@ -1178,7 +1196,7 @@
 }
 
 .frames4 > div {
-  animation-duration: 0.6s;
+  animation-duration: var(--frames4-duration);
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
 }
@@ -1221,7 +1239,7 @@
 }
 
 .frames8 > div {
-  animation-duration: 0.8s;
+  animation-duration: var(--frames8-duration);
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
 }
@@ -1332,7 +1350,7 @@
 }
 
 .frames12 > div {
-  animation-duration: 1.2s;
+  animation-duration: var(--frames12-duration);
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
 }
