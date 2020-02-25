@@ -1150,6 +1150,8 @@
   opacity: 0;
 }
 
+.animation > div[animation="0"] { opacity: 1; } 
+
 .frames2 > div {
   animation-duration: 0.4s;
   animation-iteration-count: infinite;

@@ -1,8 +1,8 @@
 # pixelCSS
 
-pixelCSS es una forma de poner a prueba mis conocimientos de HTML+CSS.
+pixelCSS es una forma de poner a prueba mis conocimientos de HTML+CSS. El reto es hacer todo tipo de fectos y animaciones sin usar nada más que CSS. Otro reto es tratar de crear un CSS lo menos pesado posible.
 
-pixelCSS es un miniframework que te permite crear PixelArt con CSS y HTML.
+pixelCSS es un miniframework que te permite crear PixelArt con CSS3.
 
 Permite crear item de 24x24 y animarlos con hover, animar los colores e incluso animar mediante frames (Ver ejmeplos).
 
@@ -27,7 +27,7 @@ Ejemplos de animación con colores:
 
 Ejemplos de animación con frames:
 
-* http://gwannon.com/pixelCSS/examples/coin.html
-* http://gwannon.com/pixelCSS/examples/zelda.html
-* http://gwannon.com/pixelCSS/examples/alex.html
-* http://gwannon.com/pixelCSS/examples/lemming-walking.html
+* http://gwannon.com/pixelCSS/examples/zelda.html (Animación con 2 frames)
+* http://gwannon.com/pixelCSS/examples/coin.html (Animación con 4 frames)
+* http://gwannon.com/pixelCSS/examples/alex.html (Animación con 4 frames)
+* http://gwannon.com/pixelCSS/examples/lemming-walking.html (Animación con 8 frames)
