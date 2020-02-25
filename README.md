@@ -2,8 +2,9 @@
 
 pixelCSS es una forma de poner a prueba mis conocimientos de HTML+CSS. El reto es hacer:
 
-* todo tipo de efectos y animaciones sin usar nada más que CSS. 
+* Todo tipo de efectos y animaciones sin usar nada más que CSS. 
 * Tratar de crear un CSS lo menos pesado posible.
+* Hacerlo lo más configurable posible para el usuario.
 
 ## pixelCSS es un miniframework que te permite crear PixelArt con CSS3.
 
