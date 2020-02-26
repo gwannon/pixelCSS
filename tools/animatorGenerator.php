@@ -141,12 +141,28 @@ $color[] = "white";
 $color[] = "whitesmoke";
 $color[] = "yellow";
 $color[] = "yellowgreen ";
-
+//GAMEBOY
 $color[] = array("label" => "gb-background", "code" => "#cadc9f");
 $color[] = array("label" => "gb-darkgreen", "code" => "#0f380f");
 $color[] = array("label" => "gb-green", "code" => "#306230");
 $color[] = array("label" => "gb-palegreen", "code" => "#8bac0f");
 $color[] = array("label" => "gb-lightgreen", "code" => "#9bbc0f");
+//MSX1
+$color[] = array("label" => "msx-black", "code" => "#010101");
+$color[] = array("label" => "msx-medium-green", "code" => "#3eb849");
+$color[] = array("label" => "msx-light-green", "code" => "#74d07d");
+$color[] = array("label" => "msx-dark-blue", "code" => "#5955e0");
+$color[] = array("label" => "msx-light-blue", "code" => "#8076f1");
+$color[] = array("label" => "msx-dark-red", "code" => "#b95e51");
+$color[] = array("label" => "msx-cyan", "code" => "#65dbef");
+$color[] = array("label" => "msx-medium-red", "code" => "#db6559");
+$color[] = array("label" => "msx-light-red", "code" => "#ff897d");
+$color[] = array("label" => "msx-dark-yellow", "code" => "#ccc35e");
+$color[] = array("label" => "msx-light-yellow", "code" => "#ded087");
+$color[] = array("label" => "msx-dark-green", "code" => "#3aa241");
+$color[] = array("label" => "msx-magenta", "code" => "#b766b5");
+$color[] = array("label" => "msx-gray", "code" => "#cccccc");
+$color[] = array("label" => "msx-white", "code" => "#ffffff");
 
 foreach ($color as $key => $c) {
   if (is_array($c)) {

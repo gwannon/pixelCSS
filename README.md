@@ -43,4 +43,5 @@ Todos los ejemplos http://gwannon.com/pixelCSS/examples/todos.html
 **Paletas de colores específicas:**
 
 * GameBoy http://gwannon.com/pixelCSS/examples/gb-mario.html
+* MSX http://gwannon.com/pixelCSS/examples/msx-soccer.html
 
