@@ -46,6 +46,6 @@ Todos los ejemplos http://gwannon.com/pixelCSS/examples/todos.html
 * GameBoy http://gwannon.com/pixelCSS/examples/gb-mario.html
 * MSX http://gwannon.com/pixelCSS/examples/msx-soccer.html
 
-**Paletas de colores específicas:**
+**ControlPad:**
 
 * ControlPAD solo CSS http://gwannon.com/pixelCSS/examples/controls.html
