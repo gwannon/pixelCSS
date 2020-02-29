@@ -1,0 +1,294 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Mario</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <link href="../src/css/cssPixel.css" rel="stylesheet">
+    <style>
+      :root {
+        --pixel-size: 3px;
+      }
+
+      body:after {
+        height: 100%;
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        background-color: red;
+        width: 1px;
+      }
+
+      body:before {
+        width: 100%;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        background-color: red;
+        height: 1px;
+      }
+
+      button {
+        border: 1px solid red;
+        padding: 19px;
+        position: absolute;
+      }
+
+      button.left {
+        top: 55px;
+        left: 10px;
+      }
+
+      button.right {
+        top: 55px;
+        left: 88px;
+      }
+
+      button.top {
+        top: 16px;
+        left: 49px;
+      }
+
+      button.down {
+        top: 94px;
+        left: 49px;
+      }
+
+      button.lefttop {
+        top: 16px;
+        left: 10px;
+      }
+
+      button.righttop {
+        top: 16px;
+        left: 88px;
+      }
+
+      button.leftdown {
+        top: 94px;
+        left: 10px;
+      }
+
+      button.rightdown {
+        top: 94px;
+        left: 88px;
+      }
+
+      .animation {
+        position: absolute;
+        top: calc(50% - (var(--pixel-size) * 7));
+        left: calc(50% - (var(--pixel-size) * 5.5));
+        z-index: 10;
+        transition: left linear 2s, top linear 2s;
+      }
+
+      button.left:hover ~ .animation {
+        left: 0%;
+        top: calc(50% - (var(--pixel-size) * 7));
+        transform: scaleX(-1);
+      }
+
+      button.right:hover ~ .animation {
+        left: calc(100% - (var(--pixel-size) * 11));
+        top: calc(50% - (var(--pixel-size) * 7));
+        transform: scaleX(1);
+      }
+
+      button.top:hover ~ .animation {
+        left: calc(50% - (var(--pixel-size) * 5.5));
+        top: 0%;
+      }
+
+      button.down:hover ~ .animation {
+        left: calc(50% - (var(--pixel-size) * 5.5));
+        top: calc(100% - (var(--pixel-size) *14));
+      }
+
+      button.lefttop:hover ~ .animation {
+        left: 0%;
+        top: 0%;
+        transform: scaleX(-1);
+      }
+
+      button.righttop:hover ~ .animation {
+        left: calc(100% - (var(--pixel-size) * 11));
+        top: 0%;
+      }
+
+      button.leftdown:hover ~ .animation {
+        left: 0%;
+        top: calc(100% - (var(--pixel-size) *14));
+        transform: scaleX(-1);
+      }
+
+      button.rightdown:hover ~ .animation {
+        left: calc(100% - (var(--pixel-size) * 11));
+        top: calc(100% - (var(--pixel-size) *14));
+      }
+      /**/
+    </style>
+  </head>
+  <body class="gb-background">
+      <button class="left"> </button>
+      <button class="right"> </button>
+      <button class="top"> </button>
+      <button class="down"> </button>
+
+      <button class="lefttop"> </button>
+      <button class="righttop"> </button>
+      <button class="leftdown"> </button>
+      <button class="rightdown"> </button>
+
+      <div class="animation w11 h14 frames4">
+        <div class="sprite w11 h14" animation="1">
+          <p class="r1 c6 w3 gb-green"></p>
+          <p class="r2 c5 w6 gb-green"></p>
+          <p class="r3 c4 w3 gb-darkgreen"></p>
+          <p class="r3 c7 gb-palegreen"></p>
+          <p class="r3 c8 gb-darkgreen"></p>
+          <p class="r3 c9 gb-palegreen"></p>
+          <p class="r4 c3 w2 h2 gb-darkgreen"></p>
+          <p class="r4 c5 gb-palegreen"></p>
+          <p class="r4 c6 w2 gb-darkgreen"></p>
+          <p class="r4 c8 w3 gb-palegreen"></p>
+          <p class="r5 c5 w3 gb-palegreen"></p>
+          <p class="r5 c8 w2 gb-darkgreen"></p>
+          <p class="r5 c10 gb-palegreen"></p>
+          <p class="r6 c4 gb-darkgreen"></p>
+          <p class="r6 c5 w5 gb-palegreen"></p>
+          <p class="r7 c5 gb-darkgreen"></p>
+          <p class="r7 c6 w3 gb-palegreen"></p>
+          <p class="r8 c3 w3 h2 gb-green"></p>
+          <p class="r8 c6 h2 gb-darkgreen"></p>
+          <p class="r8 c7 h2 gb-green"></p>
+          <p class="r9 c1 w2 h2 gb-palegreen"></p>
+          <p class="r9 c8 gb-green"></p>
+          <p class="r9 c9 gb-palegreen"></p>
+          <p class="r9 c10 w2 h2 gb-palegreen"></p>
+          <p class="r10 c4 w2 gb-green"></p>
+          <p class="r10 c6 gb-lightgreen"></p>
+          <p class="r10 c7 gb-darkgreen"></p>
+          <p class="r10 c8 w2 gb-green"></p>
+          <p class="r11 c3 w5 gb-darkgreen"></p>
+          <p class="r11 c10 gb-green"></p>
+          <p class="r12 c2 h2 gb-green"></p>
+          <p class="r12 c3 w6 gb-darkgreen"></p>
+          <p class="r12 c9 w2 h2 gb-green"></p>    
+          <p class="r13 c3 gb-green"></p>
+          <p class="r13 c4 gb-darkgreen"></p>
+          <p class="r13 c7 w2 gb-darkgreen"></p>
+          <p class="r14 c3 w3 gb-green"></p> 
+        </div>
+        <div class="sprite w11 h14" animation="2">
+          <p class="r1 c6 w3 gb-green"></p>
+          <p class="r2 c5 w6 gb-green"></p>
+          <p class="r3 c4 w3 gb-darkgreen"></p>
+          <p class="r3 c7 gb-palegreen"></p>
+          <p class="r3 c8 gb-darkgreen"></p>
+          <p class="r3 c9 gb-palegreen"></p>
+          <p class="r4 c3 w2 h2 gb-darkgreen"></p>
+          <p class="r4 c5 gb-palegreen"></p>
+          <p class="r4 c6 w2 gb-darkgreen"></p>
+          <p class="r4 c8 w3 gb-palegreen"></p>
+          <p class="r5 c5 w3 gb-palegreen"></p>
+          <p class="r5 c8 w2 gb-darkgreen"></p>
+          <p class="r5 c10 gb-palegreen"></p>
+          <p class="r6 c4 gb-darkgreen"></p>
+          <p class="r6 c5 w5 gb-palegreen"></p>
+          <p class="r7 c5 gb-darkgreen"></p>
+          <p class="r7 c6 w3 gb-palegreen"></p>
+          <p class="r8 c4 w3 gb-green"></p>
+          <p class="r8 c7 h2 gb-darkgreen"></p>
+          <p class="r9 c3 w4 gb-green"></p>
+          <p class="r9 c8 gb-green"></p>
+          <p class="r10 c3 w2 gb-green"></p>
+          <p class="r10 c5 w2 gb-palegreen"></p>
+          <p class="r10 c8 gb-green"></p>
+          <p class="r11 c3 w2 gb-darkgreen"></p>
+          <p class="r11 c5 gb-palegreen"></p>
+          <p class="r11 c6 w4 gb-darkgreen"></p>  
+          <p class="r12 c4 w4 gb-darkgreen"></p>
+          <p class="r12 c8 w2 gb-green"></p>
+          <p class="r13 c5 w6 gb-green"></p>
+          <p class="r14 c5 w4 gb-green"></p>
+        </div>
+        <div class="sprite w11 h14" animation="3">
+          <p class="r2 c6 w3 gb-green"></p>
+          <p class="r3 c5 w6 gb-green"></p>
+          <p class="r4 c4 w3 gb-darkgreen"></p>
+          <p class="r4 c7 gb-palegreen"></p>
+          <p class="r4 c8 gb-darkgreen"></p>
+          <p class="r4 c9 gb-palegreen"></p>
+          <p class="r5 c3 w2 h2 gb-darkgreen"></p>
+          <p class="r5 c5 gb-palegreen"></p>
+          <p class="r5 c6 w2 gb-darkgreen"></p>
+          <p class="r5 c8 w3 gb-palegreen"></p>
+          <p class="r6 c5 w3 gb-palegreen"></p>
+          <p class="r6 c8 w2 gb-darkgreen"></p>
+          <p class="r6 c10 gb-palegreen"></p>
+          <p class="r7 c4 gb-darkgreen"></p>
+          <p class="r7 c5 w5 gb-palegreen"></p>
+          <p class="r8 c5 gb-darkgreen"></p>
+          <p class="r8 c6 w3 gb-palegreen"></p>
+          <p class="r9 c4 w3 gb-green"></p>
+          <p class="r9 c7 gb-darkgreen"></p>
+          <p class="r9 c8 gb-green"></p>
+          <p class="r9 c10 w2 gb-palegreen"></p>
+          <p class="r10 c3 gb-palegreen"></p>
+          <p class="r10 c4 w5 gb-green"></p>
+          <p class="r10 c9 w3 gb-palegreen"></p>
+          <p class="r11 c2 w2 gb-palegreen"></p>
+          <p class="r11 c4 w6 gb-darkgreen"></p>
+          <p class="r12 c3 gb-green"></p>
+          <p class="r12 c4 w5 gb-darkgreen"></p>
+          <p class="r13 c2 w2 gb-green"></p>
+          <p class="r13 c4 w2 gb-darkgreen"></p>
+          <p class="r13 c6 w2 gb-green"></p>
+          <p class="r14 c2 gb-green"></p>
+          <p class="r14 c6 w3 gb-green"></p>
+        </div>
+        <div class="sprite w11 h14" animation="4">
+          <p class="r1 c6 w3 gb-green"></p>
+          <p class="r2 c5 w6 gb-green"></p>
+          <p class="r3 c4 w3 gb-darkgreen"></p>
+          <p class="r3 c7 gb-palegreen"></p>
+          <p class="r3 c8 gb-darkgreen"></p>
+          <p class="r3 c9 gb-palegreen"></p>
+          <p class="r4 c3 w2 h2 gb-darkgreen"></p>
+          <p class="r4 c5 gb-palegreen"></p>
+          <p class="r4 c6 w2 gb-darkgreen"></p>
+          <p class="r4 c8 w3 gb-palegreen"></p>
+          <p class="r5 c5 w3 gb-palegreen"></p>
+          <p class="r5 c8 w2 gb-darkgreen"></p>
+          <p class="r5 c10 gb-palegreen"></p>
+          <p class="r6 c4 gb-darkgreen"></p>
+          <p class="r6 c5 w5 gb-palegreen"></p>
+          <p class="r7 c5 gb-darkgreen"></p>
+          <p class="r7 c6 w3 gb-palegreen"></p>
+          <p class="r8 c3 w3 h2 gb-green"></p>
+          <p class="r8 c6 h2 gb-darkgreen"></p>
+          <p class="r8 c7 h2 gb-green"></p>
+          <p class="r9 c1 w2 h2 gb-palegreen"></p>
+          <p class="r9 c8 gb-green"></p>
+          <p class="r9 c9 gb-palegreen"></p>
+          <p class="r9 c10 w2 h2 gb-palegreen"></p>
+          <p class="r10 c4 w2 gb-green"></p>
+          <p class="r10 c6 gb-lightgreen"></p>
+          <p class="r10 c7 gb-darkgreen"></p>
+          <p class="r10 c8 w2 gb-green"></p>
+          <p class="r11 c3 w5 gb-darkgreen"></p>
+          <p class="r11 c10 gb-green"></p>
+          <p class="r12 c2 h2 gb-green"></p>
+          <p class="r12 c3 w6 gb-darkgreen"></p>
+          <p class="r12 c9 w2 h2 gb-green"></p>    
+          <p class="r13 c3 gb-green"></p>
+          <p class="r13 c4 gb-darkgreen"></p>
+          <p class="r13 c7 w2 gb-darkgreen"></p>
+          <p class="r14 c3 w3 gb-green"></p>  
+        </div>
+      </div>
+    <a href="https://github.com/gwannon/pixelCSS" style="position: absolute; bottom: 10px; left: 10px; color: #000; font-family: Arial;">GitHub pixelCSS</a>
+  </body>
+</html>
