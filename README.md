@@ -48,4 +48,4 @@ Todos los ejemplos http://gwannon.com/pixelCSS/examples/todos.html
 
 **Paletas de colores específicas:**
 
-* ControlPAD solo CSS http://gwannon.com/pixelCSS/examples/control.html
+* ControlPAD solo CSS http://gwannon.com/pixelCSS/examples/controls.html
