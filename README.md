@@ -49,3 +49,7 @@ Todos los ejemplos http://gwannon.com/pixelCSS/examples/todos.html
 **ControlPad:**
 
 * ControlPAD solo CSS http://gwannon.com/pixelCSS/examples/controls.html
+
+**Conversor de png a HTML (tools/pngToHtml.php):**
+
+* Ejemplo de imagen original y sprite en html http://gwannon.com/pixelCSS/tools/pngToHtml.html
