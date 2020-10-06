@@ -25,6 +25,6 @@
         }
       ?>
     </div>
-    <a href="https://github.com/gwannon/pixelCSS" style="position: absolute; bottom: 10px; left: 10px; color: #ffffff; font-family: Arial;">GitHub pixelCSS</a>
+    <a href="https://github.com/gwannon/pixelCSS" style="position: absolute; bottom: 10px; left: 10px; color: #00000; font-family: Arial;">GitHub pixelCSS</a>
   </body>
 </html>
