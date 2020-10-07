@@ -14,17 +14,35 @@
     <h1>Original</h1>
     <img src="<?php echo $imageUrl; ?>" />
     <h1>HTML</h1>
-    <div class="sprite w<?php echo $width; ?> h<?php echo $height; ?> white">
+    <div class="sprite w<?php echo $width; ?> h<?php echo $height; ?> gray">
       <?php
-        for($y = 0; $y < $height; $y++) {
-          for($x = 0; $x < $width; $x++) {          
-            $rgb = imagecolorat($im, $x, $y);
+        $size = 1;
+        for($r = 1; $r <= $height; $r++) {
+          for($c = 1; $c <= $width; $c++) {          
+            $rgb = imagecolorat($im, $c-1, $r-1);
             $colors = imagecolorsforindex($im, $rgb);
-            if($colors['alpha'] != 127) echo '<p class="r'.($y+1).' c'.($x+1).'" style="background-color: rgb('.$colors['red'].','.$colors['green'].','.$colors['blue'].');"></p>'."\n";
+            $rgb = imagecolorat($im, $c, $r-1);
+            $prev_colors = imagecolorsforindex($im, $rgb);
+            if($colors['alpha'] != 127) {
+              if ($colors['red'] != $prev_colors['red'] || $colors['green'] != $prev_colors['green'] || $colors['blue'] != $prev_colors['blue']) {
+                echo '<p class="r'.$r.' c'.($c + 1 - $size).''.($size > 1 ? " w".$size : "").'" style="background-color: rgb('.$colors['red'].','.$colors['green'].','.$colors['blue'].');"></p>'."\n";
+                $prev_colors = $colors;
+                $size = 1;
+                
+              } else {
+               $size++; 
+                
+              }
+              
+               
+            }     
           }
+          $size = 1;
+          unset($prev_colors);
         }
       ?>
     </div>
+    
     <a href="https://github.com/gwannon/pixelCSS" style="position: absolute; bottom: 10px; left: 10px; color: #00000; font-family: Arial;">GitHub pixelCSS</a>
   </body>
 </html>
