@@ -8,7 +8,7 @@ pixelCSS es una forma de poner a prueba mis conocimientos de HTML+CSS. El reto e
 
 ## pixelCSS es un miniframework que te permite crear PixelArt con CSS3.
 
-Permite crear item de 24x24 y animarlos con hover, animar los colores e incluso animar mediante frames (Ver ejmeplos).
+Permite crear item de 24x24 y animarlos con hover, animar los colores e incluso animar mediante frames (Ver ejemplos).
 
 **Ejemplos básicos:**
 
@@ -50,6 +50,10 @@ Todos los ejemplos http://gwannon.com/pixelCSS/examples/todos.html
 
 * ControlPAD solo CSS http://gwannon.com/pixelCSS/examples/controls.html
 
-**Conversor de png a HTML (tools/pngToHtml.php):**
+**Conversor de PNG a HTML (tools/pngToHtml.php):**
 
 * Ejemplo de imagen original y sprite en html http://gwannon.com/pixelCSS/tools/pngToHtml.html
+
+**Conversor de secuencias de PNGs a HTML (tools/spritesToHtml.php):**
+
+* Ejemplo de imágenes originales y el sprite animado en html http://gwannon.com/pixelCSS/tools/spritesToHtml.html

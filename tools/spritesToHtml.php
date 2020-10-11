@@ -2,6 +2,7 @@
   $imageUrls[] = "image1.png";
   $imageUrls[] = "image2.png";
   $imageUrls[] = "image3.png";
+  list($width, $height, $type, $attr) = getimagesize($imageUrls[0]);
 ?>
 <!doctype html>
 <html>
@@ -12,14 +13,17 @@
   </head>
   <body class="white">
     <h1>Original</h1>
-    <img src="<?php echo $imageUrl; ?>" />
+    <?php foreach ($imageUrls as $imageUrl) { ?>
+      <img src="<?php echo $imageUrl; ?>" />
+      <?php } ?>
     <h1>HTML</h1>
+    <div class="animation w<?php echo $width; ?> h<?php echo $height; ?> frames<?php echo count($imageUrls); ?>">
     <?php
-      foreach ($imageUrls as $imageUrl) {
+      foreach ($imageUrls as $key => $imageUrl) {
         list($width, $height, $type, $attr) = getimagesize($imageUrl);
         $im = imagecreatefrompng($imageUrl);
         ?>
-      <div class="sprite w<?php echo $width; ?> h<?php echo $height; ?> gray">
+      <div class="sprite w<?php echo $width; ?> h<?php echo $height; ?> gray"  animation="<?php echo $key; ?>">
         <?php
           $size = 1;
           for($r = 1; $r <= $height; $r++) {
@@ -44,7 +48,8 @@
           }
         ?>
       </div>
-        <?php } ?>
+      <?php } ?>
+      </div>
     <a href="https://github.com/gwannon/pixelCSS" style="position: absolute; bottom: 10px; left: 10px; color: #00000; font-family: Arial;">GitHub pixelCSS</a>
   </body>
 </html>

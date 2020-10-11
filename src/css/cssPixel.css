@@ -2,6 +2,7 @@
   --pixel-size: 10px;
   --color-animation-duration: 1s;
   --frames2-duration: 0.4s;
+  --frames3-duration: 0.6s;
   --frames4-duration: 0.6s;
   --frames8-duration: 0.8s;
   --frames12-duration: 1.2s;
@@ -1252,6 +1253,37 @@
   25% { opacity: 0; }
   50% { opacity: 1; }
   75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.frames3 > div {
+  animation-duration: var(--frames3-duration);
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
+}
+
+.frames3 > div[animation="1"] { animation-name: frames3-1; }
+.frames3 > div[animation="2"] { animation-name: frames3-2; }
+.frames3 > div[animation="3"] { animation-name: frames3-3; }
+
+@keyframes frames3-1 {
+  0% { opacity: 1; }
+  33% { opacity: 0; }
+  66% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes frames3-2 {
+  0% { opacity: 0; }
+  33% { opacity: 1; }
+  66% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes frames3-3 {
+  0% { opacity: 0; }
+  33% { opacity: 0; }
+  66% { opacity: 1; }
   100% { opacity: 0; }
 }
 
