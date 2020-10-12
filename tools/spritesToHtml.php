@@ -1,7 +1,8 @@
 <?php
-  $imageUrls[] = "image1.png";
-  $imageUrls[] = "image2.png";
-  $imageUrls[] = "image3.png";
+  $imageUrls[] = "temp/gg1.png";
+  $imageUrls[] = "temp/gg2.png";
+  $imageUrls[] = "temp/gg3.png";
+  $imageUrls[] = "temp/gg4.png";
   list($width, $height, $type, $attr) = getimagesize($imageUrls[0]);
 ?>
 <!doctype html>

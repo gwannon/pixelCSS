@@ -1,6 +1,6 @@
 <?php
 
-$size = 24;
+$size = 32;
 
 for ($i = 1; $i <= $size; $i ++) {
   echo ".sprite > p.w".$i.", .sprite.w".$i.", .animation.w".$i." { width: calc(var(--pixel-size) * ".$i."); }\n";

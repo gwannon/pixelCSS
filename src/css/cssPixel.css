@@ -166,6 +166,46 @@
 .sprite:hover > p.hover-w24 { width: calc(var(--pixel-size) * 24); }
 .sprite:hover > p.hover-h24 { height: calc(var(--pixel-size) * 24); }
 
+.sprite > p.w25, .sprite.w25, .animation.w25 { width: calc(var(--pixel-size) * 25); }
+.sprite > p.h25, .sprite.h25, .animation.h25 { height: calc(var(--pixel-size) * 25); }
+.sprite:hover > p.hover-w25 { width: calc(var(--pixel-size) * 25); }
+.sprite:hover > p.hover-h25 { height: calc(var(--pixel-size) * 25); }
+
+.sprite > p.w26, .sprite.w26, .animation.w26 { width: calc(var(--pixel-size) * 26); }
+.sprite > p.h26, .sprite.h26, .animation.h26 { height: calc(var(--pixel-size) * 26); }
+.sprite:hover > p.hover-w26 { width: calc(var(--pixel-size) * 26); }
+.sprite:hover > p.hover-h26 { height: calc(var(--pixel-size) * 26); }
+
+.sprite > p.w27, .sprite.w27, .animation.w27 { width: calc(var(--pixel-size) * 27); }
+.sprite > p.h27, .sprite.h27, .animation.h27 { height: calc(var(--pixel-size) * 27); }
+.sprite:hover > p.hover-w27 { width: calc(var(--pixel-size) * 27); }
+.sprite:hover > p.hover-h27 { height: calc(var(--pixel-size) * 27); }
+
+.sprite > p.w28, .sprite.w28, .animation.w28 { width: calc(var(--pixel-size) * 28); }
+.sprite > p.h28, .sprite.h28, .animation.h28 { height: calc(var(--pixel-size) * 28); }
+.sprite:hover > p.hover-w28 { width: calc(var(--pixel-size) * 28); }
+.sprite:hover > p.hover-h28 { height: calc(var(--pixel-size) * 28); }
+
+.sprite > p.w29, .sprite.w29, .animation.w29 { width: calc(var(--pixel-size) * 29); }
+.sprite > p.h29, .sprite.h29, .animation.h29 { height: calc(var(--pixel-size) * 29); }
+.sprite:hover > p.hover-w29 { width: calc(var(--pixel-size) * 29); }
+.sprite:hover > p.hover-h29 { height: calc(var(--pixel-size) * 29); }
+
+.sprite > p.w30, .sprite.w30, .animation.w30 { width: calc(var(--pixel-size) * 30); }
+.sprite > p.h30, .sprite.h30, .animation.h30 { height: calc(var(--pixel-size) * 30); }
+.sprite:hover > p.hover-w30 { width: calc(var(--pixel-size) * 30); }
+.sprite:hover > p.hover-h30 { height: calc(var(--pixel-size) * 30); }
+
+.sprite > p.w31, .sprite.w31, .animation.w31 { width: calc(var(--pixel-size) * 31); }
+.sprite > p.h31, .sprite.h31, .animation.h31 { height: calc(var(--pixel-size) * 31); }
+.sprite:hover > p.hover-w31 { width: calc(var(--pixel-size) * 31); }
+.sprite:hover > p.hover-h31 { height: calc(var(--pixel-size) * 31); }
+
+.sprite > p.w32, .sprite.w32, .animation.w32 { width: calc(var(--pixel-size) * 32); }
+.sprite > p.h32, .sprite.h32, .animation.h32 { height: calc(var(--pixel-size) * 32); }
+.sprite:hover > p.hover-w32 { width: calc(var(--pixel-size) * 32); }
+.sprite:hover > p.hover-h32 { height: calc(var(--pixel-size) * 32); }
+
 .r1 { top: 0%; }
 .c1 { left: 0%; }
 
@@ -721,6 +761,446 @@
 .w24 p.c23, .w24:hover p.hc23 { left: 91.67%; }
 .h24 p.r24, .h24:hover p.hr24 { top: 95.83%; }
 .w24 p.c24, .w24:hover p.hc24 { left: 95.83%; }
+.h25 p.r2, .h25:hover p.hr2 { top: 4%; }
+.w25 p.c2, .w25:hover p.hc2 { left: 4%; }
+.h25 p.r3, .h25:hover p.hr3 { top: 8%; }
+.w25 p.c3, .w25:hover p.hc3 { left: 8%; }
+.h25 p.r4, .h25:hover p.hr4 { top: 12%; }
+.w25 p.c4, .w25:hover p.hc4 { left: 12%; }
+.h25 p.r5, .h25:hover p.hr5 { top: 16%; }
+.w25 p.c5, .w25:hover p.hc5 { left: 16%; }
+.h25 p.r6, .h25:hover p.hr6 { top: 20%; }
+.w25 p.c6, .w25:hover p.hc6 { left: 20%; }
+.h25 p.r7, .h25:hover p.hr7 { top: 24%; }
+.w25 p.c7, .w25:hover p.hc7 { left: 24%; }
+.h25 p.r8, .h25:hover p.hr8 { top: 28%; }
+.w25 p.c8, .w25:hover p.hc8 { left: 28%; }
+.h25 p.r9, .h25:hover p.hr9 { top: 32%; }
+.w25 p.c9, .w25:hover p.hc9 { left: 32%; }
+.h25 p.r10, .h25:hover p.hr10 { top: 36%; }
+.w25 p.c10, .w25:hover p.hc10 { left: 36%; }
+.h25 p.r11, .h25:hover p.hr11 { top: 40%; }
+.w25 p.c11, .w25:hover p.hc11 { left: 40%; }
+.h25 p.r12, .h25:hover p.hr12 { top: 44%; }
+.w25 p.c12, .w25:hover p.hc12 { left: 44%; }
+.h25 p.r13, .h25:hover p.hr13 { top: 48%; }
+.w25 p.c13, .w25:hover p.hc13 { left: 48%; }
+.h25 p.r14, .h25:hover p.hr14 { top: 52%; }
+.w25 p.c14, .w25:hover p.hc14 { left: 52%; }
+.h25 p.r15, .h25:hover p.hr15 { top: 56%; }
+.w25 p.c15, .w25:hover p.hc15 { left: 56%; }
+.h25 p.r16, .h25:hover p.hr16 { top: 60%; }
+.w25 p.c16, .w25:hover p.hc16 { left: 60%; }
+.h25 p.r17, .h25:hover p.hr17 { top: 64%; }
+.w25 p.c17, .w25:hover p.hc17 { left: 64%; }
+.h25 p.r18, .h25:hover p.hr18 { top: 68%; }
+.w25 p.c18, .w25:hover p.hc18 { left: 68%; }
+.h25 p.r19, .h25:hover p.hr19 { top: 72%; }
+.w25 p.c19, .w25:hover p.hc19 { left: 72%; }
+.h25 p.r20, .h25:hover p.hr20 { top: 76%; }
+.w25 p.c20, .w25:hover p.hc20 { left: 76%; }
+.h25 p.r21, .h25:hover p.hr21 { top: 80%; }
+.w25 p.c21, .w25:hover p.hc21 { left: 80%; }
+.h25 p.r22, .h25:hover p.hr22 { top: 84%; }
+.w25 p.c22, .w25:hover p.hc22 { left: 84%; }
+.h25 p.r23, .h25:hover p.hr23 { top: 88%; }
+.w25 p.c23, .w25:hover p.hc23 { left: 88%; }
+.h25 p.r24, .h25:hover p.hr24 { top: 92%; }
+.w25 p.c24, .w25:hover p.hc24 { left: 92%; }
+.h25 p.r25, .h25:hover p.hr25 { top: 96%; }
+.w25 p.c25, .w25:hover p.hc25 { left: 96%; }
+.h26 p.r2, .h26:hover p.hr2 { top: 3.85%; }
+.w26 p.c2, .w26:hover p.hc2 { left: 3.85%; }
+.h26 p.r3, .h26:hover p.hr3 { top: 7.69%; }
+.w26 p.c3, .w26:hover p.hc3 { left: 7.69%; }
+.h26 p.r4, .h26:hover p.hr4 { top: 11.54%; }
+.w26 p.c4, .w26:hover p.hc4 { left: 11.54%; }
+.h26 p.r5, .h26:hover p.hr5 { top: 15.38%; }
+.w26 p.c5, .w26:hover p.hc5 { left: 15.38%; }
+.h26 p.r6, .h26:hover p.hr6 { top: 19.23%; }
+.w26 p.c6, .w26:hover p.hc6 { left: 19.23%; }
+.h26 p.r7, .h26:hover p.hr7 { top: 23.08%; }
+.w26 p.c7, .w26:hover p.hc7 { left: 23.08%; }
+.h26 p.r8, .h26:hover p.hr8 { top: 26.92%; }
+.w26 p.c8, .w26:hover p.hc8 { left: 26.92%; }
+.h26 p.r9, .h26:hover p.hr9 { top: 30.77%; }
+.w26 p.c9, .w26:hover p.hc9 { left: 30.77%; }
+.h26 p.r10, .h26:hover p.hr10 { top: 34.62%; }
+.w26 p.c10, .w26:hover p.hc10 { left: 34.62%; }
+.h26 p.r11, .h26:hover p.hr11 { top: 38.46%; }
+.w26 p.c11, .w26:hover p.hc11 { left: 38.46%; }
+.h26 p.r12, .h26:hover p.hr12 { top: 42.31%; }
+.w26 p.c12, .w26:hover p.hc12 { left: 42.31%; }
+.h26 p.r13, .h26:hover p.hr13 { top: 46.15%; }
+.w26 p.c13, .w26:hover p.hc13 { left: 46.15%; }
+.h26 p.r14, .h26:hover p.hr14 { top: 50%; }
+.w26 p.c14, .w26:hover p.hc14 { left: 50%; }
+.h26 p.r15, .h26:hover p.hr15 { top: 53.85%; }
+.w26 p.c15, .w26:hover p.hc15 { left: 53.85%; }
+.h26 p.r16, .h26:hover p.hr16 { top: 57.69%; }
+.w26 p.c16, .w26:hover p.hc16 { left: 57.69%; }
+.h26 p.r17, .h26:hover p.hr17 { top: 61.54%; }
+.w26 p.c17, .w26:hover p.hc17 { left: 61.54%; }
+.h26 p.r18, .h26:hover p.hr18 { top: 65.38%; }
+.w26 p.c18, .w26:hover p.hc18 { left: 65.38%; }
+.h26 p.r19, .h26:hover p.hr19 { top: 69.23%; }
+.w26 p.c19, .w26:hover p.hc19 { left: 69.23%; }
+.h26 p.r20, .h26:hover p.hr20 { top: 73.08%; }
+.w26 p.c20, .w26:hover p.hc20 { left: 73.08%; }
+.h26 p.r21, .h26:hover p.hr21 { top: 76.92%; }
+.w26 p.c21, .w26:hover p.hc21 { left: 76.92%; }
+.h26 p.r22, .h26:hover p.hr22 { top: 80.77%; }
+.w26 p.c22, .w26:hover p.hc22 { left: 80.77%; }
+.h26 p.r23, .h26:hover p.hr23 { top: 84.62%; }
+.w26 p.c23, .w26:hover p.hc23 { left: 84.62%; }
+.h26 p.r24, .h26:hover p.hr24 { top: 88.46%; }
+.w26 p.c24, .w26:hover p.hc24 { left: 88.46%; }
+.h26 p.r25, .h26:hover p.hr25 { top: 92.31%; }
+.w26 p.c25, .w26:hover p.hc25 { left: 92.31%; }
+.h26 p.r26, .h26:hover p.hr26 { top: 96.15%; }
+.w26 p.c26, .w26:hover p.hc26 { left: 96.15%; }
+.h27 p.r2, .h27:hover p.hr2 { top: 3.7%; }
+.w27 p.c2, .w27:hover p.hc2 { left: 3.7%; }
+.h27 p.r3, .h27:hover p.hr3 { top: 7.41%; }
+.w27 p.c3, .w27:hover p.hc3 { left: 7.41%; }
+.h27 p.r4, .h27:hover p.hr4 { top: 11.11%; }
+.w27 p.c4, .w27:hover p.hc4 { left: 11.11%; }
+.h27 p.r5, .h27:hover p.hr5 { top: 14.81%; }
+.w27 p.c5, .w27:hover p.hc5 { left: 14.81%; }
+.h27 p.r6, .h27:hover p.hr6 { top: 18.52%; }
+.w27 p.c6, .w27:hover p.hc6 { left: 18.52%; }
+.h27 p.r7, .h27:hover p.hr7 { top: 22.22%; }
+.w27 p.c7, .w27:hover p.hc7 { left: 22.22%; }
+.h27 p.r8, .h27:hover p.hr8 { top: 25.93%; }
+.w27 p.c8, .w27:hover p.hc8 { left: 25.93%; }
+.h27 p.r9, .h27:hover p.hr9 { top: 29.63%; }
+.w27 p.c9, .w27:hover p.hc9 { left: 29.63%; }
+.h27 p.r10, .h27:hover p.hr10 { top: 33.33%; }
+.w27 p.c10, .w27:hover p.hc10 { left: 33.33%; }
+.h27 p.r11, .h27:hover p.hr11 { top: 37.04%; }
+.w27 p.c11, .w27:hover p.hc11 { left: 37.04%; }
+.h27 p.r12, .h27:hover p.hr12 { top: 40.74%; }
+.w27 p.c12, .w27:hover p.hc12 { left: 40.74%; }
+.h27 p.r13, .h27:hover p.hr13 { top: 44.44%; }
+.w27 p.c13, .w27:hover p.hc13 { left: 44.44%; }
+.h27 p.r14, .h27:hover p.hr14 { top: 48.15%; }
+.w27 p.c14, .w27:hover p.hc14 { left: 48.15%; }
+.h27 p.r15, .h27:hover p.hr15 { top: 51.85%; }
+.w27 p.c15, .w27:hover p.hc15 { left: 51.85%; }
+.h27 p.r16, .h27:hover p.hr16 { top: 55.56%; }
+.w27 p.c16, .w27:hover p.hc16 { left: 55.56%; }
+.h27 p.r17, .h27:hover p.hr17 { top: 59.26%; }
+.w27 p.c17, .w27:hover p.hc17 { left: 59.26%; }
+.h27 p.r18, .h27:hover p.hr18 { top: 62.96%; }
+.w27 p.c18, .w27:hover p.hc18 { left: 62.96%; }
+.h27 p.r19, .h27:hover p.hr19 { top: 66.67%; }
+.w27 p.c19, .w27:hover p.hc19 { left: 66.67%; }
+.h27 p.r20, .h27:hover p.hr20 { top: 70.37%; }
+.w27 p.c20, .w27:hover p.hc20 { left: 70.37%; }
+.h27 p.r21, .h27:hover p.hr21 { top: 74.07%; }
+.w27 p.c21, .w27:hover p.hc21 { left: 74.07%; }
+.h27 p.r22, .h27:hover p.hr22 { top: 77.78%; }
+.w27 p.c22, .w27:hover p.hc22 { left: 77.78%; }
+.h27 p.r23, .h27:hover p.hr23 { top: 81.48%; }
+.w27 p.c23, .w27:hover p.hc23 { left: 81.48%; }
+.h27 p.r24, .h27:hover p.hr24 { top: 85.19%; }
+.w27 p.c24, .w27:hover p.hc24 { left: 85.19%; }
+.h27 p.r25, .h27:hover p.hr25 { top: 88.89%; }
+.w27 p.c25, .w27:hover p.hc25 { left: 88.89%; }
+.h27 p.r26, .h27:hover p.hr26 { top: 92.59%; }
+.w27 p.c26, .w27:hover p.hc26 { left: 92.59%; }
+.h27 p.r27, .h27:hover p.hr27 { top: 96.3%; }
+.w27 p.c27, .w27:hover p.hc27 { left: 96.3%; }
+.h28 p.r2, .h28:hover p.hr2 { top: 3.57%; }
+.w28 p.c2, .w28:hover p.hc2 { left: 3.57%; }
+.h28 p.r3, .h28:hover p.hr3 { top: 7.14%; }
+.w28 p.c3, .w28:hover p.hc3 { left: 7.14%; }
+.h28 p.r4, .h28:hover p.hr4 { top: 10.71%; }
+.w28 p.c4, .w28:hover p.hc4 { left: 10.71%; }
+.h28 p.r5, .h28:hover p.hr5 { top: 14.29%; }
+.w28 p.c5, .w28:hover p.hc5 { left: 14.29%; }
+.h28 p.r6, .h28:hover p.hr6 { top: 17.86%; }
+.w28 p.c6, .w28:hover p.hc6 { left: 17.86%; }
+.h28 p.r7, .h28:hover p.hr7 { top: 21.43%; }
+.w28 p.c7, .w28:hover p.hc7 { left: 21.43%; }
+.h28 p.r8, .h28:hover p.hr8 { top: 25%; }
+.w28 p.c8, .w28:hover p.hc8 { left: 25%; }
+.h28 p.r9, .h28:hover p.hr9 { top: 28.57%; }
+.w28 p.c9, .w28:hover p.hc9 { left: 28.57%; }
+.h28 p.r10, .h28:hover p.hr10 { top: 32.14%; }
+.w28 p.c10, .w28:hover p.hc10 { left: 32.14%; }
+.h28 p.r11, .h28:hover p.hr11 { top: 35.71%; }
+.w28 p.c11, .w28:hover p.hc11 { left: 35.71%; }
+.h28 p.r12, .h28:hover p.hr12 { top: 39.29%; }
+.w28 p.c12, .w28:hover p.hc12 { left: 39.29%; }
+.h28 p.r13, .h28:hover p.hr13 { top: 42.86%; }
+.w28 p.c13, .w28:hover p.hc13 { left: 42.86%; }
+.h28 p.r14, .h28:hover p.hr14 { top: 46.43%; }
+.w28 p.c14, .w28:hover p.hc14 { left: 46.43%; }
+.h28 p.r15, .h28:hover p.hr15 { top: 50%; }
+.w28 p.c15, .w28:hover p.hc15 { left: 50%; }
+.h28 p.r16, .h28:hover p.hr16 { top: 53.57%; }
+.w28 p.c16, .w28:hover p.hc16 { left: 53.57%; }
+.h28 p.r17, .h28:hover p.hr17 { top: 57.14%; }
+.w28 p.c17, .w28:hover p.hc17 { left: 57.14%; }
+.h28 p.r18, .h28:hover p.hr18 { top: 60.71%; }
+.w28 p.c18, .w28:hover p.hc18 { left: 60.71%; }
+.h28 p.r19, .h28:hover p.hr19 { top: 64.29%; }
+.w28 p.c19, .w28:hover p.hc19 { left: 64.29%; }
+.h28 p.r20, .h28:hover p.hr20 { top: 67.86%; }
+.w28 p.c20, .w28:hover p.hc20 { left: 67.86%; }
+.h28 p.r21, .h28:hover p.hr21 { top: 71.43%; }
+.w28 p.c21, .w28:hover p.hc21 { left: 71.43%; }
+.h28 p.r22, .h28:hover p.hr22 { top: 75%; }
+.w28 p.c22, .w28:hover p.hc22 { left: 75%; }
+.h28 p.r23, .h28:hover p.hr23 { top: 78.57%; }
+.w28 p.c23, .w28:hover p.hc23 { left: 78.57%; }
+.h28 p.r24, .h28:hover p.hr24 { top: 82.14%; }
+.w28 p.c24, .w28:hover p.hc24 { left: 82.14%; }
+.h28 p.r25, .h28:hover p.hr25 { top: 85.71%; }
+.w28 p.c25, .w28:hover p.hc25 { left: 85.71%; }
+.h28 p.r26, .h28:hover p.hr26 { top: 89.29%; }
+.w28 p.c26, .w28:hover p.hc26 { left: 89.29%; }
+.h28 p.r27, .h28:hover p.hr27 { top: 92.86%; }
+.w28 p.c27, .w28:hover p.hc27 { left: 92.86%; }
+.h28 p.r28, .h28:hover p.hr28 { top: 96.43%; }
+.w28 p.c28, .w28:hover p.hc28 { left: 96.43%; }
+.h29 p.r2, .h29:hover p.hr2 { top: 3.45%; }
+.w29 p.c2, .w29:hover p.hc2 { left: 3.45%; }
+.h29 p.r3, .h29:hover p.hr3 { top: 6.9%; }
+.w29 p.c3, .w29:hover p.hc3 { left: 6.9%; }
+.h29 p.r4, .h29:hover p.hr4 { top: 10.34%; }
+.w29 p.c4, .w29:hover p.hc4 { left: 10.34%; }
+.h29 p.r5, .h29:hover p.hr5 { top: 13.79%; }
+.w29 p.c5, .w29:hover p.hc5 { left: 13.79%; }
+.h29 p.r6, .h29:hover p.hr6 { top: 17.24%; }
+.w29 p.c6, .w29:hover p.hc6 { left: 17.24%; }
+.h29 p.r7, .h29:hover p.hr7 { top: 20.69%; }
+.w29 p.c7, .w29:hover p.hc7 { left: 20.69%; }
+.h29 p.r8, .h29:hover p.hr8 { top: 24.14%; }
+.w29 p.c8, .w29:hover p.hc8 { left: 24.14%; }
+.h29 p.r9, .h29:hover p.hr9 { top: 27.59%; }
+.w29 p.c9, .w29:hover p.hc9 { left: 27.59%; }
+.h29 p.r10, .h29:hover p.hr10 { top: 31.03%; }
+.w29 p.c10, .w29:hover p.hc10 { left: 31.03%; }
+.h29 p.r11, .h29:hover p.hr11 { top: 34.48%; }
+.w29 p.c11, .w29:hover p.hc11 { left: 34.48%; }
+.h29 p.r12, .h29:hover p.hr12 { top: 37.93%; }
+.w29 p.c12, .w29:hover p.hc12 { left: 37.93%; }
+.h29 p.r13, .h29:hover p.hr13 { top: 41.38%; }
+.w29 p.c13, .w29:hover p.hc13 { left: 41.38%; }
+.h29 p.r14, .h29:hover p.hr14 { top: 44.83%; }
+.w29 p.c14, .w29:hover p.hc14 { left: 44.83%; }
+.h29 p.r15, .h29:hover p.hr15 { top: 48.28%; }
+.w29 p.c15, .w29:hover p.hc15 { left: 48.28%; }
+.h29 p.r16, .h29:hover p.hr16 { top: 51.72%; }
+.w29 p.c16, .w29:hover p.hc16 { left: 51.72%; }
+.h29 p.r17, .h29:hover p.hr17 { top: 55.17%; }
+.w29 p.c17, .w29:hover p.hc17 { left: 55.17%; }
+.h29 p.r18, .h29:hover p.hr18 { top: 58.62%; }
+.w29 p.c18, .w29:hover p.hc18 { left: 58.62%; }
+.h29 p.r19, .h29:hover p.hr19 { top: 62.07%; }
+.w29 p.c19, .w29:hover p.hc19 { left: 62.07%; }
+.h29 p.r20, .h29:hover p.hr20 { top: 65.52%; }
+.w29 p.c20, .w29:hover p.hc20 { left: 65.52%; }
+.h29 p.r21, .h29:hover p.hr21 { top: 68.97%; }
+.w29 p.c21, .w29:hover p.hc21 { left: 68.97%; }
+.h29 p.r22, .h29:hover p.hr22 { top: 72.41%; }
+.w29 p.c22, .w29:hover p.hc22 { left: 72.41%; }
+.h29 p.r23, .h29:hover p.hr23 { top: 75.86%; }
+.w29 p.c23, .w29:hover p.hc23 { left: 75.86%; }
+.h29 p.r24, .h29:hover p.hr24 { top: 79.31%; }
+.w29 p.c24, .w29:hover p.hc24 { left: 79.31%; }
+.h29 p.r25, .h29:hover p.hr25 { top: 82.76%; }
+.w29 p.c25, .w29:hover p.hc25 { left: 82.76%; }
+.h29 p.r26, .h29:hover p.hr26 { top: 86.21%; }
+.w29 p.c26, .w29:hover p.hc26 { left: 86.21%; }
+.h29 p.r27, .h29:hover p.hr27 { top: 89.66%; }
+.w29 p.c27, .w29:hover p.hc27 { left: 89.66%; }
+.h29 p.r28, .h29:hover p.hr28 { top: 93.1%; }
+.w29 p.c28, .w29:hover p.hc28 { left: 93.1%; }
+.h29 p.r29, .h29:hover p.hr29 { top: 96.55%; }
+.w29 p.c29, .w29:hover p.hc29 { left: 96.55%; }
+.h30 p.r2, .h30:hover p.hr2 { top: 3.33%; }
+.w30 p.c2, .w30:hover p.hc2 { left: 3.33%; }
+.h30 p.r3, .h30:hover p.hr3 { top: 6.67%; }
+.w30 p.c3, .w30:hover p.hc3 { left: 6.67%; }
+.h30 p.r4, .h30:hover p.hr4 { top: 10%; }
+.w30 p.c4, .w30:hover p.hc4 { left: 10%; }
+.h30 p.r5, .h30:hover p.hr5 { top: 13.33%; }
+.w30 p.c5, .w30:hover p.hc5 { left: 13.33%; }
+.h30 p.r6, .h30:hover p.hr6 { top: 16.67%; }
+.w30 p.c6, .w30:hover p.hc6 { left: 16.67%; }
+.h30 p.r7, .h30:hover p.hr7 { top: 20%; }
+.w30 p.c7, .w30:hover p.hc7 { left: 20%; }
+.h30 p.r8, .h30:hover p.hr8 { top: 23.33%; }
+.w30 p.c8, .w30:hover p.hc8 { left: 23.33%; }
+.h30 p.r9, .h30:hover p.hr9 { top: 26.67%; }
+.w30 p.c9, .w30:hover p.hc9 { left: 26.67%; }
+.h30 p.r10, .h30:hover p.hr10 { top: 30%; }
+.w30 p.c10, .w30:hover p.hc10 { left: 30%; }
+.h30 p.r11, .h30:hover p.hr11 { top: 33.33%; }
+.w30 p.c11, .w30:hover p.hc11 { left: 33.33%; }
+.h30 p.r12, .h30:hover p.hr12 { top: 36.67%; }
+.w30 p.c12, .w30:hover p.hc12 { left: 36.67%; }
+.h30 p.r13, .h30:hover p.hr13 { top: 40%; }
+.w30 p.c13, .w30:hover p.hc13 { left: 40%; }
+.h30 p.r14, .h30:hover p.hr14 { top: 43.33%; }
+.w30 p.c14, .w30:hover p.hc14 { left: 43.33%; }
+.h30 p.r15, .h30:hover p.hr15 { top: 46.67%; }
+.w30 p.c15, .w30:hover p.hc15 { left: 46.67%; }
+.h30 p.r16, .h30:hover p.hr16 { top: 50%; }
+.w30 p.c16, .w30:hover p.hc16 { left: 50%; }
+.h30 p.r17, .h30:hover p.hr17 { top: 53.33%; }
+.w30 p.c17, .w30:hover p.hc17 { left: 53.33%; }
+.h30 p.r18, .h30:hover p.hr18 { top: 56.67%; }
+.w30 p.c18, .w30:hover p.hc18 { left: 56.67%; }
+.h30 p.r19, .h30:hover p.hr19 { top: 60%; }
+.w30 p.c19, .w30:hover p.hc19 { left: 60%; }
+.h30 p.r20, .h30:hover p.hr20 { top: 63.33%; }
+.w30 p.c20, .w30:hover p.hc20 { left: 63.33%; }
+.h30 p.r21, .h30:hover p.hr21 { top: 66.67%; }
+.w30 p.c21, .w30:hover p.hc21 { left: 66.67%; }
+.h30 p.r22, .h30:hover p.hr22 { top: 70%; }
+.w30 p.c22, .w30:hover p.hc22 { left: 70%; }
+.h30 p.r23, .h30:hover p.hr23 { top: 73.33%; }
+.w30 p.c23, .w30:hover p.hc23 { left: 73.33%; }
+.h30 p.r24, .h30:hover p.hr24 { top: 76.67%; }
+.w30 p.c24, .w30:hover p.hc24 { left: 76.67%; }
+.h30 p.r25, .h30:hover p.hr25 { top: 80%; }
+.w30 p.c25, .w30:hover p.hc25 { left: 80%; }
+.h30 p.r26, .h30:hover p.hr26 { top: 83.33%; }
+.w30 p.c26, .w30:hover p.hc26 { left: 83.33%; }
+.h30 p.r27, .h30:hover p.hr27 { top: 86.67%; }
+.w30 p.c27, .w30:hover p.hc27 { left: 86.67%; }
+.h30 p.r28, .h30:hover p.hr28 { top: 90%; }
+.w30 p.c28, .w30:hover p.hc28 { left: 90%; }
+.h30 p.r29, .h30:hover p.hr29 { top: 93.33%; }
+.w30 p.c29, .w30:hover p.hc29 { left: 93.33%; }
+.h30 p.r30, .h30:hover p.hr30 { top: 96.67%; }
+.w30 p.c30, .w30:hover p.hc30 { left: 96.67%; }
+.h31 p.r2, .h31:hover p.hr2 { top: 3.23%; }
+.w31 p.c2, .w31:hover p.hc2 { left: 3.23%; }
+.h31 p.r3, .h31:hover p.hr3 { top: 6.45%; }
+.w31 p.c3, .w31:hover p.hc3 { left: 6.45%; }
+.h31 p.r4, .h31:hover p.hr4 { top: 9.68%; }
+.w31 p.c4, .w31:hover p.hc4 { left: 9.68%; }
+.h31 p.r5, .h31:hover p.hr5 { top: 12.9%; }
+.w31 p.c5, .w31:hover p.hc5 { left: 12.9%; }
+.h31 p.r6, .h31:hover p.hr6 { top: 16.13%; }
+.w31 p.c6, .w31:hover p.hc6 { left: 16.13%; }
+.h31 p.r7, .h31:hover p.hr7 { top: 19.35%; }
+.w31 p.c7, .w31:hover p.hc7 { left: 19.35%; }
+.h31 p.r8, .h31:hover p.hr8 { top: 22.58%; }
+.w31 p.c8, .w31:hover p.hc8 { left: 22.58%; }
+.h31 p.r9, .h31:hover p.hr9 { top: 25.81%; }
+.w31 p.c9, .w31:hover p.hc9 { left: 25.81%; }
+.h31 p.r10, .h31:hover p.hr10 { top: 29.03%; }
+.w31 p.c10, .w31:hover p.hc10 { left: 29.03%; }
+.h31 p.r11, .h31:hover p.hr11 { top: 32.26%; }
+.w31 p.c11, .w31:hover p.hc11 { left: 32.26%; }
+.h31 p.r12, .h31:hover p.hr12 { top: 35.48%; }
+.w31 p.c12, .w31:hover p.hc12 { left: 35.48%; }
+.h31 p.r13, .h31:hover p.hr13 { top: 38.71%; }
+.w31 p.c13, .w31:hover p.hc13 { left: 38.71%; }
+.h31 p.r14, .h31:hover p.hr14 { top: 41.94%; }
+.w31 p.c14, .w31:hover p.hc14 { left: 41.94%; }
+.h31 p.r15, .h31:hover p.hr15 { top: 45.16%; }
+.w31 p.c15, .w31:hover p.hc15 { left: 45.16%; }
+.h31 p.r16, .h31:hover p.hr16 { top: 48.39%; }
+.w31 p.c16, .w31:hover p.hc16 { left: 48.39%; }
+.h31 p.r17, .h31:hover p.hr17 { top: 51.61%; }
+.w31 p.c17, .w31:hover p.hc17 { left: 51.61%; }
+.h31 p.r18, .h31:hover p.hr18 { top: 54.84%; }
+.w31 p.c18, .w31:hover p.hc18 { left: 54.84%; }
+.h31 p.r19, .h31:hover p.hr19 { top: 58.06%; }
+.w31 p.c19, .w31:hover p.hc19 { left: 58.06%; }
+.h31 p.r20, .h31:hover p.hr20 { top: 61.29%; }
+.w31 p.c20, .w31:hover p.hc20 { left: 61.29%; }
+.h31 p.r21, .h31:hover p.hr21 { top: 64.52%; }
+.w31 p.c21, .w31:hover p.hc21 { left: 64.52%; }
+.h31 p.r22, .h31:hover p.hr22 { top: 67.74%; }
+.w31 p.c22, .w31:hover p.hc22 { left: 67.74%; }
+.h31 p.r23, .h31:hover p.hr23 { top: 70.97%; }
+.w31 p.c23, .w31:hover p.hc23 { left: 70.97%; }
+.h31 p.r24, .h31:hover p.hr24 { top: 74.19%; }
+.w31 p.c24, .w31:hover p.hc24 { left: 74.19%; }
+.h31 p.r25, .h31:hover p.hr25 { top: 77.42%; }
+.w31 p.c25, .w31:hover p.hc25 { left: 77.42%; }
+.h31 p.r26, .h31:hover p.hr26 { top: 80.65%; }
+.w31 p.c26, .w31:hover p.hc26 { left: 80.65%; }
+.h31 p.r27, .h31:hover p.hr27 { top: 83.87%; }
+.w31 p.c27, .w31:hover p.hc27 { left: 83.87%; }
+.h31 p.r28, .h31:hover p.hr28 { top: 87.1%; }
+.w31 p.c28, .w31:hover p.hc28 { left: 87.1%; }
+.h31 p.r29, .h31:hover p.hr29 { top: 90.32%; }
+.w31 p.c29, .w31:hover p.hc29 { left: 90.32%; }
+.h31 p.r30, .h31:hover p.hr30 { top: 93.55%; }
+.w31 p.c30, .w31:hover p.hc30 { left: 93.55%; }
+.h31 p.r31, .h31:hover p.hr31 { top: 96.77%; }
+.w31 p.c31, .w31:hover p.hc31 { left: 96.77%; }
+.h32 p.r2, .h32:hover p.hr2 { top: 3.12%; }
+.w32 p.c2, .w32:hover p.hc2 { left: 3.12%; }
+.h32 p.r3, .h32:hover p.hr3 { top: 6.25%; }
+.w32 p.c3, .w32:hover p.hc3 { left: 6.25%; }
+.h32 p.r4, .h32:hover p.hr4 { top: 9.37%; }
+.w32 p.c4, .w32:hover p.hc4 { left: 9.37%; }
+.h32 p.r5, .h32:hover p.hr5 { top: 12.5%; }
+.w32 p.c5, .w32:hover p.hc5 { left: 12.5%; }
+.h32 p.r6, .h32:hover p.hr6 { top: 15.62%; }
+.w32 p.c6, .w32:hover p.hc6 { left: 15.62%; }
+.h32 p.r7, .h32:hover p.hr7 { top: 18.75%; }
+.w32 p.c7, .w32:hover p.hc7 { left: 18.75%; }
+.h32 p.r8, .h32:hover p.hr8 { top: 21.87%; }
+.w32 p.c8, .w32:hover p.hc8 { left: 21.87%; }
+.h32 p.r9, .h32:hover p.hr9 { top: 25%; }
+.w32 p.c9, .w32:hover p.hc9 { left: 25%; }
+.h32 p.r10, .h32:hover p.hr10 { top: 28.12%; }
+.w32 p.c10, .w32:hover p.hc10 { left: 28.12%; }
+.h32 p.r11, .h32:hover p.hr11 { top: 31.25%; }
+.w32 p.c11, .w32:hover p.hc11 { left: 31.25%; }
+.h32 p.r12, .h32:hover p.hr12 { top: 34.37%; }
+.w32 p.c12, .w32:hover p.hc12 { left: 34.37%; }
+.h32 p.r13, .h32:hover p.hr13 { top: 37.5%; }
+.w32 p.c13, .w32:hover p.hc13 { left: 37.5%; }
+.h32 p.r14, .h32:hover p.hr14 { top: 40.62%; }
+.w32 p.c14, .w32:hover p.hc14 { left: 40.62%; }
+.h32 p.r15, .h32:hover p.hr15 { top: 43.75%; }
+.w32 p.c15, .w32:hover p.hc15 { left: 43.75%; }
+.h32 p.r16, .h32:hover p.hr16 { top: 46.87%; }
+.w32 p.c16, .w32:hover p.hc16 { left: 46.87%; }
+.h32 p.r17, .h32:hover p.hr17 { top: 50%; }
+.w32 p.c17, .w32:hover p.hc17 { left: 50%; }
+.h32 p.r18, .h32:hover p.hr18 { top: 53.12%; }
+.w32 p.c18, .w32:hover p.hc18 { left: 53.12%; }
+.h32 p.r19, .h32:hover p.hr19 { top: 56.25%; }
+.w32 p.c19, .w32:hover p.hc19 { left: 56.25%; }
+.h32 p.r20, .h32:hover p.hr20 { top: 59.37%; }
+.w32 p.c20, .w32:hover p.hc20 { left: 59.37%; }
+.h32 p.r21, .h32:hover p.hr21 { top: 62.5%; }
+.w32 p.c21, .w32:hover p.hc21 { left: 62.5%; }
+.h32 p.r22, .h32:hover p.hr22 { top: 65.62%; }
+.w32 p.c22, .w32:hover p.hc22 { left: 65.62%; }
+.h32 p.r23, .h32:hover p.hr23 { top: 68.75%; }
+.w32 p.c23, .w32:hover p.hc23 { left: 68.75%; }
+.h32 p.r24, .h32:hover p.hr24 { top: 71.87%; }
+.w32 p.c24, .w32:hover p.hc24 { left: 71.87%; }
+.h32 p.r25, .h32:hover p.hr25 { top: 75%; }
+.w32 p.c25, .w32:hover p.hc25 { left: 75%; }
+.h32 p.r26, .h32:hover p.hr26 { top: 78.12%; }
+.w32 p.c26, .w32:hover p.hc26 { left: 78.12%; }
+.h32 p.r27, .h32:hover p.hr27 { top: 81.25%; }
+.w32 p.c27, .w32:hover p.hc27 { left: 81.25%; }
+.h32 p.r28, .h32:hover p.hr28 { top: 84.37%; }
+.w32 p.c28, .w32:hover p.hc28 { left: 84.37%; }
+.h32 p.r29, .h32:hover p.hr29 { top: 87.5%; }
+.w32 p.c29, .w32:hover p.hc29 { left: 87.5%; }
+.h32 p.r30, .h32:hover p.hr30 { top: 90.62%; }
+.w32 p.c30, .w32:hover p.hc30 { left: 90.62%; }
+.h32 p.r31, .h32:hover p.hr31 { top: 93.75%; }
+.w32 p.c31, .w32:hover p.hc31 { left: 93.75%; }
+.h32 p.r32, .h32:hover p.hr32 { top: 96.87%; }
+.w32 p.c32, .w32:hover p.hc32 { left: 96.87%; }
 
 /* ---------------------------------- */
 
