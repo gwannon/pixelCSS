@@ -6,6 +6,7 @@
   --frames4-duration: 0.6s;
   --frames8-duration: 0.8s;
   --frames12-duration: 1.2s;
+  --rotating-duration: 0.8s;
 }
 
 .sprite {
@@ -1689,6 +1690,17 @@
 @keyframes tc160 { to { background: #ffffff; } }
 .to_aliceblue, .to_antiquewhite, .to_aqua, .to_aquamarine, .to_azure, .to_beige, .to_bisque, .to_black, .to_blanchedalmond, .to_blue, .to_blueviolet, .to_brown, .to_burlywood, .to_cadetblue, .to_chartreuse, .to_chocolate, .to_coral, .to_cornflowerblue, .to_cornsilk, .to_crimson, .to_cyan, .to_darkblue, .to_darkcyan, .to_darkgoldenrod, .to_darkgray, .to_darkgreen, .to_darkkhaki, .to_darkmagenta, .to_darkolivegreen, .to_darkorange, .to_darkorchid, .to_darkred, .to_darksalmon, .to_darkseagreen, .to_darkslateblue, .to_darkslategray, .to_darkturquoise, .to_darkviolet, .to_deeppink, .to_deepskyblue, .to_dimgray, .to_dodgerblue, .to_firebrick, .to_floralwhite, .to_forestgreen, .to_fuchsia, .to_gainsboro, .to_ghostwhite, .to_gold, .to_goldenrod, .to_gray, .to_green, .to_greenyellow, .to_honeydew, .to_hotpink, .to_indianred, .to_indigo, .to_ivory, .to_khaki, .to_lavender, .to_lavenderblush, .to_lawngreen, .to_lemonchiffon, .to_lightblue, .to_lightcoral, .to_lightcyan, .to_lightgoldenrodyellow, .to_lightgreen, .to_lightgray, .to_lightpink, .to_lightsalmon, .to_lightseagreen, .to_lightskyblue, .to_lightslategray, .to_lightsteelblue, .to_lightyellow, .to_lime, .to_limegreen, .to_linen, .to_magenta, .to_maroon, .to_mediumaquamarine, .to_mediumblue, .to_mediumorchid, .to_mediumpurple, .to_mediumseagreen, .to_mediumslateblue, .to_mediumspringgreen, .to_mediumturquoise, .to_mediumvioletred, .to_midnightblue, .to_mintcream, .to_mistyrose, .to_moccasin, .to_navajowhite, .to_navy, .to_navyblue, .to_oldlace, .to_olive, .to_olivedrab, .to_orange, .to_orangered, .to_orchid, .to_palegoldenrod, .to_palegreen, .to_paleturquoise, .to_palevioletred, .to_papayawhip, .to_peachpuff, .to_peru, .to_pink, .to_plum, .to_powderblue, .to_purple, .to_red, .to_rosybrown, .to_royalblue, .to_saddlebrown, .to_salmon, .to_sandybrown, .to_seagreen, .to_seashell, .to_sienna, .to_silver, .to_skyblue, .to_slateblue, .to_slategray, .to_snow, .to_springgreen, .to_steelblue, .to_tan, .to_teal, .to_thistle, .to_tomato, .to_turquoise, .to_violet, .to_wheat, .to_white, .to_whitesmoke, .to_yellow, .to_yellowgreen , .to_gb-background, .to_gb-darkgreen, .to_gb-green, .to_gb-palegreen, .to_gb-lightgreen, .to_msx-black, .to_msx-medium-green, .to_msx-light-green, .to_msx-dark-blue, .to_msx-light-blue, .to_msx-dark-red, .to_msx-cyan, .to_msx-medium-red, .to_msx-light-red, .to_msx-dark-yellow, .to_msx-light-yellow, .to_msx-dark-green, .to_msx-magenta, .to_msx-gray, .to_msx-white
 { animation-duration: var(--color-animation-duration); animation-iteration-count: infinite; animation-direction: alternate; }
+
+/* ---------------------------------- */
+
+.rotating {
+  animation: rotating var(--rotating-duration) linear infinite;
+}
+@keyframes rotating { 
+  100% { 
+    transform:rotate(360deg); 
+  } 
+}
 
 /* ---------------------------------- */
 

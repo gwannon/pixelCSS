@@ -29,6 +29,10 @@ It allows you to create 32x32 items and animate them with hover, animate colors 
 * http://gwannon.com/pixelCSS/examples/pokeball.html
 * http://gwannon.com/pixelCSS/examples/heart.html
 
+**Animation examples with transform:**
+
+* http://gwannon.com/pixelCSS/examples/axe-rotating.html (Rotation 360 degrees)
+
 **Animation examples with frames:**
 
 * http://gwannon.com/pixelCSS/examples/zelda.html (Animation with 2 frames)
