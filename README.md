@@ -1,27 +1,27 @@
 # pixelCSS
 
-pixelCSS es una forma de poner a prueba mis conocimientos de HTML+CSS. El reto es hacer:
+pixelCSS is a way to test my HTML + CSS knowledge. The challenge is to do:
 
-* Todo tipo de efectos y animaciones sin usar nada más que CSS. 
-* Tratar de crear un CSS lo menos pesado posible.
-* Hacerlo lo más configurable posible para el usuario.
+* All kinds of effects and animations without using anything but CSS.
+* Try to create a CSS that is as light as possible.
+* Make it as configurable as possible for the user.
 
-## pixelCSS es un miniframework que te permite crear PixelArt con CSS3.
+## pixelCSS is a miniframework that allows you to create PixelArt with CSS3.
 
-Permite crear item de 32x32 y animarlos con hover, animar los colores e incluso animar mediante frames (Ver ejemplos).
+It allows you to create 32x32 items and animate them with hover, animate colors and even animate through frames (See examples).
 
-**Ejemplos básicos:**
+**Basic examples:**
 
 * http://gwannon.com/pixelCSS/examples/space-invaders.html
 * http://gwannon.com/pixelCSS/examples/mario.html
 * http://gwannon.com/pixelCSS/examples/lemming.html
 
-**Ejemplos de animación con hover:**
+**Animation examples with hover:**
 
 * http://gwannon.com/pixelCSS/examples/lemming-hover.html
 * http://gwannon.com/pixelCSS/examples/heart.html
 
-**Ejemplos de animación con colores:**
+**Animation examples with colors:**
 
 * http://gwannon.com/pixelCSS/examples/fire.html
 * http://gwannon.com/pixelCSS/examples/fire2.html
@@ -29,32 +29,32 @@ Permite crear item de 32x32 y animarlos con hover, animar los colores e incluso 
 * http://gwannon.com/pixelCSS/examples/pokeball.html
 * http://gwannon.com/pixelCSS/examples/heart.html
 
-**Ejemplos de animación con frames:**
+**Animation examples with frames:**
 
-* http://gwannon.com/pixelCSS/examples/zelda.html (Animación con 2 frames)
-* http://gwannon.com/pixelCSS/examples/popolon.html (Animación con 2 frames)
-* http://gwannon.com/pixelCSS/examples/coin.html (Animación con 4 frames)
-* http://gwannon.com/pixelCSS/examples/alex.html (Animación con 4 frames)
-* http://gwannon.com/pixelCSS/examples/sir-arthur.html (Animación con 4 frames)
-* http://gwannon.com/pixelCSS/examples/lemming-walking.html (Animación con 8 frames)
-* http://gwannon.com/pixelCSS/examples/fire3.html (Animación con 8 frames + animación de colores)
-* http://gwannon.com/pixelCSS/examples/lemming-digging.html (Animación con 12 frames)
+* http://gwannon.com/pixelCSS/examples/zelda.html (Animation with 2 frames)
+* http://gwannon.com/pixelCSS/examples/popolon.html (Animation with 2 frames)
+* http://gwannon.com/pixelCSS/examples/coin.html (Animation with 4 frames)
+* http://gwannon.com/pixelCSS/examples/alex.html (Animation with 4 frames)
+* http://gwannon.com/pixelCSS/examples/sir-arthur.html (Animation with 4 frames)
+* http://gwannon.com/pixelCSS/examples/lemming-walking.html (Animation with 8 frames)
+* http://gwannon.com/pixelCSS/examples/fire3.html (Animation with 8 frames + animation with colors)
+* http://gwannon.com/pixelCSS/examples/lemming-digging.html (Animation with 12 frames)
 
-Todos los ejemplos http://gwannon.com/pixelCSS/examples/todos.html
+All the examples http://gwannon.com/pixelCSS/examples/todos.html
 
-**Paletas de colores específicas:**
+**Specific color palettes:**
 
 * GameBoy http://gwannon.com/pixelCSS/examples/gb-mario.html
 * MSX http://gwannon.com/pixelCSS/examples/msx-soccer.html
 
 **ControlPad:**
 
-* ControlPAD solo CSS http://gwannon.com/pixelCSS/examples/controls.html
+* ControlPAD only CSS http://gwannon.com/pixelCSS/examples/controls.html
 
-**Conversor de PNG a HTML (tools/pngToHtml.php):**
+**Conversor from PNG to HTML (tools/pngToHtml.php):**
 
-* Ejemplo de imagen original y sprite en html http://gwannon.com/pixelCSS/tools/pngToHtml.html
+* Example of original image and sprite in html http://gwannon.com/pixelCSS/tools/pngToHtml.html
 
-**Conversor de secuencias de PNGs a HTML (tools/spritesToHtml.php):**
+**Conversor from secunecies of PNGs to HTML (tools/spritesToHtml.php):**
 
-* Ejemplo de imágenes originales y el sprite animado en html http://gwannon.com/pixelCSS/tools/spritesToHtml.html
+* Example of original images and the animated sprite in html http://gwannon.com/pixelCSS/tools/spritesToHtml.html
