@@ -1696,9 +1696,20 @@
 .rotating {
   animation: rotating var(--rotating-duration) linear infinite;
 }
+
 @keyframes rotating { 
   100% { 
     transform:rotate(360deg); 
+  } 
+}
+
+.rotating-rtl {
+  animation: rotating-rtl var(--rotating-duration) linear infinite;
+}
+
+@keyframes rotating-rtl { 
+  100% { 
+    transform:rotate(-360deg); 
   } 
 }
 
