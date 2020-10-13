@@ -24,7 +24,7 @@
         list($width, $height, $type, $attr) = getimagesize($imageUrl);
         $im = imagecreatefrompng($imageUrl);
         ?>
-      <div class="sprite w<?php echo $width; ?> h<?php echo $height; ?> gray"  animation="<?php echo $key; ?>">
+      <div class="sprite w<?php echo $width; ?> h<?php echo $height; ?> gray"  animation="<?php echo ($key+1); ?>">
         <?php
           $size = 1;
           for($r = 1; $r <= $height; $r++) {
