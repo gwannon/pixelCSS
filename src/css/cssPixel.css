@@ -1699,7 +1699,7 @@
 
 @keyframes rotating { 
   100% { 
-    transform:rotate(360deg); 
+    transform: rotate(360deg); 
   } 
 }
 
@@ -1709,8 +1709,19 @@
 
 @keyframes rotating-rtl { 
   100% { 
-    transform:rotate(-360deg); 
+    transform: rotate(-360deg); 
   } 
+}
+
+.blink {
+  animation: blink 1s infinite step-end;
+}
+
+@keyframes blink { 
+  25% {  opacity: 0; }
+  50% { opacity: 1; }
+  75% {  opacity: 0; }
+  100% { opacity: 1; } 
 }
 
 /* ---------------------------------- */
