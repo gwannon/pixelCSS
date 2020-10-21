@@ -15,7 +15,7 @@
   <body class="white">
     <h1>Original</h1>
     <?php foreach ($imageUrls as $imageUrl) { ?>
-      <img src="<?php echo $imageUrl; ?>" />
+      <img src="<?php echo $imageUrl; ?>" style="image-rendering: pixelated;" />
       <?php } ?>
     <h1>HTML</h1>
     <div class="animation w<?php echo $width; ?> h<?php echo $height; ?> frames<?php echo count($imageUrls); ?>">

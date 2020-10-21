@@ -12,7 +12,7 @@
   </head>
   <body class="white">
     <h1>Original</h1>
-    <img src="<?php echo $imageUrl; ?>" />
+    <img src="<?php echo $imageUrl; ?>" style="image-rendering: pixelated;" />
     <h1>HTML</h1>
     <div class="sprite w<?php echo $width; ?> h<?php echo $height; ?> gray">
       <?php
