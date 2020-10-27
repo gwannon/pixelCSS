@@ -1,8 +1,11 @@
 <?php
-  $imageUrls[] = "temp/gg1.png";
-  $imageUrls[] = "temp/gg2.png";
-  $imageUrls[] = "temp/gg3.png";
-  $imageUrls[] = "temp/gg4.png";
+  $imageUrls[] = "temp/guybrush1.png";
+  $imageUrls[] = "temp/guybrush2.png";
+  $imageUrls[] = "temp/guybrush3.png";
+  $imageUrls[] = "temp/guybrush4.png";
+  $imageUrls[] = "temp/guybrush5.png";
+  $imageUrls[] = "temp/guybrush6.png";
+  $bgcolor = "white";
   list($width, $height, $type, $attr) = getimagesize($imageUrls[0]);
 ?>
 <!doctype html>
@@ -24,7 +27,7 @@
         list($width, $height, $type, $attr) = getimagesize($imageUrl);
         $im = imagecreatefrompng($imageUrl);
         ?>
-      <div class="sprite w<?php echo $width; ?> h<?php echo $height; ?> gray"  animation="<?php echo ($key+1); ?>">
+      <div class="sprite w<?php echo $width; ?> h<?php echo $height; ?> <?php echo $bgcolor; ?>"  animation="<?php echo ($key+1); ?>">
         <?php
           $size = 1;
           for($r = 1; $r <= $height; $r++) {
