@@ -8,7 +8,7 @@ pixelCSS is a way to test my HTML + CSS knowledge. The challenge is to do:
 
 ## pixelCSS is a miniframework that allows you to create PixelArt with CSS3.
 
-It allows you to create 32x32 items and animate them with hover, animate colors and even animate through frames (See examples).
+It allows you to create 50x50 items and animate them with hover, animate colors and even animate through frames (See examples).
 
 **Basic examples:**
 
@@ -42,6 +42,7 @@ It allows you to create 32x32 items and animate them with hover, animate colors 
 * http://gwannon.com/pixelCSS/examples/coin.html (Animation with 4 frames)
 * http://gwannon.com/pixelCSS/examples/alex.html (Animation with 4 frames)
 * http://gwannon.com/pixelCSS/examples/sir-arthur.html (Animation with 4 frames)
+* http://gwannon.com/pixelCSS/examplesguybrush-walking.html (Animation with 6 frames)
 * http://gwannon.com/pixelCSS/examples/lemming-walking.html (Animation with 8 frames)
 * http://gwannon.com/pixelCSS/examples/fire3.html (Animation with 8 frames + animation with colors)
 * http://gwannon.com/pixelCSS/examples/lemming-digging.html (Animation with 12 frames)
