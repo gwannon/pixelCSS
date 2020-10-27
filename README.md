@@ -12,56 +12,56 @@ It allows you to create 50x50 items and animate them with hover, animate colors 
 
 **Basic examples:**
 
-* http://gwannon.com/pixelCSS/examples/space-invaders.html
-* http://gwannon.com/pixelCSS/examples/mario.html
-* http://gwannon.com/pixelCSS/examples/lemming.html
+* https://theflash.gwannon.com/pixelCSS/examples/space-invaders.html
+* https://theflash.gwannon.com/pixelCSS/examples/mario.html
+* https://theflash.gwannon.com/pixelCSS/examples/lemming.html
 
 **Animation examples with hover:**
 
-* http://gwannon.com/pixelCSS/examples/lemming-hover.html
-* http://gwannon.com/pixelCSS/examples/heart.html
+* https://theflash.gwannon.com/pixelCSS/examples/lemming-hover.html
+* https://theflash.gwannon.com/pixelCSS/examples/heart.html
 
 **Animation examples with colors:**
 
-* http://gwannon.com/pixelCSS/examples/fire.html
-* http://gwannon.com/pixelCSS/examples/fire2.html
-* http://gwannon.com/pixelCSS/examples/rupee.html
-* http://gwannon.com/pixelCSS/examples/pokeball.html
-* http://gwannon.com/pixelCSS/examples/heart.html
+* https://theflash.gwannon.com/pixelCSS/examples/fire.html
+* https://theflash.gwannon.com/pixelCSS/examples/fire2.html
+* https://theflash.gwannon.com/pixelCSS/examples/rupee.html
+* https://theflash.gwannon.com/pixelCSS/examples/pokeball.html
+* https://theflash.gwannon.com/pixelCSS/examples/heart.html
 
 **Animation examples with animation:**
 
-* http://gwannon.com/pixelCSS/examples/axe-rotating.html (Rotation 360 degrees)
-* http://gwannon.com/pixelCSS/examples/sir-arthur-blinking.html (Blink)
-* http://gwannon.com/pixelCSS/examples/sir-arthur-pluffing.html (Pluff)
+* https://theflash.gwannon.com/pixelCSS/examples/axe-rotating.html (Rotation 360 degrees)
+* https://theflash.gwannon.com/pixelCSS/examples/sir-arthur-blinking.html (Blink)
+* https://theflash.gwannon.com/pixelCSS/examples/sir-arthur-pluffing.html (Pluff)
 
 **Animation examples with frames:**
 
-* http://gwannon.com/pixelCSS/examples/zelda.html (Animation with 2 frames)
-* http://gwannon.com/pixelCSS/examples/popolon.html (Animation with 2 frames)
-* http://gwannon.com/pixelCSS/examples/coin.html (Animation with 4 frames)
-* http://gwannon.com/pixelCSS/examples/alex.html (Animation with 4 frames)
-* http://gwannon.com/pixelCSS/examples/sir-arthur.html (Animation with 4 frames)
-* http://gwannon.com/pixelCSS/examples/guybrush-walking.html (Animation with 6 frames)
-* http://gwannon.com/pixelCSS/examples/lemming-walking.html (Animation with 8 frames)
-* http://gwannon.com/pixelCSS/examples/fire3.html (Animation with 8 frames + animation with colors)
-* http://gwannon.com/pixelCSS/examples/lemming-digging.html (Animation with 12 frames)
+* https://theflash.gwannon.com/pixelCSS/examples/zelda.html (Animation with 2 frames)
+* https://theflash.gwannon.com/pixelCSS/examples/popolon.html (Animation with 2 frames)
+* https://theflash.gwannon.com/pixelCSS/examples/coin.html (Animation with 4 frames)
+* https://theflash.gwannon.com/pixelCSS/examples/alex.html (Animation with 4 frames)
+* https://theflash.gwannon.com/pixelCSS/examples/sir-arthur.html (Animation with 4 frames)
+* https://theflash.gwannon.com/pixelCSS/examples/guybrush-walking.html (Animation with 6 frames)
+* https://theflash.gwannon.com/pixelCSS/examples/lemming-walking.html (Animation with 8 frames)
+* https://theflash.gwannon.com/pixelCSS/examples/fire3.html (Animation with 8 frames + animation with colors)
+* https://theflash.gwannon.com/pixelCSS/examples/lemming-digging.html (Animation with 12 frames)
 
-All the examples http://gwannon.com/pixelCSS/examples/todos.html
+All the examples https://theflash.gwannon.com/pixelCSS/examples/todos.html
 
 **Specific color palettes:**
 
-* GameBoy http://gwannon.com/pixelCSS/examples/gb-mario.html
-* MSX http://gwannon.com/pixelCSS/examples/msx-soccer.html
+* GameBoy https://theflash.gwannon.com/pixelCSS/examples/gb-mario.html
+* MSX https://theflash.gwannon.com/pixelCSS/examples/msx-soccer.html
 
 **ControlPad:**
 
-* ControlPAD only CSS http://gwannon.com/pixelCSS/examples/controls.html
+* ControlPAD only CSS https://theflash.gwannon.com/pixelCSS/examples/controls.html
 
 **Conversor from PNG to HTML (tools/pngToHtml.php):**
 
-* Example of original image and sprite in html http://gwannon.com/pixelCSS/tools/pngToHtml.html
+* Example of original image and sprite in html https://theflash.gwannon.com/pixelCSS/tools/pngToHtml.html
 
 **Conversor from secunecies of PNGs to HTML (tools/spritesToHtml.php):**
 
-* Example of original images and the animated sprite in html http://gwannon.com/pixelCSS/tools/spritesToHtml.html
+* Example of original images and the animated sprite in html https://theflash.gwannon.com/pixelCSS/tools/spritesToHtml.html
