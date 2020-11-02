@@ -3311,7 +3311,7 @@
 .frames2 > div {
   animation-duration: var(--frames2-duration);
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
+  animation-timing-function: linear;
 }
 
 .frames2 > div[animation="1"] { animation-name: frames2-1; }
@@ -3336,7 +3336,7 @@
 .frames3 > div {
   animation-duration: var(--frames3-duration);
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
+  animation-timing-function: linear;
 }
 
 .frames3 > div[animation="1"] { animation-name: frames3-1; }
@@ -3367,7 +3367,7 @@
 .frames4 > div {
   animation-duration: var(--frames4-duration);
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
+  animation-timing-function: linear;
 }
 
 .frames4 > div[animation="1"] { animation-name: frames4-1; }
@@ -3420,7 +3420,7 @@
 .frames6 > div {
   animation-duration: var(--frames6-duration);
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
+  animation-timing-function: linear;
 }
 
 .frames6 > div[animation="1"] { animation-name: frames6-1; }
@@ -3525,7 +3525,7 @@
 .frames8 > div {
   animation-duration: var(--frames8-duration);
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
+  animation-timing-function: linear;
 }
 
 .frames8 > div[animation="1"] { animation-name: frames8-1; }
@@ -3636,7 +3636,7 @@
 .frames12 > div {
   animation-duration: var(--frames12-duration);
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0, 0, 0, 2.19);
+  animation-timing-function: linear;
 }
 
 .frames12 > div[animation="1"] { animation-name: frames12-1; }
