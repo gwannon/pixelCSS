@@ -7,14 +7,32 @@
     <link href="../src/css/cssPixel.css" rel="stylesheet">
     <style>
       :root {
-        --pixel-size: 2px;
-      	--frames4-duration: 0.3s;
+        --pixel-size: 4px;
+      	--frames4-duration: 0.6s;
       }
+
+
+	body { overflow: hidden; }
+	#sonic {
+		position: absolute;
+		top: calc(50% - (var(--pixel-size) * 18));
+		animation-name: run;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	@keyframes run {
+	  0% { left: calc(0px - (var(--pixel-size) * 31)); }
+	  100% { left: 100%; }
+	}
+
+
     </style>
   </head>
-  <body class="white">
-    <div class="animation w31 h36 frames4">
-          <div class="sprite w31 h36 white"  animation="1">
+  <body class="black">
+    <div id="sonic" class="animation w31 h36 frames4">
+          <div class="sprite w31 h36 black"  animation="1">
         <p class="r2 c11 w12" style="background-color: rgb(72,72,180);"></p>
 <p class="r3 c9 w5" style="background-color: rgb(36,36,144);"></p>
 <p class="r3 c14 w6" style="background-color: rgb(72,72,180);"></p>
@@ -345,7 +363,7 @@
 <p class="r35 c8 w8" style="background-color: rgb(144,0,0);"></p>
 <p class="r36 c10 w9" style="background-color: rgb(144,0,0);"></p>
       </div>
-            <div class="sprite w31 h36 white"  animation="2">
+            <div class="sprite w31 h36 black"  animation="2">
         <p class="r1 c16 w5" style="background-color: rgb(72,72,180);"></p>
 <p class="r2 c12 w7" style="background-color: rgb(72,72,180);"></p>
 <p class="r2 c19 w2" style="background-color: rgb(108,108,216);"></p>
@@ -596,7 +614,7 @@
 <p class="r35 c23" style="background-color: rgb(72,0,0);"></p>
 <p class="r36 c9 w13" style="background-color: rgb(0,0,0);"></p>
       </div>
-            <div class="sprite w31 h36 white"  animation="3">
+            <div class="sprite w31 h36 black"  animation="3">
         <p class="r2 c11 w12" style="background-color: rgb(72,72,180);"></p>
 <p class="r3 c9 w5" style="background-color: rgb(36,36,144);"></p>
 <p class="r3 c14 w6" style="background-color: rgb(72,72,180);"></p>
@@ -883,7 +901,7 @@
 <p class="r35 c10 w7" style="background-color: rgb(72,0,0);"></p>
 <p class="r36 c10 w11" style="background-color: rgb(72,0,0);"></p>
       </div>
-            <div class="sprite w31 h36 white"  animation="4">
+            <div class="sprite w31 h36 black"  animation="4">
         <p class="r1 c16 w5" style="background-color: rgb(72,72,180);"></p>
 <p class="r2 c12 w7" style="background-color: rgb(72,72,180);"></p>
 <p class="r2 c19 w2" style="background-color: rgb(108,108,216);"></p>
@@ -1144,6 +1162,6 @@
 <p class="r36 c10 w11" style="background-color: rgb(0,0,0);"></p>
       </div>
             </div>
-    <a href="https://github.com/gwannon/pixelCSS" style="position: absolute; bottom: 10px; left: 10px; color: #000000; font-family: Arial;">GitHub pixelCSS</a>
+    <a href="https://github.com/gwannon/pixelCSS" style="position: absolute; bottom: 10px; left: 10px; color: #fff; font-family: Arial;">GitHub pixelCSS</a>
   </body>
 </html>
