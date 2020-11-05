@@ -45,6 +45,29 @@
     --frames4-duration: 0.4s;
   }
 
+
+  #ring2 {
+		position: absolute;
+    bottom: calc(var(--pixel-size) * 42);
+    left: 62%;
+		animation-name: disappear2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+    animation-timing-function: steps(4, start);
+    --frames4-duration: 0.4s;
+  }
+
+  #ring3 {
+		position: absolute;
+    bottom: calc(var(--pixel-size) * 42);
+    left: 75%;
+		animation-name: disappear3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+    animation-timing-function: steps(4, start);
+    --frames4-duration: 0.4s;
+  }
+
   .sprite {
     position: absolute;
     bottom: 0px;
@@ -105,18 +128,18 @@
   }
   
   @media only screen and (max-width: 1000px) {
-    #sonic, #ring, .suelo { --pixel-size: 4px; }
-    #sonic, #ring, #contador:before { animation-duration: 2.5s; }
+    #sonic, #ring, #ring2, #ring3, .suelo { --pixel-size: 4px; }
+    #sonic, #ring, #ring2, #ring3, #contador:before { animation-duration: 2.5s; }
   }
 
   @media only screen and (max-width: 750px) {
-    #sonic, #ring, .suelo { --pixel-size: 3px; }
-    #sonic, #ring, #contador:before { animation-duration: 2s; }
+    #sonic, #ring, #ring2, #ring3, .suelo { --pixel-size: 3px; }
+    #sonic, #ring, #ring2, #ring3, #contador:before { animation-duration: 2s; }
   }
 
   @media only screen and (max-width: 500px) {
-    #sonic, #ring, .suelo { --pixel-size: 2px; }
-    #sonic, #ring, #contador:before { animation-duration: 1.5s; }
+    #sonic, #ring, #ring2, #ring3, .suelo { --pixel-size: 2px; }
+    #sonic, #ring, #ring2, #ring3, #contador:before { animation-duration: 1.5s; }
   }
 
 	@keyframes run {
@@ -131,18 +154,31 @@
     100% { opacity: 0; }
   }
 
+  @keyframes disappear2 {
+    0% { opacity: 1; }
+    62% { opacity: 1; }
+    63% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+
+  @keyframes disappear3 {
+    0% { opacity: 1; }
+    74% { opacity: 1; }
+    75% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
   @keyframes morerings {
     0% { content: "00"; }
     49% { content: "00"; }
     50% { content: "01"; }
-    100% { content: "01"; }
+    62% { content: "01"; }
+    63% { content: "02"; }
+    74% { content: "02"; }
+    75% { content: "03"; }
+    100% { content: "03"; }
   }
-  
-  audio{ 
-    opacity: 0;
-  }
-
-
     </style>
   </head>
   <body class="dodgerblue">
@@ -1288,14 +1324,6 @@
 
 
 
-
-
-
-
-
-
-
-
             <div id="ring" class="animation w14 h16 frames4">
               <div class="sprite w14 h16"  animation="1">
             <p class="r1 c6 w4" style="background-color: rgb(184,120,0);"></p>
@@ -1592,6 +1620,601 @@
                 </div>
 
 
+
+
+
+
+
+
+            <div id="ring2" class="animation w14 h16 frames4">
+              <div class="sprite w14 h16"  animation="1">
+            <p class="r1 c6 w4" style="background-color: rgb(184,120,0);"></p>
+    <p class="r2 c4 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r2 c6 w4" style="background-color: rgb(248,184,120);"></p>
+    <p class="r2 c10 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c4 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r3 c6" style="background-color: rgb(248,184,120);"></p>
+    <p class="r3 c7 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c9 w3" style="background-color: rgb(248,184,120);"></p>
+    <p class="r3 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c3 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r4 c5 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c9 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c11 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r4 c13" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c3" style="background-color: rgb(248,248,248);"></p>
+    <p class="r5 c4" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c12" style="background-color: rgb(248,184,120);"></p>
+    <p class="r5 c13" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c1" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c2 w2" style="background-color: rgb(248,248,248);"></p>
+    <p class="r6 c4" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c12 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r6 c14" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c1" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r7 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c13" style="background-color: rgb(248,184,120);"></p>
+    <p class="r7 c14" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c1" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r8 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c13" style="background-color: rgb(248,184,120);"></p>
+    <p class="r8 c14" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c1" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r9 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c13" style="background-color: rgb(248,184,120);"></p>
+    <p class="r9 c14" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c1" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r10 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c13" style="background-color: rgb(248,248,120);"></p>
+    <p class="r10 c14" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c1" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c2 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r11 c4" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c12 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r11 c14" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c3" style="background-color: rgb(248,184,120);"></p>
+    <p class="r12 c4" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c12" style="background-color: rgb(248,248,120);"></p>
+    <p class="r12 c13" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c3 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r13 c5 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c9 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c11 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r13 c13" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c4 w3" style="background-color: rgb(248,184,120);"></p>
+    <p class="r14 c7 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c9" style="background-color: rgb(248,184,120);"></p>
+    <p class="r14 c10 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r14 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r15 c4 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r15 c6 w4" style="background-color: rgb(248,184,120);"></p>
+    <p class="r15 c10 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r16 c6 w4" style="background-color: rgb(184,120,0);"></p>
+          </div>
+                <div class="sprite w14 h16"  animation="2">
+            <p class="r1 c6 w3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r2 c5" style="background-color: rgb(184,120,0);"></p>
+    <p class="r2 c6" style="background-color: rgb(248,248,120);"></p>
+    <p class="r2 c7 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r2 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c4" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c5" style="background-color: rgb(248,248,248);"></p>
+    <p class="r3 c6 w3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c9" style="background-color: rgb(248,184,120);"></p>
+    <p class="r3 c10" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c4" style="background-color: rgb(248,248,248);"></p>
+    <p class="r4 c5 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c8 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c10" style="background-color: rgb(248,184,120);"></p>
+    <p class="r4 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c4" style="background-color: rgb(248,248,248);"></p>
+    <p class="r5 c5 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c8 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c10" style="background-color: rgb(248,184,120);"></p>
+    <p class="r5 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c3 w2" style="background-color: rgb(248,248,248);"></p>
+    <p class="r6 c5" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c9 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c11" style="background-color: rgb(248,184,120);"></p>
+    <p class="r6 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c3 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r7 c5" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c9 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c11" style="background-color: rgb(248,184,120);"></p>
+    <p class="r7 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c3 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r8 c5" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c9 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c11" style="background-color: rgb(248,184,120);"></p>
+    <p class="r8 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c3 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r9 c5" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c9 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c11" style="background-color: rgb(248,248,120);"></p>
+    <p class="r9 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c3 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r10 c5" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c9 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c11" style="background-color: rgb(248,248,120);"></p>
+    <p class="r10 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c3 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r11 c5" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c9 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c11" style="background-color: rgb(248,248,120);"></p>
+    <p class="r11 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c4 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r12 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c8 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c10" style="background-color: rgb(248,248,120);"></p>
+    <p class="r12 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c4 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r13 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c8 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c10" style="background-color: rgb(248,248,120);"></p>
+    <p class="r13 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c4" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c5 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r14 c7 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c9" style="background-color: rgb(248,248,120);"></p>
+    <p class="r14 c10" style="background-color: rgb(184,120,0);"></p>
+    <p class="r15 c5" style="background-color: rgb(184,120,0);"></p>
+    <p class="r15 c6" style="background-color: rgb(248,184,120);"></p>
+    <p class="r15 c7 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r15 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r16 c6 w3" style="background-color: rgb(184,120,0);"></p>
+          </div>
+                <div class="sprite w14 h16"  animation="3">
+            <p class="r1 c7 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r2 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r2 c7 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r2 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c7 w2" style="background-color: rgb(248,248,248);"></p>
+    <p class="r3 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c7 w2" style="background-color: rgb(248,248,248);"></p>
+    <p class="r4 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c7 w2" style="background-color: rgb(248,248,248);"></p>
+    <p class="r5 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c7 w2" style="background-color: rgb(248,248,248);"></p>
+    <p class="r6 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c7 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r7 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c7 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r8 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c7 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r9 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c7 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r10 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c7 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r11 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c7 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r12 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c7 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r13 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c7 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r14 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r15 c6" style="background-color: rgb(184,120,0);"></p>
+    <p class="r15 c7 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r15 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r16 c7 w2" style="background-color: rgb(184,120,0);"></p>
+          </div>
+                <div class="sprite w14 h16"  animation="4">
+            <p class="r1 c6 w3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r2 c5" style="background-color: rgb(184,120,0);"></p>
+    <p class="r2 c6 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r2 c8" style="background-color: rgb(248,248,120);"></p>
+    <p class="r2 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c4" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c5" style="background-color: rgb(248,184,120);"></p>
+    <p class="r3 c6 w3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r3 c9" style="background-color: rgb(248,248,248);"></p>
+    <p class="r3 c10" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c4" style="background-color: rgb(248,184,120);"></p>
+    <p class="r4 c5 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c8 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r4 c10" style="background-color: rgb(248,248,248);"></p>
+    <p class="r4 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c4" style="background-color: rgb(248,184,120);"></p>
+    <p class="r5 c5 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c8 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r5 c10" style="background-color: rgb(248,248,248);"></p>
+    <p class="r5 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c3" style="background-color: rgb(248,184,120);"></p>
+    <p class="r6 c4 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r6 c10 w2" style="background-color: rgb(248,248,248);"></p>
+    <p class="r6 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c3" style="background-color: rgb(248,184,120);"></p>
+    <p class="r7 c4 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r7 c10 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r7 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c3" style="background-color: rgb(248,184,120);"></p>
+    <p class="r8 c4 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r8 c10 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r8 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c3" style="background-color: rgb(248,248,120);"></p>
+    <p class="r9 c4 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r9 c10 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r9 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c3" style="background-color: rgb(248,248,120);"></p>
+    <p class="r10 c4 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r10 c10 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r10 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c3" style="background-color: rgb(248,248,120);"></p>
+    <p class="r11 c4 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r11 c10 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r11 c12" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c4" style="background-color: rgb(248,248,120);"></p>
+    <p class="r12 c5 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c8" style="background-color: rgb(184,120,0);"></p>
+    <p class="r12 c9 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r12 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c3" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c4" style="background-color: rgb(248,248,120);"></p>
+    <p class="r13 c5 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c8" style="background-color: rgb(184,120,0);"></p>
+    <p class="r13 c9 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r13 c11" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c4" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c5" style="background-color: rgb(248,248,120);"></p>
+    <p class="r14 c6 w2" style="background-color: rgb(184,120,0);"></p>
+    <p class="r14 c8 w2" style="background-color: rgb(248,184,120);"></p>
+    <p class="r14 c10" style="background-color: rgb(184,120,0);"></p>
+    <p class="r15 c5" style="background-color: rgb(184,120,0);"></p>
+    <p class="r15 c6 w2" style="background-color: rgb(248,248,120);"></p>
+    <p class="r15 c8" style="background-color: rgb(248,184,120);"></p>
+    <p class="r15 c9" style="background-color: rgb(184,120,0);"></p>
+    <p class="r16 c6 w3" style="background-color: rgb(184,120,0);"></p>
+          </div>
+                </div>
+
+                <div id="ring3" class="animation w14 h16 frames4">
+                  <div class="sprite w14 h16"  animation="1">
+                <p class="r1 c6 w4" style="background-color: rgb(184,120,0);"></p>
+        <p class="r2 c4 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r2 c6 w4" style="background-color: rgb(248,184,120);"></p>
+        <p class="r2 c10 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c4 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r3 c6" style="background-color: rgb(248,184,120);"></p>
+        <p class="r3 c7 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c9 w3" style="background-color: rgb(248,184,120);"></p>
+        <p class="r3 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c3 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r4 c5 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c9 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c11 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r4 c13" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c3" style="background-color: rgb(248,248,248);"></p>
+        <p class="r5 c4" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c12" style="background-color: rgb(248,184,120);"></p>
+        <p class="r5 c13" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c1" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c2 w2" style="background-color: rgb(248,248,248);"></p>
+        <p class="r6 c4" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c12 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r6 c14" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c1" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r7 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c13" style="background-color: rgb(248,184,120);"></p>
+        <p class="r7 c14" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c1" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r8 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c13" style="background-color: rgb(248,184,120);"></p>
+        <p class="r8 c14" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c1" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r9 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c13" style="background-color: rgb(248,184,120);"></p>
+        <p class="r9 c14" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c1" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r10 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c13" style="background-color: rgb(248,248,120);"></p>
+        <p class="r10 c14" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c1" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c2 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r11 c4" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c12 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r11 c14" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c3" style="background-color: rgb(248,184,120);"></p>
+        <p class="r12 c4" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c12" style="background-color: rgb(248,248,120);"></p>
+        <p class="r12 c13" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c3 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r13 c5 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c9 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c11 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r13 c13" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c4 w3" style="background-color: rgb(248,184,120);"></p>
+        <p class="r14 c7 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c9" style="background-color: rgb(248,184,120);"></p>
+        <p class="r14 c10 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r14 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r15 c4 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r15 c6 w4" style="background-color: rgb(248,184,120);"></p>
+        <p class="r15 c10 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r16 c6 w4" style="background-color: rgb(184,120,0);"></p>
+              </div>
+                    <div class="sprite w14 h16"  animation="2">
+                <p class="r1 c6 w3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r2 c5" style="background-color: rgb(184,120,0);"></p>
+        <p class="r2 c6" style="background-color: rgb(248,248,120);"></p>
+        <p class="r2 c7 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r2 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c4" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c5" style="background-color: rgb(248,248,248);"></p>
+        <p class="r3 c6 w3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c9" style="background-color: rgb(248,184,120);"></p>
+        <p class="r3 c10" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c4" style="background-color: rgb(248,248,248);"></p>
+        <p class="r4 c5 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c8 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c10" style="background-color: rgb(248,184,120);"></p>
+        <p class="r4 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c4" style="background-color: rgb(248,248,248);"></p>
+        <p class="r5 c5 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c8 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c10" style="background-color: rgb(248,184,120);"></p>
+        <p class="r5 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c3 w2" style="background-color: rgb(248,248,248);"></p>
+        <p class="r6 c5" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c9 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c11" style="background-color: rgb(248,184,120);"></p>
+        <p class="r6 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c3 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r7 c5" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c9 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c11" style="background-color: rgb(248,184,120);"></p>
+        <p class="r7 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c3 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r8 c5" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c9 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c11" style="background-color: rgb(248,184,120);"></p>
+        <p class="r8 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c3 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r9 c5" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c9 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c11" style="background-color: rgb(248,248,120);"></p>
+        <p class="r9 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c3 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r10 c5" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c9 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c11" style="background-color: rgb(248,248,120);"></p>
+        <p class="r10 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c3 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r11 c5" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c9 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c11" style="background-color: rgb(248,248,120);"></p>
+        <p class="r11 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c4 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r12 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c8 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c10" style="background-color: rgb(248,248,120);"></p>
+        <p class="r12 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c4 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r13 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c8 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c10" style="background-color: rgb(248,248,120);"></p>
+        <p class="r13 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c4" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c5 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r14 c7 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c9" style="background-color: rgb(248,248,120);"></p>
+        <p class="r14 c10" style="background-color: rgb(184,120,0);"></p>
+        <p class="r15 c5" style="background-color: rgb(184,120,0);"></p>
+        <p class="r15 c6" style="background-color: rgb(248,184,120);"></p>
+        <p class="r15 c7 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r15 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r16 c6 w3" style="background-color: rgb(184,120,0);"></p>
+              </div>
+                    <div class="sprite w14 h16"  animation="3">
+                <p class="r1 c7 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r2 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r2 c7 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r2 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c7 w2" style="background-color: rgb(248,248,248);"></p>
+        <p class="r3 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c7 w2" style="background-color: rgb(248,248,248);"></p>
+        <p class="r4 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c7 w2" style="background-color: rgb(248,248,248);"></p>
+        <p class="r5 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c7 w2" style="background-color: rgb(248,248,248);"></p>
+        <p class="r6 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c7 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r7 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c7 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r8 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c7 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r9 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c7 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r10 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c7 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r11 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c7 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r12 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c7 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r13 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c7 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r14 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r15 c6" style="background-color: rgb(184,120,0);"></p>
+        <p class="r15 c7 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r15 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r16 c7 w2" style="background-color: rgb(184,120,0);"></p>
+              </div>
+                    <div class="sprite w14 h16"  animation="4">
+                <p class="r1 c6 w3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r2 c5" style="background-color: rgb(184,120,0);"></p>
+        <p class="r2 c6 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r2 c8" style="background-color: rgb(248,248,120);"></p>
+        <p class="r2 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c4" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c5" style="background-color: rgb(248,184,120);"></p>
+        <p class="r3 c6 w3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r3 c9" style="background-color: rgb(248,248,248);"></p>
+        <p class="r3 c10" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c4" style="background-color: rgb(248,184,120);"></p>
+        <p class="r4 c5 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c8 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r4 c10" style="background-color: rgb(248,248,248);"></p>
+        <p class="r4 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c4" style="background-color: rgb(248,184,120);"></p>
+        <p class="r5 c5 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c8 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r5 c10" style="background-color: rgb(248,248,248);"></p>
+        <p class="r5 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c3" style="background-color: rgb(248,184,120);"></p>
+        <p class="r6 c4 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r6 c10 w2" style="background-color: rgb(248,248,248);"></p>
+        <p class="r6 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c3" style="background-color: rgb(248,184,120);"></p>
+        <p class="r7 c4 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r7 c10 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r7 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c3" style="background-color: rgb(248,184,120);"></p>
+        <p class="r8 c4 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r8 c10 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r8 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c3" style="background-color: rgb(248,248,120);"></p>
+        <p class="r9 c4 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r9 c10 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r9 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c3" style="background-color: rgb(248,248,120);"></p>
+        <p class="r10 c4 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r10 c10 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r10 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c3" style="background-color: rgb(248,248,120);"></p>
+        <p class="r11 c4 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r11 c10 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r11 c12" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c4" style="background-color: rgb(248,248,120);"></p>
+        <p class="r12 c5 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c8" style="background-color: rgb(184,120,0);"></p>
+        <p class="r12 c9 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r12 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c3" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c4" style="background-color: rgb(248,248,120);"></p>
+        <p class="r13 c5 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c8" style="background-color: rgb(184,120,0);"></p>
+        <p class="r13 c9 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r13 c11" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c4" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c5" style="background-color: rgb(248,248,120);"></p>
+        <p class="r14 c6 w2" style="background-color: rgb(184,120,0);"></p>
+        <p class="r14 c8 w2" style="background-color: rgb(248,184,120);"></p>
+        <p class="r14 c10" style="background-color: rgb(184,120,0);"></p>
+        <p class="r15 c5" style="background-color: rgb(184,120,0);"></p>
+        <p class="r15 c6 w2" style="background-color: rgb(248,248,120);"></p>
+        <p class="r15 c8" style="background-color: rgb(248,184,120);"></p>
+        <p class="r15 c9" style="background-color: rgb(184,120,0);"></p>
+        <p class="r16 c6 w3" style="background-color: rgb(184,120,0);"></p>
+              </div>
+                    </div>
 
                 <div id="suelo1" class="suelo sprite w16 h40">
                   <p class="r1 c11" style="background-color: rgb(0,194,90);"></p>
