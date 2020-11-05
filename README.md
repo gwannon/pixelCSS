@@ -41,7 +41,6 @@ It allows you to create 50x50 items and animate them with hover, animate colors 
 * https://theflash.gwannon.com/pixelCSS/examples/popolon.html (Animation with 2 frames)
 * https://theflash.gwannon.com/pixelCSS/examples/coin.html (Animation with 4 frames)
 * https://theflash.gwannon.com/pixelCSS/examples/alex.html (Animation with 4 frames)
-* https://theflash.gwannon.com/pixelCSS/examples/sonic.html (Animation with 4 frames)
 * https://theflash.gwannon.com/pixelCSS/examples/sir-arthur.html (Animation with 4 frames)
 * https://theflash.gwannon.com/pixelCSS/examples/guybrush-walking.html (Animation with 6 frames)
 * https://theflash.gwannon.com/pixelCSS/examples/lemming-walking.html (Animation with 8 frames)
@@ -49,6 +48,10 @@ It allows you to create 50x50 items and animate them with hover, animate colors 
 * https://theflash.gwannon.com/pixelCSS/examples/lemming-digging.html (Animation with 12 frames)
 
 All the examples https://theflash.gwannon.com/pixelCSS/examples/todos.html
+
+**Complex scenaries**
+
+* https://theflash.gwannon.com/pixelCSS/examples/sonic.html
 
 **Specific color palettes:**
 
