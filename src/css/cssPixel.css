@@ -3320,9 +3320,9 @@
 
 @keyframes frames2-1 {
   0% { opacity: 1; }
-  25% { opacity: 1; }
-  50% { opacity: 0; }
-  75% { opacity: 0; }
+  50% { opacity: 1; }
+  51% { opacity: 0; }
+  99% { opacity: 0; }
   100% { opacity: 1; }
 }
 
@@ -3330,7 +3330,7 @@
   0% { opacity: 0; }
   25% { opacity: 0; }
   50% { opacity: 1; }
-  75% { opacity: 1; }
+  99% { opacity: 1; }
   100% { opacity: 0; }
 }
 
@@ -3346,22 +3346,26 @@
 
 @keyframes frames3-1 {
   0% { opacity: 1; }
+  32% { opacity: 1; }
   33% { opacity: 0; }
-  66% { opacity: 0; }
+  99% { opacity: 0; }
   100% { opacity: 1; }
 }
 
 @keyframes frames3-2 {
   0% { opacity: 0; }
+  32% { opacity: 0; }
   33% { opacity: 1; }
+  65% { opacity: 1; }
   66% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames3-3 {
   0% { opacity: 0; }
-  33% { opacity: 0; }
+  65% { opacity: 0; }
   66% { opacity: 1; }
+  99% { opacity: 1; }
   100% { opacity: 0; }
 }
 
@@ -3378,33 +3382,35 @@
 
 @keyframes frames4-1 {
   0% { opacity: 1; }
+  24% { opacity: 1; }  
   25% { opacity: 0; }
-  50% { opacity: 0; }
-  75% { opacity: 0; }
+  99% { opacity: 0; }
   100% { opacity: 1; }
 }
 
 @keyframes frames4-2 {
   0% { opacity: 0; }
+  24% { opacity: 0; }
   25% { opacity: 1; }
+  49% { opacity: 1; }
   50% { opacity: 0; }
-  75% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames4-3 {
   0% { opacity: 0; }
-  25% { opacity: 0; }
+  49% { opacity: 0; }
   50% { opacity: 1; }
+  74% { opacity: 1; }
   75% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames4-4 {
   0% { opacity: 0; }
-  25% { opacity: 0; }
-  50% { opacity: 0; }
+  74% { opacity: 0; }
   75% { opacity: 1; }
+  99% { opacity: 1; }
   100% { opacity: 0; }
 }
 
