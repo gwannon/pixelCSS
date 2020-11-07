@@ -33,228 +33,32 @@
         bottom: calc(var(--pixel-size) * 16);
         left: calc(50% - (var(--pixel-size) * 8)); 
         z-index: 100;
+        animation-name: jump;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes jump {
+        0% { bottom: calc(var(--pixel-size) * 16); }
+        40% { bottom: calc(var(--pixel-size) * 16); }
+        46% { bottom: calc(var(--pixel-size) * 16 * 3); }
+        52% { bottom: calc(var(--pixel-size) * 16); }
+        100% { bottom: calc(var(--pixel-size) * 16); }
       }
 
       .suelo {
         position: absolute;
         bottom: 0px;
         z-index: 120;
-		    animation-duration: 10s;
+		    animation-duration: 6s;
 		    animation-iteration-count: infinite;
         animation-timing-function: linear; 
+        border-right: 1px solid rgb(253,181,167);;
       }
 
       
 
-
-
-
-
-
-
-      @keyframes moversuelo1 { 
-    0% { left:  calc(4vw - (var(--pixel-size) * 16)); } 
-    4% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    5% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(4vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo2 { 
-    0% { left:  calc(8vw - (var(--pixel-size) * 16)); } 
-    8% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    9% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(8vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo3 { 
-    0% { left:  calc(12vw - (var(--pixel-size) * 16)); } 
-    12% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    13% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(12vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo4 { 
-    0% { left:  calc(16vw - (var(--pixel-size) * 16)); } 
-    16% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    17% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(16vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo5 { 
-    0% { left:  calc(20vw - (var(--pixel-size) * 16)); } 
-    20% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    21% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(20vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo6 { 
-    0% { left:  calc(24vw - (var(--pixel-size) * 16)); } 
-    24% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    25% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(24vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo7 { 
-    0% { left:  calc(28vw - (var(--pixel-size) * 16)); } 
-    28% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    29% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(28vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo8 { 
-    0% { left:  calc(32vw - (var(--pixel-size) * 16)); } 
-    32% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    33% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(32vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo9 { 
-    0% { left:  calc(36vw - (var(--pixel-size) * 16)); } 
-    36% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    37% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(36vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo10 { 
-    0% { left:  calc(40vw - (var(--pixel-size) * 16)); } 
-    40% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    41% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(40vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo11 { 
-    0% { left:  calc(44vw - (var(--pixel-size) * 16)); } 
-    44% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    45% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(44vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo12 { 
-    0% { left:  calc(48vw - (var(--pixel-size) * 16)); } 
-    48% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    49% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(48vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo13 { 
-    0% { left:  calc(52vw - (var(--pixel-size) * 16)); } 
-    52% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    53% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(52vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo14 { 
-    0% { left:  calc(56vw - (var(--pixel-size) * 16)); } 
-    56% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    57% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(56vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo15 { 
-    0% { left:  calc(60vw - (var(--pixel-size) * 16)); } 
-    60% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    61% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(60vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo16 { 
-    0% { left:  calc(64vw - (var(--pixel-size) * 16)); } 
-    64% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    65% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(64vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo17 { 
-    0% { left:  calc(68vw - (var(--pixel-size) * 16)); } 
-    68% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    69% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(68vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo18 { 
-    0% { left:  calc(72vw - (var(--pixel-size) * 16)); } 
-    72% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    73% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(72vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo19 { 
-    0% { left:  calc(76vw - (var(--pixel-size) * 16)); } 
-    76% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    77% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(76vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo20 { 
-    0% { left:  calc(80vw - (var(--pixel-size) * 16)); } 
-    80% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    81% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(80vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo21 { 
-    0% { left:  calc(84vw - (var(--pixel-size) * 16)); } 
-    84% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    85% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(84vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo22 { 
-    0% { left:  calc(88vw - (var(--pixel-size) * 16)); } 
-    88% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    89% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(88vw - (var(--pixel-size) * 16)); } 
-  }
-
-    @keyframes moversuelo23 { 
-    0% { left:  calc(92vw - (var(--pixel-size) * 16)); } 
-    92% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    93% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(92vw - (var(--pixel-size) * 16)); } 
-  }
-
-  /*  @keyframes moversuelo24 { 
-    0% { left:  calc(96vw - (var(--pixel-size) * 16)); } 
-    96% { left: calc(0vw - (var(--pixel-size) * 16)); } 
-    97% { left: calc(100vw - (var(--pixel-size) * 16)); } 
-    100% { left:  calc(96vw - (var(--pixel-size) * 16)); } 
-  }*/
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-      
       #suelo1 { animation-name: moversuelo1; }
       #suelo2 { animation-name: moversuelo2; }
       #suelo3 { animation-name: moversuelo3; }
@@ -278,8 +82,208 @@
       #suelo21 { animation-name: moversuelo21; }
       #suelo22 { animation-name: moversuelo22; }
       #suelo23 { animation-name: moversuelo23; }
-      /*#suelo24 { animation-name: moversuelo24; }
-      #suelo25 { animation-name: moversuelo25; }*/
+
+
+
+
+
+      @keyframes moversuelo1 { 
+    0% { left:  calc(4.99vw - (var(--pixel-size) * 16)); } 
+    4.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    5% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(4.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo2 { 
+    0% { left:  calc(8.99vw - (var(--pixel-size) * 16)); } 
+    8.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    9% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(8.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo3 { 
+    0% { left:  calc(12.99vw - (var(--pixel-size) * 16)); } 
+    12.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    13% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(12.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo4 { 
+    0% { left:  calc(16.99vw - (var(--pixel-size) * 16)); } 
+    16.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    17% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(16.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo5 { 
+    0% { left:  calc(20.99vw - (var(--pixel-size) * 16)); } 
+    20.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    21% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(20.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo6 { 
+    0% { left:  calc(24.99vw - (var(--pixel-size) * 16)); } 
+    24.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    25% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(24.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo7 { 
+    0% { left:  calc(28.99vw - (var(--pixel-size) * 16)); } 
+    28.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    29% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(28.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo8 { 
+    0% { left:  calc(32.99vw - (var(--pixel-size) * 16)); } 
+    32.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    33% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(32.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo9 { 
+    0% { left:  calc(36.99vw - (var(--pixel-size) * 16)); } 
+    36.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    37% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(36.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo10 { 
+    0% { left:  calc(40.99vw - (var(--pixel-size) * 16)); } 
+    40.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    41% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(40.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo11 { 
+    0% { left:  calc(44.99vw - (var(--pixel-size) * 16)); } 
+    44.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    45% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(44.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo12 { 
+    0% { left:  calc(48.99vw - (var(--pixel-size) * 16)); } 
+    48.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    49% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(48.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo13 { 
+    0% { left:  calc(52.99vw - (var(--pixel-size) * 16)); } 
+    52.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    53% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(52.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo14 { 
+    0% { left:  calc(56.99vw - (var(--pixel-size) * 16)); } 
+    56.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    57% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(56.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo15 { 
+    0% { left:  calc(60.99vw - (var(--pixel-size) * 16)); } 
+    60.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    61% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(60.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo16 { 
+    0% { left:  calc(64.99vw - (var(--pixel-size) * 16)); } 
+    64.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    65% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(64.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo17 { 
+    0% { left:  calc(68.99vw - (var(--pixel-size) * 16)); } 
+    68.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    69% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(68.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo18 { 
+    0% { left:  calc(72.99vw - (var(--pixel-size) * 16)); } 
+    72.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    73% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(72.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo19 { 
+    0% { left:  calc(76.99vw - (var(--pixel-size) * 16)); } 
+    76.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    77% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(76.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo20 { 
+    0% { left:  calc(80.99vw - (var(--pixel-size) * 16)); } 
+    80.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    81% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(80.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo21 { 
+    0% { left:  calc(84.99vw - (var(--pixel-size) * 16)); } 
+    84.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    85% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(84.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo22 { 
+    0% { left:  calc(88.99vw - (var(--pixel-size) * 16)); } 
+    88.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    89% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(88.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+    @keyframes moversuelo23 { 
+    0% { left:  calc(92.99vw - (var(--pixel-size) * 16)); } 
+    92.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+    93% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+    100% { left:  calc(92.99vw - (var(--pixel-size) * 16)); } 
+  }
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+      
+
     </style>
   </head>
   <body>
@@ -1948,60 +1952,7 @@
       <p class="r16 c9 w3" style="background-color: rgb(0,0,0);"></p>
       <p class="r16 c12 w5" style="background-color: rgb(252,142,45);"></p>
     </div>
-    <!-- <div id="suelo24" class="suelo sprite w16 h16">
-      <p class="r1 c1 w16" style="background-color: rgb(0,0,0);"></p>
-      <p class="r2 c1 w16" style="background-color: rgb(253,181,167);"></p>
-      <p class="r3 c1 w16" style="background-color: rgb(253,181,167);"></p>
-      <p class="r4 c1 w16" style="background-color: rgb(253,181,167);"></p>
-      <p class="r5 c1 w16" style="background-color: rgb(253,181,167);"></p>
-      <p class="r6 c1 w16" style="background-color: rgb(0,0,0);"></p>
-      <p class="r7 c1 w3" style="background-color: rgb(253,181,167);"></p>
-      <p class="r7 c4 w3" style="background-color: rgb(252,142,45);"></p>
-      <p class="r7 c7 w5" style="background-color: rgb(253,181,167);"></p>
-      <p class="r7 c12 w3" style="background-color: rgb(252,142,45);"></p>
-      <p class="r7 c15 w2" style="background-color: rgb(253,181,167);"></p>
-      <p class="r8 c1 w4" style="background-color: rgb(253,181,167);"></p>
-      <p class="r8 c5 w3" style="background-color: rgb(252,142,45);"></p>
-      <p class="r8 c8 w5" style="background-color: rgb(253,181,167);"></p>
-      <p class="r8 c13 w3" style="background-color: rgb(252,142,45);"></p>
-      <p class="r8 c16" style="background-color: rgb(253,181,167);"></p>
-      <p class="r9 c1 w5" style="background-color: rgb(252,142,45);"></p>
-      <p class="r9 c6 w3" style="background-color: rgb(0,0,0);"></p>
-      <p class="r9 c9 w5" style="background-color: rgb(252,142,45);"></p>
-      <p class="r9 c14 w3" style="background-color: rgb(0,0,0);"></p>
-      <p class="r10 c1 w2" style="background-color: rgb(0,0,0);"></p>
-      <p class="r10 c3 w4" style="background-color: rgb(252,142,45);"></p>
-      <p class="r10 c7 w4" style="background-color: rgb(0,0,0);"></p>
-      <p class="r10 c11 w4" style="background-color: rgb(252,142,45);"></p>
-      <p class="r10 c15 w2" style="background-color: rgb(0,0,0);"></p>
-      <p class="r11 c1 w4" style="background-color: rgb(0,0,0);"></p>
-      <p class="r11 c5 w4" style="background-color: rgb(252,142,45);"></p>
-      <p class="r11 c9 w3" style="background-color: rgb(0,0,0);"></p>
-      <p class="r11 c12 w5" style="background-color: rgb(252,142,45);"></p>
-      <p class="r12 c1 w2" style="background-color: rgb(252,142,45);"></p>
-      <p class="r12 c3 w4" style="background-color: rgb(0,0,0);"></p>
-      <p class="r12 c7 w4" style="background-color: rgb(252,142,45);"></p>
-      <p class="r12 c11 w2" style="background-color: rgb(0,0,0);"></p>
-      <p class="r12 c13 w4" style="background-color: rgb(252,142,45);"></p>
-      <p class="r13 c1 w5" style="background-color: rgb(252,142,45);"></p>
-      <p class="r13 c6 w2" style="background-color: rgb(0,0,0);"></p>
-      <p class="r13 c8 w4" style="background-color: rgb(252,142,45);"></p>
-      <p class="r13 c12 w3" style="background-color: rgb(0,0,0);"></p>
-      <p class="r13 c15 w2" style="background-color: rgb(252,142,45);"></p>
-      <p class="r14 c1 w6" style="background-color: rgb(252,142,45);"></p>
-      <p class="r14 c7 w2" style="background-color: rgb(0,0,0);"></p>
-      <p class="r14 c9 w5" style="background-color: rgb(252,142,45);"></p>
-      <p class="r14 c14 w3" style="background-color: rgb(0,0,0);"></p>
-      <p class="r15 c1" style="background-color: rgb(0,0,0);"></p>
-      <p class="r15 c2 w6" style="background-color: rgb(252,142,45);"></p>
-      <p class="r15 c8 w2" style="background-color: rgb(0,0,0);"></p>
-      <p class="r15 c10 w6" style="background-color: rgb(252,142,45);"></p>
-      <p class="r15 c16" style="background-color: rgb(0,0,0);"></p>
-      <p class="r16 c1 w3" style="background-color: rgb(0,0,0);"></p>
-      <p class="r16 c4 w5" style="background-color: rgb(252,142,45);"></p>
-      <p class="r16 c9 w3" style="background-color: rgb(0,0,0);"></p>
-      <p class="r16 c12 w5" style="background-color: rgb(252,142,45);"></p>
-    </div> -->
+
 
 
 
@@ -2015,7 +1966,4 @@
 
     <a href="https://github.com/gwannon/pixelCSS" style="position: absolute; top: 10px; right: 10px; color: #00000; font-family: Arial;">GitHub pixelCSS</a>
   </body>
-</html>  @keyframes moversuelo25 { 
-  0% { left:  calc(100vw - (var(--pixel-size) * 16)); } 
-  100% { left: calc(0vw - (var(--pixel-size) * 16)); }  
-}
+</html>
