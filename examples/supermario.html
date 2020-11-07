@@ -39,11 +39,59 @@
         animation-timing-function: linear;
       }
 
+      #block1, #block3, #block2, #moneda {
+        position: absolute;
+        bottom: calc(var(--pixel-size) * 70);
+        z-index: 100;
+        animation-name: moverbloque1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      #block2 { animation-name: moverbloque2;  }
+      #block3 { animation-name: moverbloque3;  }
+      #moneda { animation-name: moneda; z-index: 90; }
+
+      @keyframes moverbloque1 { 
+        0% { left:  calc(36.99vw - (var(--pixel-size) * 16)); } 
+        36.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+        37% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+        100% { left:  calc(36.99vw - (var(--pixel-size) * 16)); } 
+      }
+
+      @keyframes moverbloque2 { 
+        0% { left:  calc(40.99vw - (var(--pixel-size) * 16)); } 
+        40.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+        41% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+        100% { left:  calc(40.99vw - (var(--pixel-size) * 16)); } 
+      }
+
+      @keyframes moverbloque3 { 
+        0% { left:  calc(44.99vw - (var(--pixel-size) * 16)); } 
+        44.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+        45% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+        100% { left:  calc(44.99vw - (var(--pixel-size) * 16)); } 
+      }
+
+      @keyframes moneda { 
+        0% { left:  calc(41.99vw - (var(--pixel-size) * 16)); } 
+        41.99% { left: calc(0vw - (var(--pixel-size) * 16)); } 
+        42% { left: calc(100vw - (var(--pixel-size) * 16)); } 
+        88% { bottom: calc(var(--pixel-size) * 70); }
+        92% { bottom: calc(var(--pixel-size) * 120); }
+        96% { bottom: calc(var(--pixel-size) * 70); }
+        100% { left:  calc(41.99vw - (var(--pixel-size) * 16)); } 
+      }
+
       @keyframes jump {
         0% { bottom: calc(var(--pixel-size) * 16); }
         40% { bottom: calc(var(--pixel-size) * 16); }
         46% { bottom: calc(var(--pixel-size) * 16 * 3); }
         52% { bottom: calc(var(--pixel-size) * 16); }
+        84% { bottom: calc(var(--pixel-size) * 16); }
+        90% { bottom: calc(var(--pixel-size) * 16 * 3); }
+        96% { bottom: calc(var(--pixel-size) * 16); }
         100% { bottom: calc(var(--pixel-size) * 16); }
       }
 
@@ -1954,13 +2002,135 @@
     </div>
 
 
+    <div id="block1" class="sprite w16 h16">
+      <p class="r1 c1 w16 black"></p>
+      <p class="r2 c1 h14 black"></p>
+      <p class="r2 c2 w14 h14" style="background-color: rgb(252,142,46);"></p>
+      <p class="r2 c16 h14 black"></p>
+      <p class="r4 c4 black"></p>
+      <p class="r4 c13 black"></p>
+      <p class="r13 c4 black"></p>
+      <p class="r13 c13 black"></p>  
+      <p class="r16 c1 w16 black"></p>
+    </div>
 
 
+    <div id="block2"class="sprite w16 h16 gray">
+      <p class="r1 c1 w16 black"></p>
+      <p class="r2 c1 black"></p>
+      <p class="r2 c16 h14 black"></p>
+<p class="r2 c2 w14" style="background-color: rgb(252,181,168);"></p>
+<p class="r3 c1 black"></p>
+<p class="r3 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r3 c3 black"></p>
+<p class="r3 c4 w10" style="background-color: rgb(252,142,46);"></p>
+<p class="r3 c14 black"></p>
+<p class="r3 c15" style="background-color: rgb(252,142,46);"></p>
+<p class="r4 c1 black"></p>
+<p class="r4 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r4 c3 w2" style="background-color: rgb(252,142,46);"></p>
+<p class="r4 c5 w7" style="background-color: rgb(252,181,168);"></p>
+<p class="r4 c12 w4" style="background-color: rgb(252,142,46);"></p>
+<p class="r5 c1 black"></p>
+<p class="r5 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r5 c3" style="background-color: rgb(252,142,46);"></p>
+<p class="r5 c4 w9" style="background-color: rgb(252,181,168);"></p>
+<p class="r5 c13 w3" style="background-color: rgb(252,142,46);"></p>
+<p class="r6 c1 black"></p>
+<p class="r6 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r6 c3" style="background-color: rgb(252,142,46);"></p>
+<p class="r6 c4 w3" style="background-color: rgb(252,181,168);"></p>
+<p class="r6 c7 w3 black"></p>
+<p class="r6 c10 w3" style="background-color: rgb(252,181,168);"></p>
+<p class="r6 c13 black"></p>
+<p class="r6 c14 w2" style="background-color: rgb(252,142,46);"></p>
+<p class="r7 c1 black"></p>
+<p class="r7 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r7 c3 w2" style="background-color: rgb(252,142,46);"></p>
+<p class="r7 c5 w3 black"></p>
+<p class="r7 c8 w2" style="background-color: rgb(252,142,46);"></p>
+<p class="r7 c10 w3" style="background-color: rgb(252,181,168);"></p>
+<p class="r7 c13 black"></p>
+<p class="r7 c14 w2" style="background-color: rgb(252,142,46);"></p>
+<p class="r8 c1 black"></p>
+<p class="r8 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r8 c3 w4" style="background-color: rgb(252,142,46);"></p>
+<p class="r8 c7 w5" style="background-color: rgb(252,181,168);"></p>
+<p class="r8 c12 w2 black"></p>
+<p class="r8 c14 w2" style="background-color: rgb(252,142,46);"></p>
+<p class="r9 c1 black"></p>
+<p class="r9 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r9 c3 w4" style="background-color: rgb(252,142,46);"></p>
+<p class="r9 c7 w3" style="background-color: rgb(252,181,168);"></p>
+<p class="r9 c10 w3 black"></p>
+<p class="r9 c13 w3" style="background-color: rgb(252,142,46);"></p>
+<p class="r10 c1 black"></p>
+<p class="r10 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r10 c3 w5" style="background-color: rgb(252,142,46);"></p>
+<p class="r10 c8 w3 black"></p>
+<p class="r10 c11 w5" style="background-color: rgb(252,142,46);"></p>
+<p class="r11 c1 black"></p>
+<p class="r11 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r11 c3 w4" style="background-color: rgb(252,142,46);"></p>
+<p class="r11 c7 w3" style="background-color: rgb(252,181,168);"></p>
+<p class="r11 c10 w6" style="background-color: rgb(252,142,46);"></p>
+<p class="r12 c1 black"></p>
+<p class="r12 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r12 c3 w4" style="background-color: rgb(252,142,46);"></p>
+<p class="r12 c7 w3" style="background-color: rgb(252,181,168);"></p>
+<p class="r12 c10 black"></p>
+<p class="r12 c11 w5" style="background-color: rgb(252,142,46);"></p>
+<p class="r13 c1 black"></p>
+<p class="r13 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r13 c3 w5" style="background-color: rgb(252,142,46);"></p>
+<p class="r13 c8 w3 black"></p>
+<p class="r13 c11 w5" style="background-color: rgb(252,142,46);"></p>
+<p class="r14 c1 black"></p>
+<p class="r14 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r14 c3 black"></p>
+<p class="r14 c4 w10" style="background-color: rgb(252,142,46);"></p>
+<p class="r14 c14 black"></p>
+<p class="r14 c15" style="background-color: rgb(252,142,46);"></p>
+<p class="r15 c1 black"></p>
+<p class="r15 c2" style="background-color: rgb(252,181,168);"></p>
+<p class="r15 c3 w13" style="background-color: rgb(252,142,46);"></p>
+      <p class="r16 c1 w16 black"></p>
+    </div>
 
 
+    <div id="block3" class="sprite w16 h16">
+      <p class="r1 c1 w16 black"></p>
+      <p class="r2 c1 h14 black"></p>
+      <p class="r2 c2 w14 h14" style="background-color: rgb(252,142,46);"></p>
+      <p class="r2 c16 h14 black"></p>
+      <p class="r4 c4 black"></p>
+      <p class="r4 c13 black"></p>
+      <p class="r13 c4 black"></p>
+      <p class="r13 c13 black"></p>  
+      <p class="r16 c1 w16 black"></p>
+    </div>
 
-
-
+    <div id="moneda" class="sprite w8 h14">
+      <p class="r1 c4 w2 orange"></p>
+      <p class="r2 c3 w4 orange"></p>
+      <p class="r3 c2 w6 orange"></p>
+      <p class="r4 c2 w2 orange"></p>
+      <p class="r4 c4 moccasin"></p>
+      <p class="r4 c5 orangered"></p>
+      <p class="r4 c6 w2 orange"></p>
+      <p class="r5 c1 w2 h6 orange"></p>
+      <p class="r5 c3 h6 moccasin"></p>
+      <p class="r5 c4 w2 h6 orange"></p>
+      <p class="r5 c6 h6 orangered"></p>
+      <p class="r5 c7 w2 h6 orange"></p>
+      <p class="r11 c2 w2 orange"></p>
+      <p class="r11 c4 moccasin"></p>
+      <p class="r11 c5 orangered"></p>
+      <p class="r11 c6 w2 orange"></p>
+      <p class="r12 c2 w6 orange"></p>
+      <p class="r13 c3 w4 orange"></p>
+      <p class="r14 c4 w2 orange"></p>
+    </div>
 
 
 
