@@ -52,6 +52,7 @@ All the examples https://theflash.gwannon.com/pixelCSS/examples/todos.html
 **Complex scenaries**
 
 * https://theflash.gwannon.com/pixelCSS/examples/sonic.html
+* https://theflash.gwannon.com/pixelCSS/examples/supermario.html
 
 **Specific color palettes:**
 
