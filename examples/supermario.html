@@ -1,9 +1,11 @@
 <!doctype html>
 <html>
   <head>
-    <title>Super Mario Bros 3</title>
+    <title>Super Mario Bros 3 - HTML5+CSS3</title>
+    <meta name="Description" content="Está animación solo hace uso de HTML5 y CSS3. No hay Javascript.">
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <link href="../src/css/cssPixel.css" rel="stylesheet">
+    <meta property="og:image" content="https://theflash.gwannon.com/pixelCSS/tools/temp/sonic.jpg">
     <style>
       :root {
         --pixel-size: calc(100vw / (25*16));
@@ -44,6 +46,21 @@
         bottom: calc(var(--pixel-size) * 70);
         z-index: 100;
         animation-name: moverbloque1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      #granbloquerosa {
+        position: absolute;
+        bottom: calc(var(--pixel-size) * 16);
+        left: calc(50% - (var(--pixel-size) * 8));
+        z-index: 90;
+        border: var(--pixel-size) solid #000;
+        width: calc(var(--pixel-size) * 60);
+        height: calc(var(--pixel-size) * 60);
+        background-color: mistyrose;
+        animation-name: moversuelo15;
         animation-duration: 6s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
@@ -2207,7 +2224,7 @@
 <p class="r16 c5 w6" style="background-color: rgb(42,42,42);"></p>
     </div>
 
-
+<!-- <div id="granbloquerosa"></div> -->
 
     <a href="https://github.com/gwannon/pixelCSS" style="position: absolute; top: 10px; right: 10px; color: #00000; font-family: Arial;">GitHub pixelCSS</a>
   </body>
