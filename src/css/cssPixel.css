@@ -3300,23 +3300,26 @@
 .animation {
   position: relative;
 }
-.animation > div {
+.animation > div,
+.animation > g{
   position: absolute;
   top: 0px;
   left: 0px;
   opacity: 0;
 }
 
-.animation > div[animation="0"] { opacity: 1; } 
+.animation > div[animation="0"],
+.animation > g[animation="0"] { opacity: 1; } 
 
-.frames2 > div {
+.frames2 > div,
+.frames2 > g {
   animation-duration: var(--frames2-duration);
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
-.frames2 > div[animation="1"] { animation-name: frames2-1; }
-.frames2 > div[animation="2"] { animation-name: frames2-2; }
+.frames2 > div[animation="1"], .frames2 > g[animation="1"] { animation-name: frames2-1; }
+.frames2 > div[animation="2"], .frames2 > g[animation="2"] { animation-name: frames2-2; }
 
 @keyframes frames2-1 {
   0% { opacity: 1; }
@@ -3334,15 +3337,16 @@
   100% { opacity: 0; }
 }
 
-.frames3 > div {
+.frames3 > div,
+.frames3 > g  {
   animation-duration: var(--frames3-duration);
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
-.frames3 > div[animation="1"] { animation-name: frames3-1; }
-.frames3 > div[animation="2"] { animation-name: frames3-2; }
-.frames3 > div[animation="3"] { animation-name: frames3-3; }
+.frames3 > div[animation="1"], .frames3 > g[animation="1"] { animation-name: frames3-1; }
+.frames3 > div[animation="2"], .frames3 > g[animation="1"] { animation-name: frames3-2; }
+.frames3 > div[animation="3"], .frames3 > g[animation="1"] { animation-name: frames3-3; }
 
 @keyframes frames3-1 {
   0% { opacity: 1; }
@@ -3369,16 +3373,17 @@
   100% { opacity: 0; }
 }
 
-.frames4 > div {
+.frames4 > div,
+.frames4 > g {
   animation-duration: var(--frames4-duration);
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
-.frames4 > div[animation="1"] { animation-name: frames4-1; }
-.frames4 > div[animation="2"] { animation-name: frames4-2; }
-.frames4 > div[animation="3"] { animation-name: frames4-3; }
-.frames4 > div[animation="4"] { animation-name: frames4-4; }
+.frames4 > div[animation="1"], .frames4 > g[animation="1"] { animation-name: frames4-1; }
+.frames4 > div[animation="2"], .frames4 > g[animation="2"] { animation-name: frames4-2; }
+.frames4 > div[animation="3"], .frames4 > g[animation="3"] { animation-name: frames4-3; }
+.frames4 > div[animation="4"], .frames4 > g[animation="4"] { animation-name: frames4-4; }
 
 @keyframes frames4-1 {
   0% { opacity: 1; }
@@ -3424,18 +3429,25 @@
 
 
 
-.frames6 > div {
+.frames6 > div,
+.frames6 > g {
   animation-duration: var(--frames6-duration);
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
-.frames6 > div[animation="1"] { animation-name: frames6-1; }
-.frames6 > div[animation="2"] { animation-name: frames6-2; }
-.frames6 > div[animation="3"] { animation-name: frames6-3; }
-.frames6 > div[animation="4"] { animation-name: frames6-4; }
-.frames6 > div[animation="5"] { animation-name: frames6-5; }
-.frames6 > div[animation="6"] { animation-name: frames6-6; }
+.frames6 > div[animation="1"],
+.frames6 > g[animation="1"] { animation-name: frames6-1; }
+.frames6 > div[animation="2"],
+.frames6 > g[animation="2"] { animation-name: frames6-2; }
+.frames6 > div[animation="3"],
+.frames6 > g[animation="3"] { animation-name: frames6-3; }
+.frames6 > div[animation="4"],
+.frames6 > g[animation="4"] { animation-name: frames6-4; }
+.frames6 > div[animation="5"],
+.frames6 > g[animation="5"] { animation-name: frames6-5; }
+.frames6 > div[animation="6"],
+.frames6 > g[animation="6"] { animation-name: frames6-6; }
 
 @keyframes frames6-1 {
   0% { opacity: 1; }
@@ -3529,20 +3541,21 @@
 
 
 
-.frames8 > div {
+.frames8 > div,
+.frames8 > g {
   animation-duration: var(--frames8-duration);
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
-.frames8 > div[animation="1"] { animation-name: frames8-1; }
-.frames8 > div[animation="2"] { animation-name: frames8-2; }
-.frames8 > div[animation="3"] { animation-name: frames8-3; }
-.frames8 > div[animation="4"] { animation-name: frames8-4; }
-.frames8 > div[animation="5"] { animation-name: frames8-5; }
-.frames8 > div[animation="6"] { animation-name: frames8-6; }
-.frames8 > div[animation="7"] { animation-name: frames8-7; }
-.frames8 > div[animation="8"] { animation-name: frames8-8; }
+.frames8 > div[animation="1"], .frames8 > g[animation="1"] { animation-name: frames8-1; }
+.frames8 > div[animation="2"], .frames8 > g[animation="2"] { animation-name: frames8-2; }
+.frames8 > div[animation="3"], .frames8 > g[animation="3"] { animation-name: frames8-3; }
+.frames8 > div[animation="4"], .frames8 > g[animation="4"] { animation-name: frames8-4; }
+.frames8 > div[animation="5"], .frames8 > g[animation="5"] { animation-name: frames8-5; }
+.frames8 > div[animation="6"], .frames8 > g[animation="6"] { animation-name: frames8-6; }
+.frames8 > div[animation="7"], .frames8 > g[animation="7"] { animation-name: frames8-7; }
+.frames8 > div[animation="8"], .frames8 > g[animation="8"] { animation-name: frames8-8; }
 
 @keyframes frames8-1 {
   0% { opacity: 1; }
@@ -3640,24 +3653,25 @@
   100% { opacity: 0; }
 }
 
-.frames12 > div {
+.frames12 > div,
+.frames12 > g {
   animation-duration: var(--frames12-duration);
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
-.frames12 > div[animation="1"] { animation-name: frames12-1; }
-.frames12 > div[animation="2"] { animation-name: frames12-2; }
-.frames12 > div[animation="3"] { animation-name: frames12-3; }
-.frames12 > div[animation="4"] { animation-name: frames12-4; }
-.frames12 > div[animation="5"] { animation-name: frames12-5; }
-.frames12 > div[animation="6"] { animation-name: frames12-6; }
-.frames12 > div[animation="7"] { animation-name: frames12-7; }
-.frames12 > div[animation="8"] { animation-name: frames12-8; }
-.frames12 > div[animation="9"] { animation-name: frames12-9; }
-.frames12 > div[animation="10"] { animation-name: frames12-10; }
-.frames12 > div[animation="11"] { animation-name: frames12-11; }
-.frames12 > div[animation="12"] { animation-name: frames12-12; }
+.frames12 > div[animation="1"], .frames12 > div[animation="1"] { animation-name: frames12-1; }
+.frames12 > div[animation="2"], .frames12 > div[animation="2"] { animation-name: frames12-2; }
+.frames12 > div[animation="3"], .frames12 > div[animation="3"] { animation-name: frames12-3; }
+.frames12 > div[animation="4"], .frames12 > div[animation="4"] { animation-name: frames12-4; }
+.frames12 > div[animation="5"], .frames12 > div[animation="5"] { animation-name: frames12-5; }
+.frames12 > div[animation="6"], .frames12 > div[animation="6"] { animation-name: frames12-6; }
+.frames12 > div[animation="7"], .frames12 > div[animation="7"] { animation-name: frames12-7; }
+.frames12 > div[animation="8"], .frames12 > div[animation="8"] { animation-name: frames12-8; }
+.frames12 > div[animation="9"], .frames12 > div[animation="9"] { animation-name: frames12-9; }
+.frames12 > div[animation="10"], .frames12 > div[animation="10"] { animation-name: frames12-10; }
+.frames12 > div[animation="11"], .frames12 > div[animation="11"] { animation-name: frames12-11; }
+.frames12 > div[animation="12"], .frames12 > div[animation="12"] { animation-name: frames12-12; }
 
 @keyframes frames12-1 {
   0% { opacity: 1; }

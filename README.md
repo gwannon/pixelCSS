@@ -70,3 +70,17 @@ All the examples https://theflash.gwannon.com/pixelCSS/examples/todos.html
 **Conversor from secunecies of PNGs to HTML (tools/spritesToHtml.php):**
 
 * Example of original images and the animated sprite in html https://theflash.gwannon.com/pixelCSS/tools/spritesToHtml.html
+
+**Support with SVG**
+
+* https://theflash.gwannon.com/pixelCSS/tools/pngToSVG.svg
+* https://theflash.gwannon.com/pixelCSS/tools/spritesToSVG.html
+
+
+**Tools**
+
+* pngToHtml.php > transforms png to a html+css
+* spritesToHtml.php transforms various PNGs to html+css animation
+* pngToSVG.php > transforms .png to a .svg
+* spritesToSVG.php transforms various PNGs to SVGs animation
+
