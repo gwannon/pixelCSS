@@ -75,6 +75,7 @@ All the examples https://theflash.gwannon.com/pixelCSS/examples/todos.html
 
 * https://theflash.gwannon.com/pixelCSS/tools/pngToSVG.svg
 * https://theflash.gwannon.com/pixelCSS/tools/spritesToSVG.html
+* https://theflash.gwannon.com/pixelCSS/examples/stan.svg
 
 
 **Tools**

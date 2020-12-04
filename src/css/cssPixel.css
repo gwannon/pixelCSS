@@ -3660,18 +3660,18 @@
   animation-timing-function: linear;
 }
 
-.frames12 > div[animation="1"], .frames12 > div[animation="1"] { animation-name: frames12-1; }
-.frames12 > div[animation="2"], .frames12 > div[animation="2"] { animation-name: frames12-2; }
-.frames12 > div[animation="3"], .frames12 > div[animation="3"] { animation-name: frames12-3; }
-.frames12 > div[animation="4"], .frames12 > div[animation="4"] { animation-name: frames12-4; }
-.frames12 > div[animation="5"], .frames12 > div[animation="5"] { animation-name: frames12-5; }
-.frames12 > div[animation="6"], .frames12 > div[animation="6"] { animation-name: frames12-6; }
-.frames12 > div[animation="7"], .frames12 > div[animation="7"] { animation-name: frames12-7; }
-.frames12 > div[animation="8"], .frames12 > div[animation="8"] { animation-name: frames12-8; }
-.frames12 > div[animation="9"], .frames12 > div[animation="9"] { animation-name: frames12-9; }
-.frames12 > div[animation="10"], .frames12 > div[animation="10"] { animation-name: frames12-10; }
-.frames12 > div[animation="11"], .frames12 > div[animation="11"] { animation-name: frames12-11; }
-.frames12 > div[animation="12"], .frames12 > div[animation="12"] { animation-name: frames12-12; }
+.frames12 > div[animation="1"], .frames12 > g[animation="1"] { animation-name: frames12-1; }
+.frames12 > div[animation="2"], .frames12 > g[animation="2"] { animation-name: frames12-2; }
+.frames12 > div[animation="3"], .frames12 > g[animation="3"] { animation-name: frames12-3; }
+.frames12 > div[animation="4"], .frames12 > g[animation="4"] { animation-name: frames12-4; }
+.frames12 > div[animation="5"], .frames12 > g[animation="5"] { animation-name: frames12-5; }
+.frames12 > div[animation="6"], .frames12 > g[animation="6"] { animation-name: frames12-6; }
+.frames12 > div[animation="7"], .frames12 > g[animation="7"] { animation-name: frames12-7; }
+.frames12 > div[animation="8"], .frames12 > g[animation="8"] { animation-name: frames12-8; }
+.frames12 > div[animation="9"], .frames12 > g[animation="9"] { animation-name: frames12-9; }
+.frames12 > div[animation="10"], .frames12 > g[animation="10"] { animation-name: frames12-10; }
+.frames12 > div[animation="11"], .frames12 > g[animation="11"] { animation-name: frames12-11; }
+.frames12 > div[animation="12"], .frames12 > g[animation="12"] { animation-name: frames12-12; }
 
 @keyframes frames12-1 {
   0% { opacity: 1; }

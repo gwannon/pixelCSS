@@ -1,8 +1,8 @@
 <?php
-  $imageUrl = "temp/sonicbg.png";
+  $imageUrl = "temp/suelo-gg.png";
   list($width, $height, $type, $attr) = getimagesize($imageUrl);
   $im = imagecreatefrompng($imageUrl);
-  $pixel_size = 1;
+  $pixel_size = 5;
 ?>
 <svg width="<?php echo ($width * $pixel_size); ?>" height="<?php echo ($height * $pixel_size); ?>">
   <?php
