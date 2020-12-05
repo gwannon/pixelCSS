@@ -3387,36 +3387,35 @@
 
 @keyframes frames4-1 {
   0% { opacity: 1; }
-  24% { opacity: 1; }  
+  24.99% { opacity: 1; }  
   25% { opacity: 0; }
-  99% { opacity: 0; }
-  100% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 @keyframes frames4-2 {
   0% { opacity: 0; }
-  24% { opacity: 0; }
+  24.99% { opacity: 0; }
   25% { opacity: 1; }
-  49% { opacity: 1; }
+  49.99% { opacity: 1; }
   50% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames4-3 {
   0% { opacity: 0; }
-  49% { opacity: 0; }
+  49.99% { opacity: 0; }
   50% { opacity: 1; }
-  74% { opacity: 1; }
+  74.99% { opacity: 1; }
   75% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames4-4 {
-  0% { opacity: 0; }
-  74% { opacity: 0; }
+  0% { opacity: 1; } 
+  0.01% { opacity: 0; }
+  74.99% { opacity: 0; }
   75% { opacity: 1; }
-  99% { opacity: 1; }
-  100% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 
@@ -3493,7 +3492,8 @@
 }
 
 @keyframes frames6-6 {
-  0% { opacity: 0; }
+  0% { opacity: 1; } 
+  0.01% { opacity: 0; }
   83.33% { opacity: 0; }
   83.34% { opacity: 1; }
   100% { opacity: 1; }
@@ -3665,192 +3665,105 @@
 
 @keyframes frames12-1 {
   0% { opacity: 1; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 0; }
-  25% { opacity: 0; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 0; }
-  50% { opacity: 0; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 0; }
-  75% { opacity: 0; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 0; }
-  100% { opacity: 1; }
+  8.33% { opacity: 1; }
+  8.34% { opacity: 0; }
+  100% { opacity: 0; }
 }
 
 @keyframes frames12-2 {
   0% { opacity: 0; }
-  8.33% { opacity: 1; }
-  16.66% { opacity: 0; }
-  25% { opacity: 0; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 0; }
-  50% { opacity: 0; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 0; }
-  75% { opacity: 0; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 0; }
+  8.33% { opacity: 0; }
+  8.34% { opacity: 1; }
+  16.66% { opacity: 1; }
+  16.67% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames12-3 {
   0% { opacity: 0; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 1; }
-  25% { opacity: 0; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 0; }
-  50% { opacity: 0; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 0; }
-  75% { opacity: 0; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 0; }
+  16.66% { opacity: 0; }
+  16.67% { opacity: 1; }
+  25% { opacity: 1; }
+  25.01% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames12-4 {
   0% { opacity: 0; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 0; }
-  25% { opacity: 1; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 0; }
-  50% { opacity: 0; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 0; }
-  75% { opacity: 0; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 0; }
+  25% { opacity: 0; }
+  25.01% { opacity: 1; }
+  33.33% { opacity: 1; }
+  33.34% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames12-5 {
   0% { opacity: 0; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 0; }
-  25% { opacity: 0; }
-  33.33% { opacity: 1; }
-  41.66% { opacity: 0; }
-  50% { opacity: 0; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 0; }
-  75% { opacity: 0; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 0; }
+  33.33% { opacity: 0; }
+  33.34% { opacity: 1; }
+  41.66% { opacity: 1; }
+  41.67% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames12-6 {
   0% { opacity: 0; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 0; }
-  25% { opacity: 0; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 1; }
-  50% { opacity: 0; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 0; }
-  75% { opacity: 0; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 0; }
+  41.66% { opacity: 0; }
+  41.67% { opacity: 1; }
+  50% { opacity: 1; }
+  50.01% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames12-7 {
   0% { opacity: 0; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 0; }
-  25% { opacity: 0; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 0; }
-  50% { opacity: 1; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 0; }
-  75% { opacity: 0; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 0; }
+  50% { opacity: 0; }
+  50.01% { opacity: 1; }
+  58.33% { opacity: 1; }
+  58.34% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames12-8 {
   0% { opacity: 0; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 0; }
-  25% { opacity: 0; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 0; }
-  50% { opacity: 0; }
-  58.33% { opacity: 1; }
-  66.66% { opacity: 0; }
-  75% { opacity: 0; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 0; }
+  58.33% { opacity: 0; }
+  58.34% { opacity: 1; }
+  66.66% { opacity: 1; }
+  66.67% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames12-9 {
   0% { opacity: 0; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 0; }
-  25% { opacity: 0; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 0; }
-  50% { opacity: 0; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 1; }
-  75% { opacity: 0; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 0; }
+  66.66% { opacity: 0; }
+  66.67% { opacity: 1; }
+  75% { opacity: 1; }
+  75.01% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames12-10 {
   0% { opacity: 0; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 0; }
-  25% { opacity: 0; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 0; }
-  50% { opacity: 0; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 0; }
-  75% { opacity: 1; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 0; }
+  75% { opacity: 0; }
+  75.01% { opacity: 1; }
+  83.33% { opacity: 1; }
+  83.34% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames12-11 {
   0% { opacity: 0; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 0; }
-  25% { opacity: 0; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 0; }
-  50% { opacity: 0; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 0; }
-  75% { opacity: 0; }
-  83.33% { opacity: 1; }
-  91.66% { opacity: 0; }
+  83.33% { opacity: 0; }
+  83.34% { opacity: 1; }
+  91.66% { opacity: 1; }
+  91.67% { opacity: 0; }
   100% { opacity: 0; }
 }
 
 @keyframes frames12-12 {
-  0% { opacity: 0; }
-  8.33% { opacity: 0; }
-  16.66% { opacity: 0; }
-  25% { opacity: 0; }
-  33.33% { opacity: 0; }
-  41.66% { opacity: 0; }
-  50% { opacity: 0; }
-  58.33% { opacity: 0; }
-  66.66% { opacity: 0; }
-  75% { opacity: 0; }
-  83.33% { opacity: 0; }
-  91.66% { opacity: 1; }
-  100% { opacity: 0; }
+  0% { opacity: 1; }
+  0.01% { opacity: 0; }
+  91.66% { opacity: 0; }
+  91.67% { opacity: 1; }
+  100% { opacity: 1; }
 }
