@@ -1,19 +1,10 @@
 <?php
-  $imageUrls[0] = "temp/stan0.png";
-  $imageUrls[1] = "temp/stan1.png";
-  $imageUrls[2] = "temp/stan2.png";
-  $imageUrls[3] = "temp/stan3.png";
-  $imageUrls[4] = "temp/stan4.png";
-  $imageUrls[5] = "temp/stan5.png";
-  $imageUrls[6] = "temp/stan6.png";
-  $imageUrls[7] = "temp/stan7.png";
-  $imageUrls[8] = "temp/stan8.png";
-  $imageUrls[9] = "temp/stan9.png";
-  $imageUrls[10] = "temp/stan10.png";
-  $imageUrls[11] = "temp/stan11.png";
-  $imageUrls[12] = "temp/stan12.png";
+  $imageUrls[1] = "temp/gg1.png";
+  $imageUrls[2] = "temp/gg2.png";
+  $imageUrls[3] = "temp/gg3.png";
+  $imageUrls[4] = "temp/gg4.png";
   $pixel_size = 5;
-  list($width, $height, $type, $attr) = getimagesize($imageUrls[0]);
+  list($width, $height, $type, $attr) = getimagesize($imageUrls[1]);
 ?>
 <!doctype html>
 <html>
@@ -39,14 +30,14 @@
                 $rgb = imagecolorat($im, $c, $r-1);
                 $prev_colors = imagecolorsforindex($im, $rgb);
                 if($colors['alpha'] != 127) {
-                  if ($colors['red'] != $prev_colors['red'] || $colors['green'] != $prev_colors['green'] || $colors['blue'] != $prev_colors['blue']) {
+                  /*if ($colors['red'] != $prev_colors['red'] || $colors['green'] != $prev_colors['green'] || $colors['blue'] != $prev_colors['blue']) {*/
                     echo "\t".'<rect x="'.(($c - $size)* $pixel_size).'" y="'.($r * $pixel_size).'" width="'.($size * $pixel_size).'" height="'.(1 * $pixel_size).'" style="fill:rgb('.$colors['red'].','.$colors['green'].','.$colors['blue'].');" />'."\n";
                     $prev_colors = $colors;
                     $size = 1;
                     
-                  } else {
-                  $size++; 
-                  }               
+                  /*} else {
+                  	$size++; 
+                  }    */           
                 }     
               }
               $size = 1;

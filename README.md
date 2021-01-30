@@ -51,8 +51,8 @@ All the examples https://theflash.gwannon.com/pixelCSS/examples/todos.html
 
 **Complex scenaries**
 
-* https://theflash.gwannon.com/pixelCSS/examples/sonic.html
-* https://theflash.gwannon.com/pixelCSS/examples/supermario.html
+* https://codepen.io/gwannon/pen/dypMbYB
+* https://codepen.io/gwannon/pen/abmNoNP
 
 **Specific color palettes:**
 
@@ -75,7 +75,8 @@ All the examples https://theflash.gwannon.com/pixelCSS/examples/todos.html
 
 * https://theflash.gwannon.com/pixelCSS/tools/pngToSVG.svg
 * https://theflash.gwannon.com/pixelCSS/tools/spritesToSVG.html
-* https://theflash.gwannon.com/pixelCSS/examples/stan.html
+* https://codepen.io/gwannon/pen/rNMxEKx
+* https://codepen.io/gwannon/pen/PoGZrLx
 
 
 **Tools**
