@@ -1,8 +1,8 @@
 <?php
-  $imageUrl = "temp/suelo-gg.png";
+  $imageUrl = "temp/monalisa.png";
   list($width, $height, $type, $attr) = getimagesize($imageUrl);
   $im = imagecreatefrompng($imageUrl);
-  $pixel_size = 5;
+  $pixel_size = 4;
 ?>
 <svg width="<?php echo ($width * $pixel_size); ?>" height="<?php echo ($height * $pixel_size); ?>">
   <?php
@@ -15,7 +15,7 @@
         $prev_colors = imagecolorsforindex($im, $rgb);
         if($colors['alpha'] != 127) {
           if ($colors['red'] != $prev_colors['red'] || $colors['green'] != $prev_colors['green'] || $colors['blue'] != $prev_colors['blue']) {
-            echo "\t".'<rect x="'.(($c - $size)* $pixel_size).'" y="'.($r * $pixel_size).'" width="'.($size * $pixel_size).'" height="'.(1 * $pixel_size).'" style="fill:rgb('.$colors['red'].','.$colors['green'].','.$colors['blue'].');" />'."\n";
+            echo "\t".'<rect x="'.(($c - $size)* $pixel_size).'" y="'.(($r - 1) * $pixel_size).'" width="'.($size * $pixel_size).'" height="'.(1 * $pixel_size).'" style="fill:rgb('.$colors['red'].','.$colors['green'].','.$colors['blue'].');" />'."\n";
             $prev_colors = $colors;
             $size = 1;
           } else {
