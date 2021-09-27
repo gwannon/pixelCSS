@@ -73,8 +73,8 @@ All the examples https://pruebas.enuttisworking.com/pixelCSS/examples/todos.html
 
 **Support with SVG**
 
-* https://theflash.gwannon.com/pixelCSS/tools/pngToSVG.svg
-* https://theflash.gwannon.com/pixelCSS/tools/spritesToSVG.html
+* https://pruebas.enuttisworking.com/pixelCSS/tools/pngToSVG.svg
+* https://pruebas.enuttisworking.com/pixelCSS/tools/spritesToSVG.html
 * https://codepen.io/gwannon/pen/rNMxEKx
 * https://codepen.io/gwannon/pen/PoGZrLx
 
