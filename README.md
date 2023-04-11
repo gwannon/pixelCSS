@@ -65,11 +65,11 @@ All the examples https://pruebas.enuttisworking.com/pixelCSS/examples/todos.html
 
 **Conversor from PNG to HTML (tools/pngToHtml.php):**
 
-* Example of original image and sprite in html https://theflash.gwannon.com/pixelCSS/tools/pngToHtml.html
+* Example of original image and sprite in html https://pruebas.enuttisworking.com/pixelCSS/tools/pngToHtml.html
 
 **Conversor from secunecies of PNGs to HTML (tools/spritesToHtml.php):**
 
-* Example of original images and the animated sprite in html https://theflash.gwannon.com/pixelCSS/tools/spritesToHtml.html
+* Example of original images and the animated sprite in html https://pruebas.enuttisworking.com/pixelCSS/tools/spritesToHtml.html
 
 **Support with SVG**
 
